@@ -127,7 +127,7 @@ main{
 	
 }
 
-.precioCuencas{
+.precioCuencas, .variacionlecheCruda{
 	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,55,203,0.6615021008403361) 100%);
 	margin-top: 20px;
 	padding: 0 10px;
@@ -142,6 +142,7 @@ main{
 
 .cuencas p{
 	margin: 20px;
+	padding: 5px;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -152,25 +153,45 @@ main{
 	margin-left: 20px;
 }
 
-#naranja{
-	background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(255,120,0,1) 100%);
+#naranja,.abastoNorte{
+	background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(255,120,0,1) 100%);
+	border: 1px solid rgba(255,120,0,1);
 }
 
-#amarillo{
-	background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(255,173,0,1) 100%);
+#amarillo,.abastoSur{
+	background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(255,173,0,1) 100%);
+	border: 1px solid rgba(255,173,0,1);
 }
 
-#provincia{
-    background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(0,173,193,1) 100%);
+#provincia,.marYSierras{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(0,173,193,1) 100%);
+	border: 1px solid rgba(0,173,193,1);
 }
 
-#azul{
-    background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(0,55,203,0.6615021008403361) 100%);
+#azul,.oeste{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(0,55,203,0.6615021008403361) 100%);
+	border: 1px solid rgba(0,55,203,0.6615021008403361);
 }
 
 .map{
 	width: 250px;
 }
+
+.cuencasLCrud{
+	margin: 20px 0;
+}
+
+table, th, td{
+	border: 2px solid black;
+} 
+
+.abastoNorte, .abastoSur, .marYSierras, .oeste{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+
 
 
 

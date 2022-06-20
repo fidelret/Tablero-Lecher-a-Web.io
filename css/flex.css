@@ -29,6 +29,11 @@
     padding-bottom: 20px;
 }
 
+.variacionlecheCruda .cuencasLCrud{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
