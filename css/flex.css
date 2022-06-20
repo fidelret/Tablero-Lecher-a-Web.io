@@ -64,27 +64,48 @@
         font-weight: bold;
     }
 
+
     .menuppal{
-        align-items: center;
         position: fixed;
         color: #ffffff;
         background: #00ADC1;
-        padding: 3px;
-        opacity: 0.09;
-        visibility: visible;
-        height: 100%;
+        padding: 3px; 
+        opacity: 0.3;
+        visibility: visible; 
+        bottom: 0;
+
     }
 
     .menuppal:hover{
-        opacity: 1;
         transition: 500ms;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .item li{
+        margin-top: 0px;
+        padding: 0px;
+        opacity: 0;
+        visibility: hidden;
+        border: 0px;
+        height: 0px;
     }
 
-    
-     .item li{
-        margin-top: 2px;
-        padding: 3px;
+    .menuppal:hover .item li{
+        opacity: 1;
+        visibility: visible;
+	    text-align: center;
+	    margin-top: 3px;
+	    padding: 5px;
+        height: auto;
+        border-radius: 0.3em;
+	    border: 0.3px solid rgba(0,55,203,0.4);
+	
     }
+
+
+    
+
     
 
     .monthYear{
@@ -95,7 +116,6 @@
     main{
         width: auto;
         margin: auto;
-        
     }
 
     .cantidadTambos{
