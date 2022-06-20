@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!---->
+    <title>Tablero lechería provincia de Buenos Aires</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="logoPcia" src="img/logoMDA.jpg" alt="Logo Ministerio de Desarrollo Agrario">
+            <img class="lech" src="img/lech.jpg" alt="Dirección de Lechería">
+        </div>
+        <h1 class="TituloPrincipal">TABLERO DE LECHERÍA - PROVINCIA DE BUENOS AIRES</h1>
+    </header>
+
+    <nav class="menu">
+        <ul class="menuppal">
+            <h2 class="monthYear">Seleccione un Mes</h2>
+            <li class="year">2021</li>
+            <ul class="item">
+                <li class="junio21">Junio 2021</li>
+                <li class="julio21">Julio 2021</li>
+                <li class="agosto21">Agosto 2021</li>
+                <li class="septiembre21">Septiembre 2021</li>
+                <li class="octubre21">Octubre 2021</li>
+                <li class="noviembre21">Noviembre 2021</li>
+                <li class="diciembre21">Diciembre 2021</li>
+            </ul>
+            <li class="year">2022</li>
+            <ul class="item">
+                <li class="enero22">Enero 2022</li>
+                <li class="febrero22">Febrero 2022</li>
+                <li class="marzo22">Marzo 2022</li>
+            </ul>
+        </ul>
+    </nav>
+
+    <main>
+        
+
+        <section class="precioProductor">
+
+            <h2 class="tituloSeccion">Precio de referencia pagado al productor</h2>
+            <h2 class="cantidadTambos">(Sobre <cite class="cantTambos"></cite> Tambos)</h2>
+
+            <div class="container">
+
+                <div class="precioxLitro">
+                    <h1 class="precioPorLitro"></h1>
+                    <h2 class="xlitro">$ por litro</h2>
+                </div>
+
+                <div class="variacionxlitro">
+                    <h1 class="variacion1"></h1>
+                    <h2 class="variacionTxt">variación intermensual</h2>
+                    <h1 class="variacion2"></h1>
+                    <h2 class="variacionTxt">variación interanual</h2>
+                </div>
+
+                <div class="graficoPRefPagProd">
+                    <canvas id="PRefPagProd" width="200" height="100"></canvas>
+                </div>
+            </div>
+
+            <canvas id="pReftotal" width="200" height="20"></canvas>
+
+        </section>
+
+        <section class="precioCuencas">
+            <h2 class="tituloSeccion">Precio por cuencas lecheras</h2>
+
+            <div class="container">
+
+                <div class="cuencas">
+                    <p id="naranja">Abasto Norte <cite class="preciocuenAbasNort"></cite></p>
+                    <p id="amarillo">Abasto Sur <cite class="preciocuenAbasSur"></cite></p>
+                    <p id="provincia">Mar y Sierras <cite class="preciocuenMyS"></cite></p>
+                    <p id="azul">Oeste <cite class="preciocuenO"></cite></p>
+                </div>
+
+                <div class="mapCuencas">
+                    <img class="map" src="img/cuencasmap.png" alt="Cuencas lecheras de la Provincia de Buenos Aires">
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <section class="variacionlecheCruda">
+
+        </section>
+
+        <section class="parametrosPrecio">
+
+        </section>
+
+        <section class="produccionMensual">
+
+        </section>
+
+        <section class="variacionPorCuenca">
+
+        </section>
+
+    </main>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+<script src="data.js"></script>
+<script src="graficos.js"></script>
+<script src="buttons.js"></script>
+
+</html>

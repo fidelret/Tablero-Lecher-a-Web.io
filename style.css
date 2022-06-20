@@ -1,0 +1,180 @@
+body{
+	font-family: 'Encode Sans', sans-serif;
+}
+
+.logoPcia{
+	width: 300px;
+}
+
+
+.lech{
+	width: 200px;
+}
+
+
+.TituloPrincipal{
+	text-align: center;
+	background-color: #00ADC1;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 5px 0 8px 0;
+	border: 0.3px solid rgba(0,55,203,0.4);
+	flex-wrap: wrap;
+}
+
+.menuppal{
+	color: #ffffff;
+    background: #00ADC1;
+	padding: 8px;
+	border: 0.3px solid rgba(0,55,203,0.4);
+}
+
+.year{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	background: rgba(0,55,203,0.4);
+	border: 0.3px solid rgba(0,55,203,0.4);
+}
+
+.item li{
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 3px;
+	padding: 5px;
+	background-color: #00ADC1;
+	border-radius: 0.3em;
+	border: 0.3px solid rgba(0,55,203,0.4);	
+}
+
+	  
+.item li:hover {
+	background-color: rgba(0,55,203,0.4) ;
+	border: 0.3px solid rgba(0,55,203,0.4);
+	transition: 100ms;
+}
+
+/*
+
+button:active {
+	color: #000000;
+	background-color: #FFAD00;
+	border: 0.5px solid #000000;
+	
+}
+*/
+
+main{
+	width: auto;
+	margin: 10px 160px;	
+}
+
+.precioProductor{
+	/*background https://cssgradient.io/   */
+	
+	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,55,203,0.4) 100%);
+	padding: 0 10px;
+	border: 2px solid;
+	border-color: #00ADC1;
+	
+}
+
+.tituloSeccion{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+.cantidadTambos{
+	font-size: 15px;
+	margin-top: 5px;
+} 
+
+.year{
+    margin:5px
+}
+
+.monthYear{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 5px;
+	background: rgba(0,55,203,0.4);
+
+}
+
+.precioPorLitro{
+	font-size: 65px;
+    font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+.variacion1, .variacion2{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+
+.variacionTxt,.xlitro{
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+.precioCuencas{
+	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,55,203,0.6615021008403361) 100%);
+	margin-top: 20px;
+	padding: 0 10px;
+	border: 2px solid;
+	border-color: #00ADC1;
+	
+}
+
+.cuencas{
+	width: 100%; 
+}
+
+.cuencas p{
+	margin: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.cuencas cite{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+#naranja{
+	background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(255,120,0,1) 100%);
+}
+
+#amarillo{
+	background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(255,173,0,1) 100%);
+}
+
+#provincia{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(0,173,193,1) 100%);
+}
+
+#azul{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba(0,55,203,0.6615021008403361) 100%);
+}
+
+.map{
+	width: 250px;
+}
+
+
+
+
+
+
+

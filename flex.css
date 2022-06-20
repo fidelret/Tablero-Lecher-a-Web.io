@@ -1,0 +1,136 @@
+.cabecera{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuppal{
+    position: fixed;
+    align-items: center;
+    right: 0;
+    width: auto;
+}
+
+
+.precioProductor .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graficoPRefPagProd{
+    width: 60%;
+}
+
+.precioCuencas .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+@media (max-width:850px) {
+
+    .cabecera{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+
+     /* menu movil*/
+
+    .TituloPrincipal{
+        font-size: 18px;
+        padding: 0;
+        border: 0.3px solid rgba(0,55,203,0.4);
+        flex-wrap: wrap;
+    }
+    
+    
+    .year{
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .menuppal{
+        align-items: center;
+        position: fixed;
+        color: #ffffff;
+        background: #00ADC1;
+        padding: 3px;
+        opacity: 0.09;
+        visibility: visible;
+    }
+
+    .menuppal:hover{
+        opacity: 1;
+        transition: 500ms;
+    }
+
+    
+     .item li{
+        margin-top: 2px;
+        padding: 3px;
+    }
+    /* menu movil*/
+     
+
+
+
+
+
+    .monthYear{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    main{
+        width: auto;
+        margin: auto;
+        
+    }
+
+    .cantidadTambos{
+        text-align: center;
+    }
+
+    .lech{
+        margin-bottom: 20px;
+    }
+
+    .precioProductor .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+
+    .graficoPRefPagProd{
+        width: 100%;
+    }
+
+    .tituloSeccion{
+        text-align: center;
+   
+    }
+
+    .precioCuencas .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+	
+}
