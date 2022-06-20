@@ -1,4 +1,8 @@
 
+
+
+
+
 let botonjunio21 = document.querySelector(".junio21");
 botonjunio21.addEventListener("click", function (event) {
     console.log("botón presionado")
@@ -59,17 +63,19 @@ let botonFebrero22 = document.querySelector(".febrero22");
 botonFebrero22.addEventListener("click", function (event) {
     console.log("botón presionado")
     febrero22();
-
 });
+
 
 let botonMarzo22 = document.querySelector(".marzo22");
 botonMarzo22.addEventListener("click", function (event) {
-    console.log("botón presionado")
+    console.log("botón presionado");
     marzo2022();
-
 });
+
+
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
+
 marzo2022();
 

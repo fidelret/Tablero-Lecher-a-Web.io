@@ -70,7 +70,7 @@
         color: #ffffff;
         background: #00ADC1;
         padding: 3px; 
-        opacity: 0.3;
+        opacity: 0.5;
         visibility: visible; 
         bottom: 0;
 
@@ -96,17 +96,12 @@
         visibility: visible;
 	    text-align: center;
 	    margin-top: 3px;
-	    padding: 5px;
+	    padding: 8px;
         height: auto;
         border-radius: 0.3em;
 	    border: 0.3px solid rgba(0,55,203,0.4);
 	
     }
-
-
-    
-
-    
 
     .monthYear{
         margin-top: 10px;
