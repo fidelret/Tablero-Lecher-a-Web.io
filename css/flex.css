@@ -72,6 +72,7 @@
         padding: 3px;
         opacity: 0.09;
         visibility: visible;
+        height: 100%;
     }
 
     .menuppal:hover{
@@ -84,12 +85,7 @@
         margin-top: 2px;
         padding: 3px;
     }
-    /* menu movil*/
-     
-
-
-
-
+    
 
     .monthYear{
         margin-top: 10px;
