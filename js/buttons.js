@@ -6,14 +6,12 @@ botonjunio21.addEventListener("click", function (event) {
 
 });
 
-
 let botonjulio21 = document.querySelector(".julio21");
 botonjulio21.addEventListener("click", function (event) {
     console.log("botón presionado")
     julio21();
 
 });
-
 
 let botonagosto21 = document.querySelector(".agosto21");
 botonagosto21.addEventListener("click", function (event) {
@@ -29,7 +27,6 @@ botonseptiembre21.addEventListener("click", function (event) {
 
 });
 
-
 let botonoctubre21 = document.querySelector(".octubre21");
 botonoctubre21.addEventListener("click", function (event) {
     console.log("botón presionado")
@@ -37,14 +34,12 @@ botonoctubre21.addEventListener("click", function (event) {
 
 });
 
-
 let botonnoviembre21 = document.querySelector(".noviembre21");
 botonnoviembre21.addEventListener("click", function (event) {
     console.log("botón presionado")
     noviembre21();
 
 });
-
 
 let botondiciembre21 = document.querySelector(".diciembre21");
 botondiciembre21.addEventListener("click", function (event) {
@@ -60,7 +55,6 @@ botonEnero22.addEventListener("click", function (event) {
 
 });
 
-
 let botonFebrero22 = document.querySelector(".febrero22");
 botonFebrero22.addEventListener("click", function (event) {
     console.log("botón presionado")
@@ -74,4 +68,8 @@ botonMarzo22.addEventListener("click", function (event) {
     marzo2022();
 
 });
+
+/*Valores precargados. 
+Mes actual >> Cambiar al actualizar*/
+marzo2022();
 
