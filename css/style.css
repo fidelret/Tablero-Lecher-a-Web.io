@@ -56,15 +56,12 @@ body{
 	transition: 100ms;
 }
 
-/*
-
-button:active {
+.item li:active {
 	color: #000000;
 	background-color: #FFAD00;
 	border: 0.5px solid #000000;
 	
 }
-*/
 
 main{
 	width: auto;

@@ -148,5 +148,9 @@
         text-align: center;
         align-items: center;
     }
+
+    .map{
+        width: 100%;
+    }
 	
 }
