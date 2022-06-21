@@ -10,6 +10,16 @@ let pCAbasSur = document.querySelector(".preciocuenAbasSur");
 let pCMyS = document.querySelector(".preciocuenMyS");
 let pCO = document.querySelector(".preciocuenO");
 
+let aNcruIA = document.querySelector(".aNortcrudaIA");
+let aNcruIMen = document.querySelector(".aNortcrudaIMen");
+let aSurcruIA  = document.querySelector(".aSurcrudaIA");
+let aSurcruIMen  = document.querySelector(".aSurcrudaIMen");
+let mYScruIA = document.querySelector(".mYScrudaIA");
+let mYScruIMen = document.querySelector(".mYScrudaIMen");
+let oescruIA = document.querySelector(".oescrudaIA");
+let oescruIMen = document.querySelector(".oescrudaIMen");
+
+
 
 function junio21(){
     monthYear.textContent = "Junio 2021";
@@ -22,6 +32,15 @@ function junio21(){
     pCAbasSur.textContent = "$ 31,15";
     pCMyS.textContent = "$ 31,98"; 
     pCO.textContent = "$ 31,72";
+
+    aNcruIA.textContent = "73,19%";
+    aNcruIMen.textContent = "5,92%";
+    aSurcruIA.textContent = "69,11%";
+    aSurcruIMen.textContent = "5,38%";
+    mYScruIA.textContent = "63,83%";
+    mYScruIMen.textContent = "4,68%";
+    oescruIA.textContent = "69,9%";
+    oescruIMen.textContent = "5%";
 }
 
 function julio21(){
@@ -35,6 +54,15 @@ function julio21(){
     pCAbasSur.textContent = "$ 32,30";
     pCMyS.textContent = "$ 33,22"; 
     pCO.textContent = "$ 32,70";
+
+    aNcruIA.textContent = "75,88%";
+    aNcruIMen.textContent = "2,36%";
+    aSurcruIA.textContent = "74,31%";
+    aSurcruIMen.textContent = "3,69%";
+    mYScruIA.textContent = "68,46%";
+    mYScruIMen.textContent = "3,88%";
+    oescruIA.textContent = "75,05%";
+    oescruIMen.textContent = "3,09%";
 }
 
 function agosto21(){
@@ -48,6 +76,16 @@ function agosto21(){
     pCAbasSur.textContent = "$ 33,42";
     pCMyS.textContent = "$ 34,33"; 
     pCO.textContent = "$ 33,18";
+
+    aNcruIA.textContent = "78,47%";
+    aNcruIMen.textContent = "1,95%";
+    aSurcruIA.textContent = "78,72%";
+    aSurcruIMen.textContent = "3,74%";
+    mYScruIA.textContent = "73,56%";
+    mYScruIMen.textContent = "3,34%";
+    oescruIA.textContent = "75,37%";
+    oescruIMen.textContent = "1,47%";
+
 }
 
 function septiembre21(){
@@ -61,6 +99,15 @@ function septiembre21(){
     pCAbasSur.textContent = "$ 33,66";
     pCMyS.textContent = "$ 34,39"; 
     pCO.textContent = "$ 33,79";
+
+    aNcruIA.textContent = "77,53%";
+    aNcruIMen.textContent = "1,82%";
+    aSurcruIA.textContent = "76,60%";
+    aSurcruIMen.textContent = "0,72%";
+    mYScruIA.textContent = "71,52%";
+    mYScruIMen.textContent = "0,17%";
+    oescruIA.textContent = "74,81%";
+    oescruIMen.textContent = "1,84%";
 }
 
 function octubre21(){
@@ -74,6 +121,15 @@ function octubre21(){
     pCAbasSur.textContent = "$ 33,84";
     pCMyS.textContent = "$ 34,65"; 
     pCO.textContent = "$ 33,97";
+
+    aNcruIA.textContent = "75,22%";
+    aNcruIMen.textContent = "1,39%";
+    aSurcruIA.textContent = "73,18%";
+    aSurcruIMen.textContent = "0,53%";
+    mYScruIA.textContent = "69,85%";
+    mYScruIMen.textContent = "0,17%";
+    oescruIA.textContent = "72%";
+    oescruIMen.textContent = "0,53%";
 }
 
 function noviembre21(){
@@ -87,6 +143,15 @@ function noviembre21(){
     pCAbasSur.textContent = "$ sin datos";
     pCMyS.textContent = "$ sin datos"; 
     pCO.textContent = "$ sin datos";
+
+    aNcruIA.textContent = "sin datos";
+    aNcruIMen.textContent = "sin datos";
+    aSurcruIA.textContent = "sin datos";
+    aSurcruIMen.textContent = "sin datos";
+    mYScruIA.textContent = "sin datos";
+    mYScruIMen.textContent = "sin datos";
+    oescruIA.textContent = "sin datos";
+    oescruIMen.textContent = "sin datos";
 }
 
 function diciembre21(){
@@ -100,6 +165,15 @@ function diciembre21(){
     pCAbasSur.textContent = "$ 34,82";
     pCMyS.textContent = "$ 35,76"; 
     pCO.textContent = "$ 34,91";
+
+    aNcruIA.textContent = "67,10%";
+    aNcruIMen.textContent = "2,16%";
+    aSurcruIA.textContent = "64,92%";
+    aSurcruIMen.textContent = "1,75%";
+    mYScruIA.textContent = "63,21%";
+    mYScruIMen.textContent = "2,23%";
+    oescruIA.textContent = "63,44%";
+    oescruIMen.textContent = "1,75%";
 }
 
 function enero22(){
@@ -113,6 +187,15 @@ function enero22(){
     pCAbasSur.textContent = "$ 36,12";
     pCMyS.textContent = "$ 37,06"; 
     pCO.textContent = "$ 36,40";
+
+    aNcruIA.textContent = "63,12%";
+    aNcruIMen.textContent = "4,13%";
+    aSurcruIA.textContent = "60,39%";
+    aSurcruIMen.textContent = "3,73%";
+    mYScruIA.textContent = "59,95%";
+    mYScruIMen.textContent = "3,64%";
+    oescruIA.textContent = "58,95%";
+    oescruIMen.textContent = "4,27%";
 }
 
 function febrero22(){
@@ -126,6 +209,15 @@ function febrero22(){
     pCAbasSur.textContent = "$ 37,93";
     pCMyS.textContent = "$ 39,26"; 
     pCO.textContent = "$ 38,22";
+
+    aNcruIA.textContent = "59,22%";
+    aNcruIMen.textContent = "4,17%";
+    aSurcruIA.textContent = "58,8%";
+    aSurcruIMen.textContent = "5,01%";
+    mYScruIA.textContent = "58,56%";
+    mYScruIMen.textContent = "5,94%";
+    oescruIA.textContent = "58,06%";
+    oescruIMen.textContent = "5,01%";
 }
 
 function marzo2022(){
@@ -139,6 +231,16 @@ function marzo2022(){
     pCAbasSur.textContent = "$ 40,27";
     pCMyS.textContent = "$ 41,68"; 
     pCO.textContent = "$ 40,95";
+
+    aNcruIA.textContent = "60,01%";
+    aNcruIMen.textContent = "6,9%";
+    aSurcruIA.textContent = "56,9%";
+    aSurcruIMen.textContent = "6,2%";
+    mYScruIA.textContent = "55,9%";
+    mYScruIMen.textContent = "6,1%";
+    oescruIA.textContent = "57,3%";
+    oescruIMen.textContent = "7,1%";
+
 }
 
 

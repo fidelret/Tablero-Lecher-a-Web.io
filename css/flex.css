@@ -43,13 +43,24 @@
 
 
 /*Responsive*/
-@media (max-width:850px) {
+@media (max-width:900px) {
 
     .cabecera{
         flex-direction: column;
         align-items: initial;
         text-align: center;
         align-items: center;
+    }
+
+    .precioProductor .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+
+    .graficoPRefPagProd{
+        width: 100%;
     }
 
      /* menu movil*/
@@ -126,17 +137,6 @@
         margin-bottom: 20px;
     }
 
-    .precioProductor .container {
-        flex-direction: column;
-        align-items: initial;
-        text-align: center;
-        align-items: center;
-    }
-
-    .graficoPRefPagProd{
-        width: 100%;
-    }
-
     .tituloSeccion{
         text-align: center;
    
@@ -152,5 +152,36 @@
     .map{
         width: 100%;
     }
+
+    
+    
+    
 	
+}
+
+
+
+
+
+/*Tablas*/
+@media (max-width:1150px) {
+
+    .variacionlecheCruda .cuencasLCrud{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    table, tr, td{
+        margin-bottom: 10px;
+        padding: 5px 3px;
+        text-align: center;
+        width: 95%;
+    } 
+
+    #aNor td, #aSur td, #mYSierr td, #oest td{
+        width: 50%;
+
+    }
+   
 }

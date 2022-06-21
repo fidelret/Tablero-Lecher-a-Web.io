@@ -181,17 +181,39 @@ main{
 	margin: 20px 0;
 }
 
-table, th, td{
-	border: 2px solid black;
+table, tr, td{
+	margin-bottom: 10px;
+	padding: 5px 3px;
+	text-align: center;
 } 
 
+#aNor td{
+	border: 0.5px solid rgba(255,120,0,0.5);
+}
+
+#aSur td{
+	border: 0.5px solid rgba(255,173,0.5);
+}
+
+#mYSierr td{
+	border: 0.5px solid rgba(0,173,193,0.5);
+}
+
+#oest td{
+	border: 0.5px solid rgba(0,55,203,0.5) ;
+}
+
 .abastoNorte, .abastoSur, .marYSierras, .oeste{
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bold;
 	padding: 10px;
 	
 }
 
+#lecCrud{
+	font-size: 30px;
+	font-weight: bold;
+}
 
 
 
