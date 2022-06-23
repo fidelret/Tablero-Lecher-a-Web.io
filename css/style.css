@@ -106,7 +106,7 @@ main{
 	border-radius: 0.3em;
 }
 
-.precioPorLitro{
+.precioPorLitro, .precio_x_kg_solidos_UT{
 	font-size: 65px;
     font-weight: bold;
 	text-align: center;
@@ -114,7 +114,8 @@ main{
 	
 }
 
-.variacion1, .variacion2{
+.variacion1, 
+.variacion2{
 	font-size: 35px;
 	font-weight: bold;
 	text-align: center;
@@ -127,13 +128,17 @@ main{
 	
 }
 
-.precioCuencas, .variacionlecheCruda{
+.precioCuencas, .variacionlecheCruda, .parametrosPrecio{
 	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,55,203,0.6615021008403361) 100%);
 	margin-top: 20px;
 	padding: 0 10px;
 	border: 2px solid;
 	border-color: #00ADC1;
 	
+}
+
+.parametrosPrecio{
+	padding-bottom: 20px;
 }
 
 .cuencas{
@@ -215,9 +220,49 @@ table, tr, td{
 	font-weight: bold;
 }
 
+.precio_x_kg_solidos_UT-var_IMen, 
+.precio_x_kg_solidos_UT-var_IA,
+.proteina,
+.grasa_butirosa{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding: 15px;
+}
+
+.proteina,
+.grasa_butirosa{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	padding: 15px;
+}
+
+.parametrosPrecio .variacionTxt{
+	margin-top: 10px;
+	text-align: left;
+}
+
+.parametrosPrecio .divs_internasLvl1{
+	color: #ffffff;
+	background: linear-gradient(90deg, rgba(255,120,0,0.5) 20%, rgba(255,120,0,1) 100%);
+	margin-top: 10px;
+	padding: 10px 10px 20px 0;
+   
+}
 
 
+.composicion{
+	color: #ffffff;
+	background-color: rgba(0,55,203,0.2);
+	margin: 20px;
+	padding: 10px 10px 20px 10px;
 
+}
+
+.composicion .variacionTxt{
+	text-align: center;
+}
 
 
 

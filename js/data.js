@@ -19,6 +19,11 @@ let mYScruIMen = document.querySelector(".mYScrudaIMen");
 let oescruIA = document.querySelector(".oescrudaIA");
 let oescruIMen = document.querySelector(".oescrudaIMen");
 
+let precio_solidos_UT = document.querySelector(".precio_x_kg_solidos_UT");
+let precio_solidos_UTvar_IMen = document.querySelector(".precio_x_kg_solidos_UT-var_IMen");
+let precio_x_kg_solidos_UTvar_IA = document.querySelector(".precio_x_kg_solidos_UT-var_IA");
+let proteina = document.querySelector(".proteina");
+let grasa_butirosa = document.querySelector(".grasa_butirosa");
 
 
 function junio21(){
@@ -240,6 +245,12 @@ function marzo2022(){
     mYScruIMen.textContent = "6,1%";
     oescruIA.textContent = "57,3%";
     oescruIMen.textContent = "7,1%";
+
+    precio_solidos_UT.textContent = "566,48"
+    precio_solidos_UTvar_IMen.textContent = "4,54 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "53,78%"
+    proteina.textContent = "3,46%"
+    grasa_butirosa.textContent = "3,79%"
 
 }
 
