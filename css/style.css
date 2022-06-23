@@ -60,8 +60,6 @@ body{
 	color: #000000;
 	background-color: #FFAD00;
 	border: 0.5px solid #000000;
-	
-	
 }
 
 main{
@@ -111,7 +109,6 @@ main{
     font-weight: bold;
 	text-align: center;
 	padding: 10px;
-	
 }
 
 .variacion1, 
@@ -244,8 +241,7 @@ table, tr, td{
 }
 
 .parametrosPrecio .divs_internasLvl1{
-	color: #ffffff;
-	background: linear-gradient(90deg, rgba(255,120,0,0.5) 20%, rgba(255,120,0,1) 100%);
+	border: 2px solid rgba(0,173,193,1);
 	margin-top: 10px;
 	padding: 10px 10px 20px 0;
    
@@ -254,9 +250,10 @@ table, tr, td{
 
 .composicion{
 	color: #ffffff;
-	background-color: rgba(0,55,203,0.2);
+	background-color: rgba(0,173,193,0.4);
 	margin: 20px;
 	padding: 10px 10px 20px 10px;
+	border: 2px solid rgba(0,173,193,1);
 
 }
 
