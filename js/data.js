@@ -46,6 +46,12 @@ function junio21(){
     mYScruIMen.textContent = "4,68%";
     oescruIA.textContent = "69,9%";
     oescruIMen.textContent = "5%";
+
+    precio_solidos_UT.textContent = "438,18"
+    precio_solidos_UTvar_IMen.textContent = "4,39 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "58,59 %"
+    proteina.textContent = "3,75 %"
+    grasa_butirosa.textContent = "3,48 %"
 }
 
 function julio21(){
@@ -68,6 +74,12 @@ function julio21(){
     mYScruIMen.textContent = "3,88%";
     oescruIA.textContent = "75,05%";
     oescruIMen.textContent = "3,09%";
+
+    precio_solidos_UT.textContent = "455,31"
+    precio_solidos_UTvar_IMen.textContent = "3,91 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "71,65 %"
+    proteina.textContent = "3,46 %"
+    grasa_butirosa.textContent = "3,76 %"
 }
 
 function agosto21(){
@@ -91,6 +103,12 @@ function agosto21(){
     oescruIA.textContent = "75,37%";
     oescruIMen.textContent = "1,47%";
 
+    precio_solidos_UT.textContent = "467,97"
+    precio_solidos_UTvar_IMen.textContent = "2,78 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "73,25 %"
+    proteina.textContent = "3,43 %"
+    grasa_butirosa.textContent = "3,71 %"
+
 }
 
 function septiembre21(){
@@ -113,6 +131,12 @@ function septiembre21(){
     mYScruIMen.textContent = "0,17%";
     oescruIA.textContent = "74,81%";
     oescruIMen.textContent = "1,84%";
+
+    precio_solidos_UT.textContent = "476,31"
+    precio_solidos_UTvar_IMen.textContent = "1,78 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "72,41 %"
+    proteina.textContent = "3,41 %"
+    grasa_butirosa.textContent = "3,70 %"
 }
 
 function octubre21(){
@@ -132,9 +156,15 @@ function octubre21(){
     aSurcruIA.textContent = "73,18%";
     aSurcruIMen.textContent = "0,53%";
     mYScruIA.textContent = "69,85%";
-    mYScruIMen.textContent = "0,17%";
+    mYScruIMen.textContent = "0,76%";
     oescruIA.textContent = "72%";
     oescruIMen.textContent = "0,53%";
+
+    precio_solidos_UT.textContent = "481,73"
+    precio_solidos_UTvar_IMen.textContent = "1,14 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "69,03 %"
+    proteina.textContent = "3,42 %"
+    grasa_butirosa.textContent = "3,67 %"
 }
 
 function noviembre21(){
@@ -157,6 +187,12 @@ function noviembre21(){
     mYScruIMen.textContent = "sin datos";
     oescruIA.textContent = "sin datos";
     oescruIMen.textContent = "sin datos";
+
+    precio_solidos_UT.textContent = "sin datos"
+    precio_solidos_UTvar_IMen.textContent = "sin datos"
+    precio_x_kg_solidos_UTvar_IA.textContent = "sin datos"
+    proteina.textContent = "sin datos"
+    grasa_butirosa.textContent = "sin datos"
 }
 
 function diciembre21(){
@@ -179,6 +215,12 @@ function diciembre21(){
     mYScruIMen.textContent = "2,23%";
     oescruIA.textContent = "63,44%";
     oescruIMen.textContent = "1,75%";
+
+    precio_solidos_UT.textContent = "505,05"
+    precio_solidos_UTvar_IMen.textContent = "2,73 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "60,90%"
+    proteina.textContent = "3,33%"
+    grasa_butirosa.textContent = "3,63%"
 }
 
 function enero22(){
@@ -201,6 +243,12 @@ function enero22(){
     mYScruIMen.textContent = "3,64%";
     oescruIA.textContent = "58,95%";
     oescruIMen.textContent = "4,27%";
+
+    precio_solidos_UT.textContent = "525,43"
+    precio_solidos_UTvar_IMen.textContent = "4,04 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "58,19%"
+    proteina.textContent = "3,32%"
+    grasa_butirosa.textContent = "3,64%"
 }
 
 function febrero22(){
@@ -223,6 +271,12 @@ function febrero22(){
     mYScruIMen.textContent = "5,94%";
     oescruIA.textContent = "58,06%";
     oescruIMen.textContent = "5,01%";
+
+    precio_solidos_UT.textContent = "541,88"
+    precio_solidos_UTvar_IMen.textContent = "3,13 %"
+    precio_x_kg_solidos_UTvar_IA.textContent = "56,77%"
+    proteina.textContent = "3,40%"
+    grasa_butirosa.textContent = "3,69%"
 }
 
 function marzo2022(){
