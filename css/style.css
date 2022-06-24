@@ -70,7 +70,7 @@ main{
 .precioProductor{
 	/*background https://cssgradient.io/   */
 	
-	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,55,203,0.4) 100%);
+	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,173,193,0.6615021008403361) 100%);
 	padding: 0 10px;
 	border: 2px solid;
 	border-color: #00ADC1;
@@ -104,7 +104,7 @@ main{
 	border-radius: 0.3em;
 }
 
-.precioPorLitro, .precio_x_kg_solidos_UT{
+.precioPorLitro, .precio_x_kg_solidos_UT, .prod_mensual_lech_crud{
 	font-size: 65px;
     font-weight: bold;
 	text-align: center;
@@ -125,13 +125,17 @@ main{
 	
 }
 
-.precioCuencas, .variacionlecheCruda, .parametrosPrecio{
-	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,55,203,0.6615021008403361) 100%);
+.precioCuencas, .variacionlecheCruda, .parametrosPrecio, .produccionMensual{
+	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,173,193,0.6615021008403361) 100%);
 	margin-top: 20px;
 	padding: 0 10px;
 	border: 2px solid;
 	border-color: #00ADC1;
 	
+}
+
+.produccionMensual{
+	background: #FFFFFF;
 }
 
 .parametrosPrecio{
@@ -218,9 +222,9 @@ table, tr, td{
 }
 
 .precio_x_kg_solidos_UT-var_IMen, 
-.precio_x_kg_solidos_UT-var_IA,
-.proteina,
-.grasa_butirosa{
+.precio_x_kg_solidos_UT-var_IA, 
+.produ_lechecruda_var_IMen, 
+.produ_lechecruda_var_IA{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: left;
@@ -247,7 +251,6 @@ table, tr, td{
    
 }
 
-
 .composicion{
 	color: #ffffff;
 	background-color: rgba(0,173,193,0.4);
@@ -259,6 +262,12 @@ table, tr, td{
 
 .composicion .variacionTxt{
 	text-align: center;
+}
+
+.produccionMensual .variacionTxt{
+	margin: 15px 0 15px 0;
+	padding: 5px;
+	text-align: left;
 }
 
 

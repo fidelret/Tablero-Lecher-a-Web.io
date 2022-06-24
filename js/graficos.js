@@ -30,6 +30,37 @@ scales: {
 
 
 
+const produccion_mensual = document.getElementById("lech_crud").getContext("2d");
+const graf_produccion_mensual = new Chart(produccion_mensual, {
+type: 'bar',
+data: {
+labels: ['mar 21', 'abr 21', 'may 21','jun 21', 'jul 21', 'ago 21', 'sep 21', 'oct 21', 'nov 21', 'dic 21', 'ene 22', 'feb 22', 'mar 22'],
+datasets: [{
+    label: 'Producción mensual de leche cruda en millones de litros',
+    data: [174.48, 170.58, 182.11, 180.98, 195.47, 211.09, 214.02, 227.06, 212.12, 203.04, 179.11, 155.57, 169.09],
+    backgroundColor: [
+        'rgba(0,173,193,1)',
+    ],
+    borderColor: [
+        'rgba(250,250,250,1)',
+        
+    ],
+    borderWidth: 2
+    
+}]
+},
+options: {
+scales: {
+    y: {
+        beginAtZero: true
+    }
+}
+}
+}
+);
+
+
+
 
 
 
