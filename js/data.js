@@ -25,6 +25,11 @@ let precio_x_kg_solidos_UTvar_IA = document.querySelector(".precio_x_kg_solidos_
 let proteina = document.querySelector(".proteina");
 let grasa_butirosa = document.querySelector(".grasa_butirosa");
 
+let cantTambos2 = document.querySelector(".cantTambos2");
+let prod_mensual_lech_crud = document.querySelector(".prod_mensual_lech_crud");
+let produ_lechcrudIMen = document.querySelector(".produ_lechecruda_var_IMen");
+let produ_lechecrudaIA = document.querySelector(".produ_lechecruda_var_IA");
+
 
 function junio21(){
     monthYear.textContent = "Junio 2021";
@@ -47,11 +52,16 @@ function junio21(){
     oescruIA.textContent = "69,9%";
     oescruIMen.textContent = "5%";
 
-    precio_solidos_UT.textContent = "438,18"
-    precio_solidos_UTvar_IMen.textContent = "4,39 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "58,59 %"
-    proteina.textContent = "3,75 %"
-    grasa_butirosa.textContent = "3,48 %"
+    precio_solidos_UT.textContent = "438,18";
+    precio_solidos_UTvar_IMen.textContent = "4,39 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "58,59 %";
+    proteina.textContent = "3,75 %";
+    grasa_butirosa.textContent = "3,48 %";
+
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "180,98";
+    produ_lechcrudIMen.textContent = "-0,62 %";
+    produ_lechecrudaIA .textContent = "-2,63 %";
 }
 
 function julio21(){
@@ -75,11 +85,16 @@ function julio21(){
     oescruIA.textContent = "75,05%";
     oescruIMen.textContent = "3,09%";
 
-    precio_solidos_UT.textContent = "455,31"
-    precio_solidos_UTvar_IMen.textContent = "3,91 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "71,65 %"
-    proteina.textContent = "3,46 %"
-    grasa_butirosa.textContent = "3,76 %"
+    precio_solidos_UT.textContent = "455,31";
+    precio_solidos_UTvar_IMen.textContent = "3,91 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "71,65 %";
+    proteina.textContent = "3,46 %";
+    grasa_butirosa.textContent = "3,76 %";
+
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "195,47";
+    produ_lechcrudIMen.textContent = "8,01 %";
+    produ_lechecrudaIA .textContent = "-3,43 %";
 }
 
 function agosto21(){
@@ -103,11 +118,16 @@ function agosto21(){
     oescruIA.textContent = "75,37%";
     oescruIMen.textContent = "1,47%";
 
-    precio_solidos_UT.textContent = "467,97"
-    precio_solidos_UTvar_IMen.textContent = "2,78 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "73,25 %"
-    proteina.textContent = "3,43 %"
-    grasa_butirosa.textContent = "3,71 %"
+    precio_solidos_UT.textContent = "467,97";
+    precio_solidos_UTvar_IMen.textContent = "2,78 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "73,25 %";
+    proteina.textContent = "3,43 %";
+    grasa_butirosa.textContent = "3,71 %";
+
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "211,09";
+    produ_lechcrudIMen.textContent = "7,99 %";
+    produ_lechecrudaIA .textContent = "0,14 %";
 
 }
 
@@ -132,11 +152,16 @@ function septiembre21(){
     oescruIA.textContent = "74,81%";
     oescruIMen.textContent = "1,84%";
 
-    precio_solidos_UT.textContent = "476,31"
-    precio_solidos_UTvar_IMen.textContent = "1,78 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "72,41 %"
-    proteina.textContent = "3,41 %"
-    grasa_butirosa.textContent = "3,70 %"
+    precio_solidos_UT.textContent = "476,31";
+    precio_solidos_UTvar_IMen.textContent = "1,78 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "72,41 %";
+    proteina.textContent = "3,41 %";
+    grasa_butirosa.textContent = "3,70 %";
+
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "214,02";
+    produ_lechcrudIMen.textContent = "1,39 %";
+    produ_lechecrudaIA .textContent = "-0,77 %";
 }
 
 function octubre21(){
@@ -160,11 +185,16 @@ function octubre21(){
     oescruIA.textContent = "72%";
     oescruIMen.textContent = "0,53%";
 
-    precio_solidos_UT.textContent = "481,73"
-    precio_solidos_UTvar_IMen.textContent = "1,14 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "69,03 %"
-    proteina.textContent = "3,42 %"
-    grasa_butirosa.textContent = "3,67 %"
+    precio_solidos_UT.textContent = "481,73";
+    precio_solidos_UTvar_IMen.textContent = "1,14 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "69,03 %";
+    proteina.textContent = "3,42 %";
+    grasa_butirosa.textContent = "3,67 %";
+
+    cantTambos2.textContent = "1578";
+    prod_mensual_lech_crud.textContent = "227,06";
+    produ_lechcrudIMen.textContent = "-6,09 %";
+    produ_lechecrudaIA .textContent = "-0,91 %";
 }
 
 function noviembre21(){
@@ -193,6 +223,11 @@ function noviembre21(){
     precio_x_kg_solidos_UTvar_IA.textContent = "sin datos"
     proteina.textContent = "sin datos"
     grasa_butirosa.textContent = "sin datos"
+
+    cantTambos2.textContent = "sin datos ";
+    prod_mensual_lech_crud.textContent = "sin datos ";
+    produ_lechcrudIMen.textContent = "sin datos ";
+    produ_lechecrudaIA .textContent = "sin datos ";
 }
 
 function diciembre21(){
@@ -216,11 +251,16 @@ function diciembre21(){
     oescruIA.textContent = "63,44%";
     oescruIMen.textContent = "1,75%";
 
-    precio_solidos_UT.textContent = "505,05"
-    precio_solidos_UTvar_IMen.textContent = "2,73 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "60,90%"
-    proteina.textContent = "3,33%"
-    grasa_butirosa.textContent = "3,63%"
+    precio_solidos_UT.textContent = "505,05";
+    precio_solidos_UTvar_IMen.textContent = "2,73 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "60,90%";
+    proteina.textContent = "3,33%";
+    grasa_butirosa.textContent = "3,63%";
+
+    cantTambos2.textContent = "1559";
+    prod_mensual_lech_crud.textContent = "203,04";
+    produ_lechcrudIMen.textContent = "-4,28 %";
+    produ_lechecrudaIA .textContent = "-0,78 %";
 }
 
 function enero22(){
@@ -244,11 +284,16 @@ function enero22(){
     oescruIA.textContent = "58,95%";
     oescruIMen.textContent = "4,27%";
 
-    precio_solidos_UT.textContent = "525,43"
-    precio_solidos_UTvar_IMen.textContent = "4,04 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "58,19%"
-    proteina.textContent = "3,32%"
-    grasa_butirosa.textContent = "3,64%"
+    precio_solidos_UT.textContent = "525,43";
+    precio_solidos_UTvar_IMen.textContent = "4,04 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "58,19%";
+    proteina.textContent = "3,32%";
+    grasa_butirosa.textContent = "3,64%";
+
+    cantTambos2.textContent = "1544";
+    prod_mensual_lech_crud.textContent = "179,11";
+    produ_lechcrudIMen.textContent = "-11,79 %";
+    produ_lechecrudaIA .textContent = "-4,60 %";
 }
 
 function febrero22(){
@@ -272,11 +317,16 @@ function febrero22(){
     oescruIA.textContent = "58,06%";
     oescruIMen.textContent = "5,01%";
 
-    precio_solidos_UT.textContent = "541,88"
-    precio_solidos_UTvar_IMen.textContent = "3,13 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "56,77%"
-    proteina.textContent = "3,40%"
-    grasa_butirosa.textContent = "3,69%"
+    precio_solidos_UT.textContent = "541,88";
+    precio_solidos_UTvar_IMen.textContent = "3,13 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "56,77%";
+    proteina.textContent = "3,40%";
+    grasa_butirosa.textContent = "3,69%";
+
+    cantTambos2.textContent = "1537";
+    prod_mensual_lech_crud.textContent = "155,57";
+    produ_lechcrudIMen.textContent = "-13,14 %";
+    produ_lechecrudaIA .textContent = "-3,28 %";
 }
 
 function marzo2022(){
@@ -300,12 +350,16 @@ function marzo2022(){
     oescruIA.textContent = "57,3%";
     oescruIMen.textContent = "7,1%";
 
-    precio_solidos_UT.textContent = "566,48"
-    precio_solidos_UTvar_IMen.textContent = "4,54 %"
-    precio_x_kg_solidos_UTvar_IA.textContent = "53,78%"
-    proteina.textContent = "3,46%"
-    grasa_butirosa.textContent = "3,79%"
+    precio_solidos_UT.textContent = "566,48";
+    precio_solidos_UTvar_IMen.textContent = "4,54 %";
+    precio_x_kg_solidos_UTvar_IA.textContent = "53,78%";
+    proteina.textContent = "3,46%";
+    grasa_butirosa.textContent = "3,79%";
 
+    cantTambos2.textContent = "1540";
+    prod_mensual_lech_crud.textContent = "169,09";
+    produ_lechcrudIMen.textContent = "8,70 %";
+    produ_lechecrudaIA .textContent = "-3,09 % ";
 }
 
 
