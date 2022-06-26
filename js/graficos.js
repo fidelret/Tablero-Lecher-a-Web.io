@@ -8,10 +8,10 @@ datasets: [{
     label: 'Valores en pesos $',
     data: [28.40, 30.15, 31.69, 32.73, 33.42, 33.90, 34.14, 35.52, 36.15, 36.58, 38.43, 41.12],
     backgroundColor: [
-        'rgba(255, 255, 255, 1)',
+        'rgba(0,55,203,0.5)',
     ],
     borderColor: [
-        'rgba(255, 120, 0, 1)',
+        'rgba(0,55,203,1)',
         
     ],
     borderWidth: 2
@@ -39,10 +39,10 @@ datasets: [{
     label: 'Producción mensual de leche cruda en millones de litros',
     data: [174.48, 170.58, 182.11, 180.98, 195.47, 211.09, 214.02, 227.06, 212.12, 203.04, 179.11, 155.57, 169.09],
     backgroundColor: [
-        'rgba(0,173,193,1)',
+        'rgba(255,120,0,0.5)',
     ],
     borderColor: [
-        'rgba(0,55,203,0.5)',
+        'rgba(255,120,0,1)',
         
     ],
     borderWidth: 2
@@ -68,10 +68,10 @@ datasets: [{
     label: 'Producción mensual de leche cruda en millones de litros',
     data: [174.48, 170.58, 182.11, 180.98, 195.47, 211.09, 214.02, 227.06, 212.12, 203.04, 179.11, 155.57, 169.09],
     backgroundColor: [
-        'rgba(0,173,193,1)',
+        'rgba(255,173,0,0.5)',
     ],
     borderColor: [
-        'rgba(0,55,203,0.5)',
+        'rgba(255,173,0,1)',
         
     ],
     borderWidth: 2
