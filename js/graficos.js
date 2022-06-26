@@ -61,12 +61,12 @@ scales: {
 
 const solidos_utiles = document.getElementById("graf_solidos_Utiles").getContext("2d");
 const graf_solidos_utiles = new Chart(solidos_utiles, {
-type: 'bar',
+type: 'line',
 data: {
 labels: ['mar 21', 'abr 21', 'may 21','jun 21', 'jul 21', 'ago 21', 'sep 21', 'oct 21', 'nov 21', 'dic 21', 'ene 22', 'feb 22', 'mar 22'],
 datasets: [{
-    label: 'Producción mensual de leche cruda en millones de litros',
-    data: [174.48, 170.58, 182.11, 180.98, 195.47, 211.09, 214.02, 227.06, 212.12, 203.04, 179.11, 155.57, 169.09],
+    label: '% Solidos Útiles',
+    data: [7.07, 7.17, 7.29, 7.23, 7.19, 7.14, 7.12, 7.09, 7.02, 6.96, 6.96, 7.09, 7.26],
     backgroundColor: [
         'rgba(255,173,0,0.5)',
     ],
@@ -81,7 +81,7 @@ datasets: [{
 options: {
 scales: {
     y: {
-        beginAtZero: true
+        beginAtZero: false
     }
 }
 }
