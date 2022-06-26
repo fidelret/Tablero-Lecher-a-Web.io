@@ -12,81 +12,54 @@
 }
 
 
-.precioProductor .container {
+.precioProductor .container,
+.parametrosPrecio .divs_internasLvl1,
+.precioCuencas .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.graficoPRefPagProd{
-    width: 60%;
-}
-
-.precioCuencas .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
 }
 
 .variacionlecheCruda .cuencasLCrud, 
-.variacionPorCuenca .variacion_litros_x_cuenca{
+.variacionPorCuenca .variacion_litros_x_cuenca,
+.parametrosPrecio .container,
+.produccionMensual .container,
+.solidosUtiles .container{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.parametrosPrecio .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.precioCuencas .container {
+    padding-bottom: 20px;
 }
 
-.parametrosPrecio .divs_internasLvl1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.produccionMensual .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.graf_lech_cruda{
+.graficoPRefPagProd,
+.graf_lech_cruda,
+.graf_solidos_Ut{
     width: 60%;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /*Responsive*/
 @media (max-width:900px) {
 
-    .cabecera{
+    .cabecera,
+    .precioProductor .container,
+    .precioCuencas .container,
+    .parametrosPrecio .container,
+    .produccionMensual .container,
+    .solidosUtiles .container{
         flex-direction: column;
         align-items: initial;
         text-align: center;
         align-items: center;
     }
 
-    .precioProductor .container {
-        flex-direction: column;
-        align-items: initial;
-        text-align: center;
-        align-items: center;
-    }
-
-    .graficoPRefPagProd{
+    .graficoPRefPagProd,
+    .map,
+    .graf_lech_cruda,
+    .graf_solidos_Utiles{
         width: 100%;
     }
 
@@ -98,15 +71,13 @@
         border: 0.3px solid rgba(0,55,203,0.4);
         flex-wrap: wrap;
     }
-    
-    
+
     .year{
         font-size: 15px;
         padding: 5px;
         text-align: center;
         font-weight: bold;
     }
-
 
     .menuppal{
         position: fixed;
@@ -116,7 +87,6 @@
         opacity: 0.5;
         visibility: visible; 
         bottom: 0;
-
     }
 
     .menuppal:hover{
@@ -169,38 +139,8 @@
    
     }
 
-    .precioCuencas .container{
-        flex-direction: column;
-        align-items: initial;
-        text-align: center;
-        align-items: center;
-    }
-
-    .map{
-        width: 100%;
-    }
-
-    .parametrosPrecio .container {
-        flex-direction: column;
-        align-items: initial;
-        text-align: center;
-        align-items: center;
-    }
-
     .composicion{
         width: 80%;
-    }
-
-    .produccionMensual .container{
-        flex-direction: column;
-        align-items: initial;
-        text-align: center;
-        align-items: center;
-
-    }
-
-    .graf_lech_cruda{
-        width: 100%;
     }
 
 }
@@ -230,7 +170,4 @@
         width: 50%;
 
     }
-   
-    
-
 }

@@ -73,14 +73,14 @@ function junio21(){
     produ_lechcrudIMen.textContent = "-0,62 %";
     produ_lechecrudaIA .textContent = "-2,63 %";
 
-    aN_Li_x_c_IA.textContent = "10,40 %";
+    aN_Li_x_c_IA.textContent = "10,4 %";
     aN_Li_x_c_Men.textContent = "1,2 %";
     aSur_Li_x_c_IA.textContent = "5,99 %";
     aSur_Li_x_c_IMen.textContent = "1,85 %";
     mYS_Li_x_c_IA.textContent = "-7,30 %";
     mYS_Li_x_c_IMen.textContent = "-9,15 %";
     oes_Li_x_c_IA.textContent = "-3,71 %";
-    oes_Li_x_c_IMen.textContent = "0,70 %";
+    oes_Li_x_c_IMen.textContent = "0,7 %";
 }
 
 function julio21(){
@@ -238,7 +238,7 @@ function octubre21(){
     proteina.textContent = "3,42 %";
     grasa_butirosa.textContent = "3,67 %";
 
-    cantTambos2.textContent = "1578";
+    cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "227,06";
     produ_lechcrudIMen.textContent = "-6,09 %";
     produ_lechecrudaIA .textContent = "-0,91 %";
@@ -282,7 +282,7 @@ function noviembre21(){
     proteina.textContent = "sin datos"
     grasa_butirosa.textContent = "sin datos"
 
-    cantTambos2.textContent = "sin datos ";
+    cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "sin datos ";
     produ_lechcrudIMen.textContent = "sin datos ";
     produ_lechecrudaIA .textContent = "sin datos ";
@@ -324,7 +324,7 @@ function diciembre21(){
     proteina.textContent = "3,33%";
     grasa_butirosa.textContent = "3,63%";
 
-    cantTambos2.textContent = "1559";
+    cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "203,04";
     produ_lechcrudIMen.textContent = "-4,28 %";
     produ_lechecrudaIA .textContent = "-0,78 %";
@@ -408,7 +408,7 @@ function febrero22(){
     proteina.textContent = "3,40%";
     grasa_butirosa.textContent = "3,69%";
 
-    cantTambos2.textContent = "1537";
+    cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "155,57";
     produ_lechcrudIMen.textContent = "-13,14 %";
     produ_lechecrudaIA .textContent = "-3,28 %";
@@ -450,7 +450,7 @@ function marzo2022(){
     proteina.textContent = "3,46%";
     grasa_butirosa.textContent = "3,79%";
 
-    cantTambos2.textContent = "1540";
+    cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "169,09";
     produ_lechcrudIMen.textContent = "8,70 %";
     produ_lechecrudaIA.textContent = "-3,09 % ";
