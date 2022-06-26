@@ -30,6 +30,16 @@ let prod_mensual_lech_crud = document.querySelector(".prod_mensual_lech_crud");
 let produ_lechcrudIMen = document.querySelector(".produ_lechecruda_var_IMen");
 let produ_lechecrudaIA = document.querySelector(".produ_lechecruda_var_IA");
 
+let aN_Li_x_c_IA = document.querySelector(".aNort_Li_x_cuenca_IA");
+let aN_Li_x_c_Men = document.querySelector(".aNort_Li_x_cuenca_IMen");
+let aSur_Li_x_c_IA  = document.querySelector(".aSur_Li_x_cuenca_IA");
+let aSur_Li_x_c_IMen  = document.querySelector(".aSur_Li_x_cuenca_IMen");
+let mYS_Li_x_c_IA = document.querySelector(".mYS_Li_x_cuenca_IA");
+let mYS_Li_x_c_IMen = document.querySelector(".mYS_Li_x_cuenca_IMen");
+let oes_Li_x_c_IA = document.querySelector(".oes_Li_x_cuenca_IA");
+let oes_Li_x_c_IMen = document.querySelector(".oes_Li_x_cuenca_IMen");
+
+
 
 function junio21(){
     monthYear.textContent = "Junio 2021";
@@ -62,6 +72,15 @@ function junio21(){
     prod_mensual_lech_crud.textContent = "180,98";
     produ_lechcrudIMen.textContent = "-0,62 %";
     produ_lechecrudaIA .textContent = "-2,63 %";
+
+    aN_Li_x_c_IA.textContent = "10,40 %";
+    aN_Li_x_c_Men.textContent = "1,2 %";
+    aSur_Li_x_c_IA.textContent = "5,99 %";
+    aSur_Li_x_c_IMen.textContent = "1,85 %";
+    mYS_Li_x_c_IA.textContent = "-7,30 %";
+    mYS_Li_x_c_IMen.textContent = "-9,15 %";
+    oes_Li_x_c_IA.textContent = "-3,71 %";
+    oes_Li_x_c_IMen.textContent = "0,70 %";
 }
 
 function julio21(){
@@ -95,6 +114,15 @@ function julio21(){
     prod_mensual_lech_crud.textContent = "195,47";
     produ_lechcrudIMen.textContent = "8,01 %";
     produ_lechecrudaIA .textContent = "-3,43 %";
+
+    aN_Li_x_c_IA.textContent = "10,3 %";
+    aN_Li_x_c_Men.textContent = "9,6 %";
+    aSur_Li_x_c_IA.textContent = "4,15 %";
+    aSur_Li_x_c_IMen.textContent = "6,11 %";
+    mYS_Li_x_c_IA.textContent = "-2,3 %";
+    mYS_Li_x_c_IMen.textContent = "4,07 %";
+    oes_Li_x_c_IA.textContent = "-2,14 %";
+    oes_Li_x_c_IMen.textContent = "9,22 %";
 }
 
 function agosto21(){
@@ -129,6 +157,15 @@ function agosto21(){
     produ_lechcrudIMen.textContent = "7,99 %";
     produ_lechecrudaIA .textContent = "0,14 %";
 
+    aN_Li_x_c_IA.textContent = "10,2 %";
+    aN_Li_x_c_Men.textContent = "6,5 %";
+    aSur_Li_x_c_IA.textContent = "6,81 %";
+    aSur_Li_x_c_IMen.textContent = "6,11 %";
+    mYS_Li_x_c_IA.textContent = "-0,3 %";
+    mYS_Li_x_c_IMen.textContent = "12,9 %";
+    oes_Li_x_c_IA.textContent = "-0,41 %";
+    oes_Li_x_c_IMen.textContent = "7,62 %";
+
 }
 
 function septiembre21(){
@@ -162,6 +199,16 @@ function septiembre21(){
     prod_mensual_lech_crud.textContent = "214,02";
     produ_lechcrudIMen.textContent = "1,39 %";
     produ_lechecrudaIA .textContent = "-0,77 %";
+
+    aN_Li_x_c_IA.textContent = "13,7 %";
+    aN_Li_x_c_Men.textContent = "1,9 %";
+    aSur_Li_x_c_IA.textContent = "9,02 %";
+    aSur_Li_x_c_IMen.textContent = "2,8 %";
+    mYS_Li_x_c_IA.textContent = "-0,2 %";
+    mYS_Li_x_c_IMen.textContent = "2,27 %";
+    oes_Li_x_c_IA.textContent = "-2,18 %";
+    oes_Li_x_c_IMen.textContent = "0,45 %";
+
 }
 
 function octubre21(){
@@ -195,6 +242,17 @@ function octubre21(){
     prod_mensual_lech_crud.textContent = "227,06";
     produ_lechcrudIMen.textContent = "-6,09 %";
     produ_lechecrudaIA .textContent = "-0,91 %";
+
+    aN_Li_x_c_IA.textContent = "13,9 %";
+    aN_Li_x_c_Men.textContent = "7,2 %";
+    aSur_Li_x_c_IA.textContent = "7,9 %";
+    aSur_Li_x_c_IMen.textContent = "5,5 %";
+    mYS_Li_x_c_IA.textContent = "-3,2 %";
+    mYS_Li_x_c_IMen.textContent = "8,5 %";
+    oes_Li_x_c_IA.textContent = "-1,9 %";
+    oes_Li_x_c_IMen.textContent = "5,2 %";
+
+    
 }
 
 function noviembre21(){
@@ -228,6 +286,15 @@ function noviembre21(){
     prod_mensual_lech_crud.textContent = "sin datos ";
     produ_lechcrudIMen.textContent = "sin datos ";
     produ_lechecrudaIA .textContent = "sin datos ";
+
+    aN_Li_x_c_IA.textContent = "sin datos";
+    aN_Li_x_c_Men.textContent = "sin datos";
+    aSur_Li_x_c_IA.textContent = "sin datos";
+    aSur_Li_x_c_IMen.textContent = "sin datos";
+    mYS_Li_x_c_IA.textContent = "sin datos%";
+    mYS_Li_x_c_IMen.textContent = "sin datos";
+    oes_Li_x_c_IA.textContent = "sin datos";
+    oes_Li_x_c_IMen.textContent = "sin datos";
 }
 
 function diciembre21(){
@@ -261,6 +328,15 @@ function diciembre21(){
     prod_mensual_lech_crud.textContent = "203,04";
     produ_lechcrudIMen.textContent = "-4,28 %";
     produ_lechecrudaIA .textContent = "-0,78 %";
+
+    aN_Li_x_c_IA.textContent = "12,9 %";
+    aN_Li_x_c_Men.textContent = "-4,5 %";
+    aSur_Li_x_c_IA.textContent = "9,8 %";
+    aSur_Li_x_c_IMen.textContent = "-1,8 %";
+    mYS_Li_x_c_IA.textContent = "0,6 %";
+    mYS_Li_x_c_IMen.textContent = "-4 %";
+    oes_Li_x_c_IA.textContent = "-3,8 %";
+    oes_Li_x_c_IMen.textContent = "-5,3 %";
 }
 
 function enero22(){
@@ -294,6 +370,15 @@ function enero22(){
     prod_mensual_lech_crud.textContent = "179,11";
     produ_lechcrudIMen.textContent = "-11,79 %";
     produ_lechecrudaIA .textContent = "-4,60 %";
+
+    aN_Li_x_c_IA.textContent = "9,1 %";
+    aN_Li_x_c_Men.textContent = "-12 %";
+    aSur_Li_x_c_IA.textContent = "4,5 %";
+    aSur_Li_x_c_IMen.textContent = "-8,8 %";
+    mYS_Li_x_c_IA.textContent = "-1,6 %";
+    mYS_Li_x_c_IMen.textContent = "-9,61 %";
+    oes_Li_x_c_IA.textContent = "-8,32 %";
+    oes_Li_x_c_IMen.textContent = "-13,97 %";
 }
 
 function febrero22(){
@@ -327,6 +412,15 @@ function febrero22(){
     prod_mensual_lech_crud.textContent = "155,57";
     produ_lechcrudIMen.textContent = "-13,14 %";
     produ_lechecrudaIA .textContent = "-3,28 %";
+
+    aN_Li_x_c_IA.textContent = "9,1 %";
+    aN_Li_x_c_Men.textContent = "-12 %";
+    aSur_Li_x_c_IA.textContent = "4,5 %";
+    aSur_Li_x_c_IMen.textContent = "-8,8 %";
+    mYS_Li_x_c_IA.textContent = "-1,6 %";
+    mYS_Li_x_c_IMen.textContent = "-9,61 %";
+    oes_Li_x_c_IA.textContent = "-8,32 %";
+    oes_Li_x_c_IMen.textContent = "-13,97 %";
 }
 
 function marzo2022(){
@@ -359,7 +453,16 @@ function marzo2022(){
     cantTambos2.textContent = "1540";
     prod_mensual_lech_crud.textContent = "169,09";
     produ_lechcrudIMen.textContent = "8,70 %";
-    produ_lechecrudaIA .textContent = "-3,09 % ";
+    produ_lechecrudaIA.textContent = "-3,09 % ";
+
+    aN_Li_x_c_IA.textContent = "-2,4 %";
+    aN_Li_x_c_Men.textContent = "12,2 %";
+    aSur_Li_x_c_IA.textContent = "3,8 %";
+    aSur_Li_x_c_IMen.textContent = "4,4 %";
+    mYS_Li_x_c_IA.textContent = "1,4 %";
+    mYS_Li_x_c_IMen.textContent = "14,1 %";
+    oes_Li_x_c_IA.textContent = "-7,2 %";
+    oes_Li_x_c_IMen.textContent = "9,3 %";
 }
 
 
