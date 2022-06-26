@@ -29,7 +29,8 @@
     padding-bottom: 20px;
 }
 
-.variacionlecheCruda .cuencasLCrud{
+.variacionlecheCruda .cuencasLCrud, 
+.variacionPorCuenca .variacion_litros_x_cuenca{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -211,7 +212,8 @@
 /*Tablas*/
 @media (max-width:1150px) {
 
-    .variacionlecheCruda .cuencasLCrud{
+    .variacionlecheCruda .cuencasLCrud,
+    .variacionPorCuenca .variacion_litros_x_cuenca{
         flex-direction: column;
         text-align: center;
         align-items: center;

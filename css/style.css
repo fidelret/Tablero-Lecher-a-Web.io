@@ -125,7 +125,7 @@ main{
 	
 }
 
-.precioCuencas, .variacionlecheCruda, .parametrosPrecio, .produccionMensual{
+.precioCuencas, .variacionlecheCruda, .parametrosPrecio, .produccionMensual, .variacionPorCuenca{
 	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,173,193,0.6615021008403361) 100%);
 	margin-top: 20px;
 	padding: 0 10px;
@@ -183,7 +183,7 @@ main{
 	width: 250px;
 }
 
-.cuencasLCrud{
+.cuencasLCrud, .variacion_litros_x_cuenca{
 	margin: 20px 0;
 }
 
@@ -206,7 +206,7 @@ table, tr, td{
 }
 
 #oest td{
-	border: 0.5px solid rgba(0,55,203,0.5) ;
+	border: 0.5px solid rgba(0,55,203,0.5);
 }
 
 .abastoNorte, .abastoSur, .marYSierras, .oeste{

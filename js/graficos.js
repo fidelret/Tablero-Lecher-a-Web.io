@@ -42,7 +42,7 @@ datasets: [{
         'rgba(0,173,193,1)',
     ],
     borderColor: [
-        'rgba(250,250,250,1)',
+        'rgba(0,55,203,0.5)',
         
     ],
     borderWidth: 2
