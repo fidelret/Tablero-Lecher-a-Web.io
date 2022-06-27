@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <!---->
-    <title>Tablero lechería provincia de Buenos Aires</title>
+    <title>Tablero de comando de lechería - Provincia de Buenos Aires</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flex.css">
@@ -16,15 +16,14 @@
 <body>
     <header>
         <div class="cabecera">
-            <img class="logoPcia" src="img/logoMDA.jpg" alt="Logo Ministerio de Desarrollo Agrario">
-            <img class="lech" src="img/lech.jpg" alt="Dirección de Lechería">
+            <h1 class="TituloPrincipal">TABLERO DE COMANDO DE LECHERÍA <br> PROVINCIA DE BUENOS AIRES (BETA)</h1>
+            <h2 class="monthYear"></h2>
         </div>
-        <h1 class="TituloPrincipal">TABLERO DE LECHERÍA - PROVINCIA DE BUENOS AIRES</h1>
     </header>
 
     <nav class="menu">
         <ul class="menuppal">
-            <h2 class="monthYear"></h2>
+
             <li class="year">2021</li>
             <ul class="item">
                 <li class="junio21">Junio 2021</li>
@@ -207,12 +206,13 @@
                         <h1 class="xlitro">litros totales</h1>
                     </div>
                     <div>
-                        <h1 class="variacionTxt"><cite class="produ_lechecruda_var_IMen"></cite> variación intermensual</h1>
+                        <h1 class="variacionTxt"><cite class="produ_lechecruda_var_IMen"></cite> variación intermensual
+                        </h1>
                         <h1 class="variacionTxt"><cite class="produ_lechecruda_var_IA"></cite> variación interanual</h1>
-    
+
                     </div>
                 </div>
-                
+
                 <div class="graf_lech_cruda">
                     <div id="graficoextend">
                         <canvas id="lech_crud" width="200" height="100"></canvas>
@@ -284,7 +284,7 @@
                 </table>
             </div>
 
-            
+
 
         </section>
 
@@ -300,23 +300,32 @@
                         <canvas id="graf_solidos_Utiles" width="200" height="100"></canvas>
                     </div>
                 </div>
-                
+
                 <div class="solidos_cuencas">
                     <h2 class="tituloSeccion">% Solidos Útiles por Cuenca lechera</h2>
-                    <p id="naranja">Abasto Norte <cite class="preciocuenAbasNort"></cite></p>
-                    <p id="amarillo">Abasto Sur <cite class="preciocuenAbasSur"></cite></p>
-                    <p id="provincia">Mar y Sierras <cite class="preciocuenMyS"></cite></p>
-                    <p id="azul">Oeste <cite class="preciocuenO"></cite></p>
+                    <p id="naranja">Abasto Norte <cite class="solidos_cuenAbasNort"></cite></p>
+                    <p id="amarillo">Abasto Sur <cite class="solidos_cuenAbasSur"></cite></p>
+                    <p id="provincia">Mar y Sierras <cite class="solidos_cuenMyS"></cite></p>
+                    <p id="azul">Oeste <cite class="solidos_cuenO"></cite></p>
                 </div>
-
-
             </div>
-
-
-
         </section>
 
     </main>
+    <footer>
+        <div class="cabecera">
+            <img class="logoPcia" src="img/logoMDA.jpg" alt="Logo Ministerio de Desarrollo Agrario">
+            <img class="lech" src="img/lech.jpg" alt="Dirección de Lechería">
+        </div>
+        <div class="cabecera">
+            <h1 class="firma">Felix Martín Retes - 2022.-
+                <a href="https://github.com/fidelret" target="_blank" rel=""><img class="img_firma" src="img/github.png"
+                        alt="github"></a> <a href="https://www.linkedin.com/in/fmretes" target="_blank" rel=""><img
+                        class="img_firma" src="img/linkedin.png" alt="linkedin"></a>
+            </h1>
+        </div>
+    </footer>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>

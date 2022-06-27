@@ -2,6 +2,7 @@
 	display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 1em;
 }
 
 .menuppal{
@@ -11,6 +12,18 @@
     width: auto;
 }
 
+.monthYear{
+	position: fixed;
+    right: 0;
+    color: #ffffff;
+    margin-top: 1em;
+    font-size: 25px;
+	padding: 10px;
+	font-weight: bold;
+	background: rgba(0,55,203,0.5);
+	border: 0.3px solid rgba(0,55,203,0.4);
+	border-radius: 0 0.5em;
+}
 
 .precioProductor .container,
 .parametrosPrecio .divs_internasLvl1,
@@ -56,21 +69,23 @@
         align-items: center;
     }
 
+    .TituloPrincipal{
+        width: 100%;
+    }
+
+    .precioProductor{
+        margin-top: 3.4em;
+    }
+
     .graficoPRefPagProd,
     .map,
     .graf_lech_cruda,
-    .graf_solidos_Utiles{
+    .graf_solidos_Ut,
+    .solidos_cuencas{
         width: 100%;
     }
 
      /* menu movil*/
-
-    .TituloPrincipal{
-        font-size: 18px;
-        padding: 0;
-        border: 0.3px solid rgba(0,55,203,0.4);
-        flex-wrap: wrap;
-    }
 
     .year{
         font-size: 15px;
@@ -117,7 +132,7 @@
     }
 
     .monthYear{
-        margin-top: 10px;
+        margin-top: 6em;
         text-align: center;
     }
 
