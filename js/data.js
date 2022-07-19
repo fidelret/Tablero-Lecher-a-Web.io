@@ -291,50 +291,50 @@ function octubre21(){
 
 function noviembre21(){
     monthYear.textContent = "Noviembre 2021";
-    cantTambos.textContent = "sin datos";
-    precioPorLitro.textContent = "35,52";
-    variacion1.textContent = "sin datos";
-    variacion2.textContent = "sin datos";
+    cantTambos.textContent = "1581";
+    precioPorLitro.textContent = "34,52";
+    variacion1.textContent = "1,11%";
+    variacion2.textContent = "67,98%";
 
-    pCAbasNort.textContent = "$ sin datos"; 
-    pCAbasSur.textContent = "$ sin datos";
-    pCMyS.textContent = "$ sin datos"; 
-    pCO.textContent = "$ sin datos";
+    pCAbasNort.textContent = "$ 35,59"; 
+    pCAbasSur.textContent = "$ 34,22";
+    pCMyS.textContent = "$ 34,98"; 
+    pCO.textContent = "$ 34,31";
 
-    aNcruIA.textContent = "sin datos";
-    aNcruIMen.textContent = "sin datos";
-    aSurcruIA.textContent = "sin datos";
-    aSurcruIMen.textContent = "sin datos";
-    mYScruIA.textContent = "sin datos";
-    mYScruIMen.textContent = "sin datos";
-    oescruIA.textContent = "sin datos";
-    oescruIMen.textContent = "sin datos";
+    aNcruIA.textContent = "69,64%";
+    aNcruIMen.textContent = "1,45%";
+    aSurcruIA.textContent = "70,5%";
+    aSurcruIMen.textContent = "1,12%";
+    mYScruIA.textContent = "66,97%";
+    mYScruIMen.textContent = "0,95%";
+    oescruIA.textContent = "67,94%";
+    oescruIMen.textContent = "1%";
 
-    precio_solidos_UT.textContent = "sin datos"
-    precio_solidos_UTvar_IMen.textContent = "sin datos"
-    precio_x_kg_solidos_UTvar_IA.textContent = "sin datos"
-    proteina.textContent = "sin datos"
-    grasa_butirosa.textContent = "sin datos"
+    precio_solidos_UT.textContent = "491,65"
+    precio_solidos_UTvar_IMen.textContent = "2,06%"
+    precio_x_kg_solidos_UTvar_IA.textContent = "65,39%"
+    proteina.textContent = "3,37"
+    grasa_butirosa.textContent = "3,65"
 
     cantTambos2.textContent = (cantTambos.textContent);
-    prod_mensual_lech_crud.textContent = "sin datos ";
-    produ_lechcrudIMen.textContent = "sin datos ";
-    produ_lechecrudaIA .textContent = "sin datos ";
+    prod_mensual_lech_crud.textContent = "212,12 ";
+    produ_lechcrudIMen.textContent = "-6,58%";
+    produ_lechecrudaIA .textContent = "-1,07%";
 
-    aN_Li_x_c_IA.textContent = "sin datos";
-    aN_Li_x_c_Men.textContent = "sin datos";
-    aSur_Li_x_c_IA.textContent = "sin datos";
-    aSur_Li_x_c_IMen.textContent = "sin datos";
-    mYS_Li_x_c_IA.textContent = "sin datos";
-    mYS_Li_x_c_IMen.textContent = "sin datos";
-    oes_Li_x_c_IA.textContent = "sin datos";
-    oes_Li_x_c_IMen.textContent = "sin datos";
+    aN_Li_x_c_IA.textContent = "13,8%";
+    aN_Li_x_c_Men.textContent = "-7,7%";
+    aSur_Li_x_c_IA.textContent = "7,7%";
+    aSur_Li_x_c_IMen.textContent = "-7,9%";
+    mYS_Li_x_c_IA.textContent = "-1,7%";
+    mYS_Li_x_c_IMen.textContent = "-7,3%";
+    oes_Li_x_c_IA.textContent = "-2,8%";
+    oes_Li_x_c_IMen.textContent = "-6%";
 
     cantTambos3.textContent = (cantTambos.textContent);
-    s_cuenAbasNort.textContent = "sin datos";
-    s_cuenAbasSur.textContent = "sin datos";
-    s_cuenMyS.textContent = "sin datos";
-    s_cuenO.textContent = "sin datos";
+    s_cuenAbasNort.textContent = "6,97%";
+    s_cuenAbasSur.textContent = "6,87%";
+    s_cuenMyS.textContent = "7,09%";
+    s_cuenO.textContent = "7,01%";
 }
 
 function diciembre21(){
