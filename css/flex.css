@@ -58,7 +58,6 @@
 @media (max-width:900px) {
 
     .cabecera,
-    .precioProductor .container,
     .precioCuencas .container,
     .parametrosPrecio .container,
     .produccionMensual .container,
@@ -167,6 +166,7 @@
 /*Tablas*/
 @media (max-width:1150px) {
 
+    .precioProductor .container,
     .variacionlecheCruda .cuencasLCrud,
     .variacionPorCuenca .variacion_litros_x_cuenca{
         flex-direction: column;
