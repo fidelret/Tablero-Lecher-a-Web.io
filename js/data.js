@@ -538,7 +538,7 @@ function abril2022(){
 
     pCAbasNort.textContent = "$ 45,70"; 
     pCAbasSur.textContent = "$ 43,27";
-    pCMyS.textContent = "$ 44.96"; 
+    pCMyS.textContent = "$ 44,96"; 
     pCO.textContent = "$ 44,12";
 
     aNcruIA.textContent = "56,7%";
@@ -577,6 +577,53 @@ function abril2022(){
     s_cuenO.textContent = "7,38%";
 }
 
+function mayo2022(){
+    monthYear.textContent = "Mayo 2022";
+    cantTambos.textContent = "1553";
+    precioPorLitro.textContent = "46,87";
+    variacion1.textContent = "5,78%";
+    variacion2.textContent = "55,5%"; 
+
+    pCAbasNort.textContent = "$ 48,24"; 
+    pCAbasSur.textContent = "$ 45,51";
+    pCMyS.textContent = "$ 47,95"; 
+    pCO.textContent = "$ 46,68";
+
+    aNcruIA.textContent = "56,9%";
+    aNcruIMen.textContent = "5,6%";
+    aSurcruIA.textContent = "54%";
+    aSurcruIMen.textContent = "5,2%";
+    mYScruIA.textContent = "56,9%";
+    mYScruIMen.textContent = "6,7%";
+    oescruIA.textContent = "54,5%";
+    oescruIMen.textContent = "5,8%";
+
+    precio_solidos_UT.textContent = "630,6";
+    precio_solidos_UTvar_IMen.textContent = "4,78%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "52,5%";
+    proteina.textContent = "3,56%";
+    grasa_butirosa.textContent = "3,87%";
+
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "177,47";
+    produ_lechcrudIMen.textContent = "7,8%";
+    produ_lechecrudaIA.textContent = "-2,6% ";
+
+    aN_Li_x_c_IA.textContent = "-3,6%";
+    aN_Li_x_c_Men.textContent = "8,2%";
+    aSur_Li_x_c_IA.textContent = "0,7%";
+    aSur_Li_x_c_IMen.textContent = "7,2%";
+    mYS_Li_x_c_IA.textContent = "-1,2%";
+    mYS_Li_x_c_IMen.textContent = "6,1%";
+    oes_Li_x_c_IA.textContent = "-4,3%";
+    oes_Li_x_c_IMen.textContent = "8,9%";
+
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,43%";
+    s_cuenAbasSur.textContent = "7,18%";
+    s_cuenMyS.textContent = "7,45%";
+    s_cuenO.textContent = "7,45%";
+}
 
 
 

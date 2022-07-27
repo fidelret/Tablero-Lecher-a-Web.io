@@ -60,15 +60,17 @@ botonMarzo22.addEventListener("click", function (event) {
 let botonabril22 = document.querySelector(".abril22");
 botonabril22.addEventListener("click", function (event) {
     abril2022();
-    console.log("Boton presionado")
 });
 
-
+let botonmayo22 = document.querySelector(".mayo22");
+botonmayo22.addEventListener("click", function (event) {
+    mayo2022();
+});
 
 
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
 
-abril2022();
+mayo2022();
 
