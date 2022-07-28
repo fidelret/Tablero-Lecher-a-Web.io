@@ -579,7 +579,7 @@ function abril2022(){
 
 function mayo2022(){
     monthYear.textContent = "Mayo 2022";
-    cantTambos.textContent = "1553";
+    cantTambos.textContent = "1552";
     precioPorLitro.textContent = "46,87";
     variacion1.textContent = "5,78%";
     variacion2.textContent = "55,5%"; 
@@ -599,7 +599,7 @@ function mayo2022(){
     oescruIMen.textContent = "5,8%";
 
     precio_solidos_UT.textContent = "630,6";
-    precio_solidos_UTvar_IMen.textContent = "5,78%";
+    precio_solidos_UTvar_IMen.textContent = "4,78%";
     precio_x_kg_solidos_UTvar_IA.textContent = "52,5%";
     proteina.textContent = "3,56%";
     grasa_butirosa.textContent = "3,87%";
@@ -621,7 +621,7 @@ function mayo2022(){
     cantTambos3.textContent = (cantTambos.textContent);
     s_cuenAbasNort.textContent = "7,43%";
     s_cuenAbasSur.textContent = "7,18%";
-    s_cuenMyS.textContent = "7,45%";
+    s_cuenMyS.textContent = "7,42%";
     s_cuenO.textContent = "7,45%";
 }
 
