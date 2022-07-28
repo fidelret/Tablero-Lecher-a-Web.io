@@ -599,7 +599,7 @@ function mayo2022(){
     oescruIMen.textContent = "5,8%";
 
     precio_solidos_UT.textContent = "630,6";
-    precio_solidos_UTvar_IMen.textContent = "4,78%";
+    precio_solidos_UTvar_IMen.textContent = "5,78%";
     precio_x_kg_solidos_UTvar_IA.textContent = "52,5%";
     proteina.textContent = "3,56%";
     grasa_butirosa.textContent = "3,87%";
@@ -625,6 +625,53 @@ function mayo2022(){
     s_cuenO.textContent = "7,45%";
 }
 
+function junio2022(){
+    monthYear.textContent = "Junio 2022";
+    cantTambos.textContent = "1541";
+    precioPorLitro.textContent = "49,21";
+    variacion1.textContent = "4,9%";
+    variacion2.textContent = "55,3%"; 
+
+    pCAbasNort.textContent = "$ 51,19"; 
+    pCAbasSur.textContent = "$ 48,18";
+    pCMyS.textContent = "$ 49,77"; 
+    pCO.textContent = "$ 49";
+
+    aNcruIA.textContent = "57,2%";
+    aNcruIMen.textContent = "6,1%";
+    aSurcruIA.textContent = "54,7%";
+    aSurcruIMen.textContent = "5,9%";
+    mYScruIA.textContent = "55,6%";
+    mYScruIMen.textContent = "3,8%";
+    oescruIA.textContent = "54,5%";
+    oescruIMen.textContent = "4,9%";
+
+    precio_solidos_UT.textContent = "663,55";
+    precio_solidos_UTvar_IMen.textContent = "4,9%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "51,4%";
+    proteina.textContent = "3,56%";
+    grasa_butirosa.textContent = "3,86%";
+
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "174,59";
+    produ_lechcrudIMen.textContent = "-1,69%";
+    produ_lechecrudaIA.textContent = "-3,53% ";
+
+    aN_Li_x_c_IA.textContent = "-6,3%";
+    aN_Li_x_c_Men.textContent = "-1,6%";
+    aSur_Li_x_c_IA.textContent = "-2,4%";
+    aSur_Li_x_c_IMen.textContent = "-1,2%";
+    mYS_Li_x_c_IA.textContent = "1,7%";
+    mYS_Li_x_c_IMen.textContent = "-6,4%";
+    oes_Li_x_c_IA.textContent = "-5,1%";
+    oes_Li_x_c_IMen.textContent = "-0,2%";
+
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,41%";
+    s_cuenAbasSur.textContent = "7,19%";
+    s_cuenMyS.textContent = "7,36%";
+    s_cuenO.textContent = "7,45%";
+}
 
 
 

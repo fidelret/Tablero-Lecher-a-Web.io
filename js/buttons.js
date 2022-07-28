@@ -67,10 +67,14 @@ botonmayo22.addEventListener("click", function (event) {
     mayo2022();
 });
 
+let botonjunio22 = document.querySelector(".junio22");
+botonjunio22.addEventListener("click", function (event) {
+    junio2022();
+});
 
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
 
-mayo2022();
+junio2022();
 
