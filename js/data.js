@@ -647,7 +647,7 @@ function junio2022(){
     oescruIMen.textContent = "4,9%";
 
     precio_solidos_UT.textContent = "663,35";
-    precio_solidos_UTvar_IMen.textContent = "4,9%";
+    precio_solidos_UTvar_IMen.textContent = "5,2%";
     precio_x_kg_solidos_UTvar_IA.textContent = "51,4%";
     proteina.textContent = "3,56%";
     grasa_butirosa.textContent = "3,86%";
