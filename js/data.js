@@ -579,7 +579,7 @@ function abril2022(){
 
 function mayo2022(){
     monthYear.textContent = "Mayo 2022";
-    cantTambos.textContent = "1552";
+    cantTambos.textContent = "1552";//
     precioPorLitro.textContent = "46,87";
     variacion1.textContent = "5,78%";
     variacion2.textContent = "55,5%"; 
@@ -621,8 +621,8 @@ function mayo2022(){
     cantTambos3.textContent = (cantTambos.textContent);
     s_cuenAbasNort.textContent = "7,43%";
     s_cuenAbasSur.textContent = "7,18%";
-    s_cuenMyS.textContent = "7,42%";
-    s_cuenO.textContent = "7,45%";
+    s_cuenMyS.textContent = "7,42%";//
+    s_cuenO.textContent = "7,45%";//
 }
 
 function junio2022(){
