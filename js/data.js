@@ -685,7 +685,7 @@ function julio2022(){
     pCMyS.textContent = "$ 53,13"; 
     pCO.textContent = "$ 51,93";
 
-    aNcruIA.textContent = "60,06%";
+    aNcruIA.textContent = "60,6%";
     aNcruIMen.textContent = "4,6%";
     aSurcruIA.textContent = "57,5%";
     aSurcruIMen.textContent = "5,6%";
