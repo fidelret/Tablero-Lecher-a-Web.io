@@ -2,32 +2,22 @@ body{
 	font-family: 'Encode Sans', sans-serif;
 }
 
-.logoPcia{
-	width: 300px;
-}
-
-
-.lech{
-	width: 200px;
-}
-
-
 .TituloPrincipal{
 	text-align: center;
-	background-color: #00ADC1;
+	background-color: #00aec3;
 	color: #ffffff;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 26px;
 	padding: 10px 0 10px 0;
 	width: 75%;
 	border: 3px solid;
-	border-color: #00ADC1;
+	border-color: #00aec3;
 	border-radius: 0 1em;	
 }
 
 .menuppal{
 	color: #ffffff;
-    background: #00ADC1;
+    background: #00aec3;
 	padding: 8px;
 	border: 1px solid rgba(0,55,203,0.4);
 	border-radius: 0 1em;
@@ -48,7 +38,7 @@ body{
 	color: #FFFFFF;
 	margin-top: 3px;
 	padding: 5px;
-	background-color: #00ADC1;
+	background-color: #00aec3;
 	border-radius: 0.3em;
 	border: 0.3px solid rgba(0,55,203,0.4);	
 	border-radius: 0 0.5em;
@@ -56,8 +46,8 @@ body{
 
 	  
 .item li:hover {
-	background-color: #FF7800 ;
-	border: 0.3px solid rgba(0,55,203,0.4);
+	background-color: rgba(0,55,203,0.4) ;
+	border: 0.3px solid rgba(0,55,203,0.9);
 	transition: 600ms;
 }
 
@@ -78,7 +68,7 @@ main{
 	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,173,193,0.6615021008403361) 100%);
 	padding: 0 10px;
 	border: 3px solid;
-	border-color: #00ADC1;
+	border-color: #00aec3;
 	border-radius: 0 4em;
 	
 }
@@ -142,7 +132,7 @@ main{
 	margin-top: 1em;
 	padding: 0 10px;
 	border: 3px solid;
-	border-color: #00ADC1;
+	border-color: #00aec3;
 	border-radius: 0 4em;	
 }
 
@@ -186,8 +176,8 @@ main{
 }
 
 #provincia,.marYSierras{
-    background: rgba(0,173,193,1);
-	border: 1px solid rgba(0,173,193,1);
+    background: #00aec3;
+	border: 1px solid #00aec3;
 	border-radius: 0 0.9em 0 0;
 }
 
@@ -267,7 +257,7 @@ table, tr, td{
 }
 
 .parametrosPrecio .divs_internasLvl1{
-	border: 2px solid rgba(0,173,193,1);
+	border: 2px solid rgba(0,174,195,1);
 	margin-top: 10px;
 	padding: 10px 10px 20px 0;
 	border-radius: 0 2em;	
@@ -279,9 +269,8 @@ table, tr, td{
 	background-color: rgba(0,173,193,0.4);
 	margin: 20px;
 	padding: 10px 10px 20px 10px;
-	border: 2px solid rgba(0,173,193,1);
+	border: 2px solid rgba(0,174,195,1);
 	border-radius: 0 2em;
-
 }
 
 .composicion .variacionTxt{
@@ -292,6 +281,14 @@ table, tr, td{
 	margin: 15px 0 15px 0;
 	padding: 5px;
 	text-align: left;
+}
+
+.lech{
+	width: 270px;
+}
+
+.logoPcia{
+	width: 400px;
 }
 
 .firma{

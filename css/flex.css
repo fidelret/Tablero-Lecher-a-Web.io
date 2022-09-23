@@ -53,6 +53,13 @@
     width: 60%;
 }
 
+.foot{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+}
+
 
 /*Responsive*/
 @media (max-width:900px) {
@@ -144,21 +151,15 @@
         text-align: center;
     }
 
-    .lech{
-        margin-bottom: 20px;
-    }
 
     .tituloSeccion{
         text-align: center;
-   
     }
 
     .composicion{
         width: 80%;
     }
-
 }
-
 
 
 
@@ -183,6 +184,24 @@
 
     #aNor td, #aSur td, #mYSierr td, #oest td{
         width: 50%;
-
     }
+
+    .lech{
+        width: 350px;
+        margin: 20px 0 20px 0;
+        
+    }
+
+    .logoPcia{
+        width: 500px;
+       
+    }
+
+    .foot{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+
 }
