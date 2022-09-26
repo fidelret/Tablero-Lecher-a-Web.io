@@ -24,6 +24,8 @@ let precio_solidos_UTvar_IMen = document.querySelector(".precio_x_kg_solidos_UT-
 let precio_x_kg_solidos_UTvar_IA = document.querySelector(".precio_x_kg_solidos_UT-var_IA");
 let proteina = document.querySelector(".proteina");
 let grasa_butirosa = document.querySelector(".grasa_butirosa");
+let var_int_2019 = document.querySelector(".var_int_2019");
+let var_int_2020 = document.querySelector(".var_int_2020");
 
 let cantTambos2 = document.querySelector(".cantTambos2");
 let prod_mensual_lech_crud = document.querySelector(".prod_mensual_lech_crud");
@@ -699,6 +701,8 @@ function julio2022(){
     precio_x_kg_solidos_UTvar_IA.textContent = "55,4%";
     proteina.textContent = "3,51%";
     grasa_butirosa.textContent = "3,85%";
+    var_int_2019.textContent = "1,8%";
+    var_int_2020.textContent = "-7,5%";
 
     cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "187,25";

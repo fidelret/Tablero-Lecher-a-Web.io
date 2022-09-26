@@ -236,7 +236,9 @@ table, tr, td{
 .precio_x_kg_solidos_UT-var_IMen, 
 .precio_x_kg_solidos_UT-var_IA, 
 .produ_lechecruda_var_IMen, 
-.produ_lechecruda_var_IA{
+.produ_lechecruda_var_IA,
+.var_int_2019,
+.var_int_2020{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: left;
@@ -273,14 +275,28 @@ table, tr, td{
 	border-radius: 0 2em;
 }
 
-.composicion .variacionTxt{
-	text-align: center;
-}
-
 .produccionMensual .variacionTxt{
 	margin: 15px 0 15px 0;
 	padding: 5px;
 	text-align: left;
+}
+
+.variacion_19_20{
+	color: #ffffff;
+	background-color: rgba(255,120,0,0.6);
+	margin: 20px;
+	padding: 1px;
+	border: 2px solid rgba(255,120,0,1);
+	border-radius: 0 2em;
+}
+
+.composicion .variacionTxt, 
+.variacion_19_20 .variacionTxt{
+	text-align: center;
+}
+
+.variacion_19_20 .variacionTxt{
+	margin: 0;
 }
 
 .lech{
