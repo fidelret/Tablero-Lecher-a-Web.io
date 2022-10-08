@@ -15,17 +15,18 @@ body{
 	border-radius: 0 1em;	
 }
 
-.menuppal{
+.menuppal1, .menuppal2{
 	color: #ffffff;
     background: #00aec3;
-	padding: 8px;
+	padding: 0 10px;
 	border: 1px solid rgba(0,55,203,0.4);
 	border-radius: 0 1em;
 }
 
-.year{
+.year2021, .year2022{
+	margin: 2px;
 	font-size: 30px;
-	padding: 10px;
+	padding: 4px;
 	text-align: center;
 	font-weight: bold;
 	background: rgba(0,55,203,0.4);
@@ -33,11 +34,11 @@ body{
 	border-radius: 0 0.5em;
 }
 
-.item li{
+.item1 li, .item2 li{
 	text-align: center;
 	color: #FFFFFF;
-	margin-top: 3px;
-	padding: 5px;
+	margin-top: 0px;
+	padding: 8px;
 	background-color: #00aec3;
 	border-radius: 0.3em;
 	border: 0.3px solid rgba(0,55,203,0.4);	
@@ -45,13 +46,15 @@ body{
 }
 
 	  
-.item li:hover {
-	background-color: rgba(0,55,203,0.4) ;
+.item1 li:hover, .item2 li:hover {
+	padding: 10px 0px;
+	font-weight: bold;
+	background-color: rgba(0,55,203,0.9);
 	border: 0.3px solid rgba(0,55,203,0.9);
-	transition: 600ms;
+	transition: 400ms;
 }
 
-.item li:active {
+.item1 li:active, .item2 li:active {
 	color: #000000;
 	background-color: #FFAD00;
 	border: 0.5px solid #000000;
@@ -84,13 +87,12 @@ main{
 	margin-top: 5px;
 } 
 
-.year{
-    margin:5px
+.year2021:hover, .year2022:hover {
+    background-color: rgba(0,55,203,0.9);
+	transition: 400ms;
 }
 
 .monthYear{
-	font-size: 15px;
-	font-weight: bold;
 	text-align: center;
 	padding: 10px 0;
 	margin-bottom: 5px;

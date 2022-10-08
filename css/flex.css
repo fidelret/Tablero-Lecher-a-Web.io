@@ -5,11 +5,37 @@
     margin-bottom: 1em;
 }
 
-.menuppal{
+.menuppal1 {
     position: fixed;
     align-items: center;
     right: 0;
-    width: auto;
+    width: 8em;
+    z-index: 2;
+}
+
+.menuppal2 {
+    position: fixed;
+    margin-top: 3.5em;
+    align-items: center;
+    right: 0;
+    width: 8em;
+    z-index: 1;
+}
+
+/*--------------------*/
+.menuppal1 > .item1, .menuppal2 > .item2{
+    display:none;
+    position:absolute;
+}
+
+.menuppal1:hover > .item1{
+    display:block;
+    position:absolute;
+}
+
+.menuppal2:hover > .item2{
+    display:block;
+    position:absolute;
 }
 
 .monthYear{
@@ -17,7 +43,7 @@
     right: 0;
     color: #ffffff;
     margin-top: 1em;
-    font-size: 25px;
+    font-size: 23px;
 	padding: 10px;
 	font-weight: bold;
 	background: rgba(0,55,203,0.5);
@@ -93,30 +119,36 @@
 
      /* menu movil*/
 
-    .year{
+    .year2021, .year2022{
         font-size: 15px;
         padding: 5px;
         text-align: center;
         font-weight: bold;
     }
 
-    .menuppal{
+    .menuppal1, .menuppal2{
         position: fixed;
         color: #ffffff;
         background: #00ADC1;
         padding: 3px; 
         opacity: 0.5;
         visibility: visible; 
-        bottom: 0;
+        margin-top: 100px;
     }
 
-    .menuppal:hover{
+    .menuppal1{
+        margin-top: 50px; 
+    }
+
+
+
+    .menuppal1:hover, .menuppal2:hover{
         transition: 500ms;
         opacity: 1;
         visibility: visible;
     }
     
-    .item li{
+    /*.item li{
         margin-top: 0px;
         padding: 0px;
         opacity: 0;
@@ -135,7 +167,7 @@
         border-radius: 0.3em;
 	    border: 0.3px solid rgba(0,55,203,0.4);
 	
-    }
+    }*/
 
     .monthYear{
         margin-top: 6em;
