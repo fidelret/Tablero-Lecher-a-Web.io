@@ -1,85 +1,85 @@
 
 let botonjunio21 = document.querySelector(".junio21");
 botonjunio21.addEventListener("click", function (event) {
-    junio21();
+    setTimeout(junio21, 200);
 
 });
 
 let botonjulio21 = document.querySelector(".julio21");
 botonjulio21.addEventListener("click", function (event) {
-    julio21();
+    setTimeout(julio21, 200);
 
 });
 
 let botonagosto21 = document.querySelector(".agosto21");
 botonagosto21.addEventListener("click", function (event) {
-    agosto21();
+    setTimeout(agosto21, 200);
 
 });
 
 let botonseptiembre21 = document.querySelector(".septiembre21");
 botonseptiembre21.addEventListener("click", function (event) {
-    septiembre21();
+    setTimeout(septiembre21, 200);
 
 });
 
 let botonoctubre21 = document.querySelector(".octubre21");
 botonoctubre21.addEventListener("click", function (event) {
-    octubre21();
+    setTimeout(octubre21, 200);
 
 });
 
 let botonnoviembre21 = document.querySelector(".noviembre21");
 botonnoviembre21.addEventListener("click", function (event) {
-    noviembre21();
+    setTimeout(noviembre21, 200);
 
 });
 
 let botondiciembre21 = document.querySelector(".diciembre21");
 botondiciembre21.addEventListener("click", function (event) {
-    diciembre21();
+    setTimeout(diciembre21, 200);
 
 });
 
 let botonEnero22 = document.querySelector(".enero22");
 botonEnero22.addEventListener("click", function (event) {
-    enero22();
+    setTimeout(enero22, 200);
 
 });
 
 let botonFebrero22 = document.querySelector(".febrero22");
 botonFebrero22.addEventListener("click", function (event) {
-    febrero22();
+    setTimeout(febrero22, 200);
 });
 
 let botonMarzo22 = document.querySelector(".marzo22");
 botonMarzo22.addEventListener("click", function (event) {
-    marzo2022();
+    setTimeout(marzo2022, 200);
 });
 
 let botonabril22 = document.querySelector(".abril22");
 botonabril22.addEventListener("click", function (event) {
-    abril2022();
+    setTimeout(abril2022, 200);
 });
 
 let botonmayo22 = document.querySelector(".mayo22");
 botonmayo22.addEventListener("click", function (event) {
-    mayo2022();
+    setTimeout(mayo2022, 200);
 });
 
 let botonjunio22 = document.querySelector(".junio22");
 botonjunio22.addEventListener("click", function (event) {
-    junio2022();
+    setTimeout(junio2022, 200);
 });
 
 let botonjulio22 = document.querySelector(".julio22");
 botonjulio22.addEventListener("click", function (event) {
-    julio2022();
+    setTimeout(julio2022, 200);
 });
 
 let botonagosto22 = document.querySelector(".agosto22");
 botonagosto22.addEventListener("click", function (event) {
-    agosto2022();
+    setTimeout(agosto2022, 200);
 });
 
 
