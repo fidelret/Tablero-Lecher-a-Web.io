@@ -77,9 +77,14 @@ botonjulio22.addEventListener("click", function (event) {
     julio2022();
 });
 
+let botonagosto22 = document.querySelector(".agosto22");
+botonagosto22.addEventListener("click", function (event) {
+    agosto2022();
+});
+
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
 
-julio2022();
+agosto2022();
 

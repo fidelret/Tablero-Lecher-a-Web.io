@@ -725,5 +725,63 @@ function julio2022(){
     s_cuenO.textContent = "7,39%";
 }
 
+function agosto2022(){
+
+    //Precio de referencia pagado al productor 
+    monthYear.textContent = "Agosto 2022";
+    cantTambos.textContent = "1554";
+    precioPorLitro.textContent = "53,34";
+    variacion1.textContent = "62,6%";
+    variacion2.textContent = "4,4%"; 
+
+    //Precio por Cuencas Lecheras 
+    pCAbasNort.textContent = "$ 55,44"; 
+    pCAbasSur.textContent = "$ 53,37";
+    pCMyS.textContent = "$ 55,20"; 
+    pCO.textContent = "$ 54,27";
+
+    //Variación del $/ Lt. Leche cruda por Cuenca lechera
+    aNcruIA.textContent = "63,1%";
+    aNcruIMen.textContent = "3,5%";
+    aSurcruIA.textContent = "59,7%";
+    aSurcruIMen.textContent = "4,9%";
+    mYScruIA.textContent = "60,8%";
+    mYScruIMen.textContent = "3,9%";
+    oescruIA.textContent = "63,6%";
+    oescruIMen.textContent = "4,5%";
+
+    //Parámetros de composición y evolución de precio SU
+    precio_solidos_UT.textContent = "748,17";
+    precio_solidos_UTvar_IMen.textContent = "5,7%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "59,9%";
+    proteina.textContent = "3,48";
+    grasa_butirosa.textContent = "3,78%";
+
+    //Evolución del volumen mensual en MM de litros de leche cruda
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "204,09";
+    produ_lechcrudIMen.textContent = "8,9%";
+    produ_lechecrudaIA.textContent = "-3,3%";
+    var_int_2019.textContent = "2,5%";
+    var_int_2020.textContent = "-3,2%";
+
+    //Variación de los Litros por Cuenca lechera 
+    aN_Li_x_c_IA.textContent = "-5%";
+    aN_Li_x_c_Men.textContent = "11,8%";
+    aSur_Li_x_c_IA.textContent = "-1,1%";
+    aSur_Li_x_c_IMen.textContent = "6,7%";
+    mYS_Li_x_c_IA.textContent = "-1,2%";
+    mYS_Li_x_c_IMen.textContent = "9,1%";
+    oes_Li_x_c_IA.textContent = "-4,7%";
+    oes_Li_x_c_IMen.textContent = "9,2%";
+
+    //% Solidos Útiles por Cuenca lechera
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,28%";
+    s_cuenAbasSur.textContent = "7,13%";
+    s_cuenMyS.textContent = "7,19%";
+    s_cuenO.textContent = "7,27%";
+}
+
 
 
