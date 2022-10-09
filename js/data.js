@@ -80,6 +80,8 @@ function junio21(){
     prod_mensual_lech_crud.textContent = "180,98";
     produ_lechcrudIMen.textContent = "-0,62%";
     produ_lechecrudaIA .textContent = "-2,63%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "10,4%";
     aN_Li_x_c_Men.textContent = "1,2%";
@@ -95,7 +97,7 @@ function junio21(){
     s_cuenAbasSur.textContent = "7,09%";
     s_cuenMyS.textContent = "6.89%";
     s_cuenO.textContent = "7,27%"; 
-}
+};
 
 function julio21(){
     monthYear.textContent = "Julio 2021";
@@ -128,6 +130,8 @@ function julio21(){
     prod_mensual_lech_crud.textContent = "195,47";
     produ_lechcrudIMen.textContent = "8,0 %";
     produ_lechecrudaIA .textContent = "-3,43%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "10,3%";
     aN_Li_x_c_Men.textContent = "9,6%";
@@ -143,7 +147,7 @@ function julio21(){
     s_cuenAbasSur.textContent = "7,04%";
     s_cuenMyS.textContent = "6,85%";
     s_cuenO.textContent = "7,24%"; 
-}
+};
 
 function agosto21(){
     monthYear.textContent = "Agosto 2021";
@@ -176,6 +180,8 @@ function agosto21(){
     prod_mensual_lech_crud.textContent = "211,09";
     produ_lechcrudIMen.textContent = "7,99%";
     produ_lechecrudaIA .textContent = "0,14%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "10,2%";
     aN_Li_x_c_Men.textContent = "6,5%";
@@ -192,7 +198,7 @@ function agosto21(){
     s_cuenMyS.textContent = "7,18%";
     s_cuenO.textContent = "7,14%"; 
 
-}
+};
 
 function septiembre21(){
     monthYear.textContent = "Septiembre 2021";
@@ -225,6 +231,8 @@ function septiembre21(){
     prod_mensual_lech_crud.textContent = "214,02";
     produ_lechcrudIMen.textContent = "1,39%";
     produ_lechecrudaIA .textContent = "-0,77%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "13,7%";
     aN_Li_x_c_Men.textContent = "1,9%";
@@ -241,7 +249,7 @@ function septiembre21(){
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,11%"; 
 
-}
+};
 
 function octubre21(){
     monthYear.textContent = "Octubre 2021";
@@ -274,6 +282,8 @@ function octubre21(){
     prod_mensual_lech_crud.textContent = "227,06";
     produ_lechcrudIMen.textContent = "-6,09%";
     produ_lechecrudaIA .textContent = "-0,91%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "13,9%";
     aN_Li_x_c_Men.textContent = "7,2%";
@@ -289,7 +299,7 @@ function octubre21(){
     s_cuenAbasSur.textContent = "7%";
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,07%"; 
-}
+};
 
 function noviembre21(){
     monthYear.textContent = "Noviembre 2021";
@@ -322,6 +332,8 @@ function noviembre21(){
     prod_mensual_lech_crud.textContent = "212,12 ";
     produ_lechcrudIMen.textContent = "-6,58%";
     produ_lechecrudaIA .textContent = "-1,07%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "13,8%";
     aN_Li_x_c_Men.textContent = "-7,7%";
@@ -337,7 +349,7 @@ function noviembre21(){
     s_cuenAbasSur.textContent = "6,87%";
     s_cuenMyS.textContent = "7,09%";
     s_cuenO.textContent = "7,01%";
-}
+};
 
 function diciembre21(){
     monthYear.textContent = "Diciembre 2021";
@@ -370,6 +382,8 @@ function diciembre21(){
     prod_mensual_lech_crud.textContent = "203,04";
     produ_lechcrudIMen.textContent = "-4,28%";
     produ_lechecrudaIA .textContent = "-0,78%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "12,9%";
     aN_Li_x_c_Men.textContent = "-4,5%";
@@ -385,7 +399,7 @@ function diciembre21(){
     s_cuenAbasSur.textContent = "6,85%";
     s_cuenMyS.textContent = "7,02%";
     s_cuenO.textContent = "6,03%";
-}
+};
 
 function enero22(){
     monthYear.textContent = "Enero 2022";
@@ -418,6 +432,8 @@ function enero22(){
     prod_mensual_lech_crud.textContent = "179,11";
     produ_lechcrudIMen.textContent = "-11,79%";
     produ_lechecrudaIA .textContent = "-4,60%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "9, %";
     aN_Li_x_c_Men.textContent = "-12%";
@@ -433,7 +449,7 @@ function enero22(){
     s_cuenAbasSur.textContent = "6,85%";
     s_cuenMyS.textContent = "7,01%";
     s_cuenO.textContent = "6,94%";
-}
+};
 
 function febrero22(){
     monthYear.textContent = "Febrero 2022";
@@ -466,6 +482,8 @@ function febrero22(){
     prod_mensual_lech_crud.textContent = "155,57";
     produ_lechcrudIMen.textContent = "-13,14%";
     produ_lechecrudaIA .textContent = "-3,28%";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "9,1%";
     aN_Li_x_c_Men.textContent = "-12%";
@@ -481,7 +499,7 @@ function febrero22(){
     s_cuenAbasSur.textContent = "9,94%";
     s_cuenMyS.textContent = "7,09%";
     s_cuenO.textContent = "7,09%";
-}
+};
 
 function marzo2022(){
     monthYear.textContent = "Marzo 2022";
@@ -514,6 +532,8 @@ function marzo2022(){
     prod_mensual_lech_crud.textContent = "169,09";
     produ_lechcrudIMen.textContent = "8,70%";
     produ_lechecrudaIA.textContent = "-3,09% ";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "-2,4%";
     aN_Li_x_c_Men.textContent = "12,2%";
@@ -529,7 +549,7 @@ function marzo2022(){
     s_cuenAbasSur.textContent = "7,09%";
     s_cuenMyS.textContent = "7,22%";
     s_cuenO.textContent = "7,25%";
-}
+};
 
 function abril2022(){
     monthYear.textContent = "Abril 2022";
@@ -562,6 +582,8 @@ function abril2022(){
     prod_mensual_lech_crud.textContent = "164,54";
     produ_lechcrudIMen.textContent = "-3,15%";
     produ_lechecrudaIA.textContent = "-3,54% ";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "-1,6%";
     aN_Li_x_c_Men.textContent = "-3,8%";
@@ -577,7 +599,7 @@ function abril2022(){
     s_cuenAbasSur.textContent = "7,14%";
     s_cuenMyS.textContent = "7,33%";
     s_cuenO.textContent = "7,38%";
-}
+};
 
 function mayo2022(){
     monthYear.textContent = "Mayo 2022";
@@ -610,6 +632,8 @@ function mayo2022(){
     prod_mensual_lech_crud.textContent = "177,47";
     produ_lechcrudIMen.textContent = "7,8%";
     produ_lechecrudaIA.textContent = "-2,6% ";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "-3,6%";
     aN_Li_x_c_Men.textContent = "8,2%";
@@ -625,7 +649,7 @@ function mayo2022(){
     s_cuenAbasSur.textContent = "7,18%";
     s_cuenMyS.textContent = "7,42%";//
     s_cuenO.textContent = "7,45%";//
-}
+};
 
 function junio2022(){
     monthYear.textContent = "Junio 2022";
@@ -658,6 +682,8 @@ function junio2022(){
     prod_mensual_lech_crud.textContent = "174,59";
     produ_lechcrudIMen.textContent = "-1,69%";
     produ_lechecrudaIA.textContent = "-3,53% ";
+    var_int_2019.textContent = "-";
+    var_int_2020.textContent = "-";
 
     aN_Li_x_c_IA.textContent = "-6,3%";
     aN_Li_x_c_Men.textContent = "-1,6%";
@@ -673,7 +699,7 @@ function junio2022(){
     s_cuenAbasSur.textContent = "7,19%";
     s_cuenMyS.textContent = "7,36%";
     s_cuenO.textContent = "7,45%";
-}
+};
 
 function julio2022(){
     monthYear.textContent = "Julio 2022";
@@ -701,13 +727,13 @@ function julio2022(){
     precio_x_kg_solidos_UTvar_IA.textContent = "55,4%";
     proteina.textContent = "3,51%";
     grasa_butirosa.textContent = "3,85%";
-    var_int_2019.textContent = "1,8%";
-    var_int_2020.textContent = "-7,5%";
 
     cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "187,25";
     produ_lechcrudIMen.textContent = "7,25%";
     produ_lechecrudaIA.textContent = "-4,21% ";
+    var_int_2019.textContent = "1,8%";
+    var_int_2020.textContent = "-7,5%";
 
     aN_Li_x_c_IA.textContent = "-9,4%";
     aN_Li_x_c_Men.textContent = "5,9%";
@@ -723,7 +749,7 @@ function julio2022(){
     s_cuenAbasSur.textContent = "7,15%";
     s_cuenMyS.textContent = "7,29%";
     s_cuenO.textContent = "7,39%";
-}
+};
 
 function agosto2022(){
 
@@ -781,7 +807,7 @@ function agosto2022(){
     s_cuenAbasSur.textContent = "7,13%";
     s_cuenMyS.textContent = "7,19%";
     s_cuenO.textContent = "7,27%";
-}
+};
 
 
 
