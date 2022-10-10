@@ -756,7 +756,7 @@ function agosto2022(){
     //Precio de referencia pagado al productor 
     monthYear.textContent = "Agosto 2022";
     cantTambos.textContent = "1554";
-    precioPorLitro.textContent = "53,34";
+    precioPorLitro.textContent = "54,34";
     variacion1.textContent = "62,6%";
     variacion2.textContent = "4,4%"; 
 
