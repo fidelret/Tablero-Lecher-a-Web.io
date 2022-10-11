@@ -165,6 +165,12 @@ main{
 	margin-left: 20px;
 }
 
+.black-lett{
+	color: #000000;
+	font-weight: bold;
+}
+
+
 #naranja,.abastoNorte{
 	background-color: rgba(255,120,0,1);
 	border: 1px solid rgba(255,120,0,1);
@@ -241,10 +247,15 @@ table, tr, td{
 .produ_lechecruda_var_IA,
 .var_int_2019,
 .var_int_2020{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 	text-align: left;
 	padding: 15px;
+}
+
+.var_int_2019,
+.var_int_2020{
+	color: #000000;
 }
 
 .proteina,
