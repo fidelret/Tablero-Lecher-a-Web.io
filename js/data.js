@@ -757,8 +757,8 @@ function agosto2022(){
     monthYear.textContent = "Agosto 2022";
     cantTambos.textContent = "1554";
     precioPorLitro.textContent = "54,34";
-    variacion1.textContent = "62,6%";
-    variacion2.textContent = "4,4%"; 
+    variacion1.textContent = "4,4%";
+    variacion2.textContent = "62,6%"; 
 
     //Precio por Cuencas Lecheras 
     pCAbasNort.textContent = "$ 55,44"; 
@@ -807,6 +807,64 @@ function agosto2022(){
     s_cuenAbasSur.textContent = "7,13%";
     s_cuenMyS.textContent = "7,19%";
     s_cuenO.textContent = "7,27%";
+};
+
+function septiembre2022(){
+
+    //Precio de referencia pagado al productor 
+    monthYear.textContent = "Septiembre 2022";
+    cantTambos.textContent = "1545";
+    precioPorLitro.textContent = "57,03";
+    variacion1.textContent = "4,9%";
+    variacion2.textContent = "68,2%"; 
+
+    //Precio por Cuencas Lecheras 
+    pCAbasNort.textContent = "$ 58,35"; 
+    pCAbasSur.textContent = "$ 56,15";
+    pCMyS.textContent = "$ 57,87"; 
+    pCO.textContent = "$ 56,93";
+
+    //Variación del $/ Lt. Leche cruda por Cuenca lechera
+    aNcruIA.textContent = "68,6%";
+    aNcruIMen.textContent = "5,2%";
+    aSurcruIA.textContent = "66,8%";
+    aSurcruIMen.textContent = "5,2%";
+    mYScruIA.textContent = "68,2%";
+    mYScruIMen.textContent = "4,8%";
+    oescruIA.textContent = "68,5%";
+    oescruIMen.textContent = "4,9%";
+
+    //Parámetros de composición y evolución de precio SU
+    precio_solidos_UT.textContent = "791,81";
+    precio_solidos_UTvar_IMen.textContent = "5,8%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "66,2%";
+    proteina.textContent = "3,48";
+    grasa_butirosa.textContent = "3,72%";
+
+    //Evolución del volumen mensual en MM de litros de leche cruda
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "208,46";
+    produ_lechcrudIMen.textContent = "2,1%";
+    produ_lechecrudaIA.textContent = "-2,6%";
+    var_int_2019.textContent = "1,7%";
+    var_int_2020.textContent = "-3,3%";
+
+    //Variación de los Litros por Cuenca lechera 
+    aN_Li_x_c_IA.textContent = "-7%";
+    aN_Li_x_c_Men.textContent = "0,3%";
+    aSur_Li_x_c_IA.textContent = "-2,4%";
+    aSur_Li_x_c_IMen.textContent = "1,5%";
+    mYS_Li_x_c_IA.textContent = "2,4%";
+    mYS_Li_x_c_IMen.textContent = "6%";
+    oes_Li_x_c_IA.textContent = "-3,3%";
+    oes_Li_x_c_IMen.textContent = "1,9%";
+
+    //% Solidos Útiles por Cuenca lechera
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,19%";
+    s_cuenAbasSur.textContent = "7,03%";
+    s_cuenMyS.textContent = "7,13%";
+    s_cuenO.textContent = "7,23%";
 };
 
 
