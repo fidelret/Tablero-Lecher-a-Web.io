@@ -87,10 +87,15 @@ botonseptiembre22.addEventListener("click", function (event) {
     setTimeout(septiembre2022, 200);
 });
 
+let botonoctubre22 = document.querySelector(".octubre22");
+botonoctubre22.addEventListener("click", function (event) {
+    setTimeout(octubre2022, 200);
+});
+
 
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
 
-septiembre2022();
+octubre2022();
 
