@@ -1,0 +1,240 @@
+.cabecera{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.menuppal1 {
+    position: fixed;
+    align-items: center;
+    right: 0;
+    width: 8em;
+    z-index: 2;
+}
+
+.menuppal2 {
+    position: fixed;
+    margin-top: 3.5em;
+    align-items: center;
+    right: 0;
+    width: 8em;
+    z-index: 1;
+}
+
+/*--------------------*/
+.menuppal1 > .item1, .menuppal2 > .item2{
+    display:none;
+    position:absolute;
+}
+
+.menuppal1:hover > .item1{
+    display:block;
+    position:absolute;
+}
+
+.menuppal2:hover > .item2{
+    display:block;
+    position:absolute;
+}
+
+.monthYear{
+	position: fixed;
+    right: 0;
+    color: #ffffff;
+    margin-top: 2.4em;
+    font-size: 23px;
+	padding: 8px;
+	font-weight: bold;
+	background: rgba(0,55,203,0.5);
+	border: 0.3px solid rgba(0,55,203,0.4);
+	border-radius: 0 0.3em;
+}
+
+.precioProductor .container,
+.parametrosPrecio .divs_internasLvl1,
+.precioCuencas .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.variacionlecheCruda .cuencasLCrud, 
+.variacionPorCuenca .variacion_litros_x_cuenca,
+.parametrosPrecio .container,
+.produccionMensual .container,
+.solidosUtiles .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.precioCuencas .container {
+    padding-bottom: 20px;
+}
+
+
+.graficoPRefPagProd,
+.graf_lech_cruda,
+.graf_solidos_Ut{
+    width: 60%;
+}
+
+.foot{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+
+/*Responsive*/
+@media (max-width:900px) {
+
+    .cabecera,
+    .precioCuencas .container,
+    .parametrosPrecio .container,
+    .produccionMensual .container,
+    .solidosUtiles .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+
+    .TituloPrincipal{
+        width: 98%;
+    }
+
+    .precioProductor{
+        margin-top: 3.4em;
+    }
+
+    .graficoPRefPagProd,
+    .map,
+    .graf_lech_cruda,
+    .graf_solidos_Ut,
+    .solidos_cuencas{
+        width: 100%;
+    }
+
+     /* menu movil*/
+
+    .year2021, .year2022{
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .menuppal1, .menuppal2{
+        position: fixed;
+        color: #ffffff;
+        background: #00ADC1;
+        padding: 3px; 
+        opacity: 0.5;
+        visibility: visible; 
+        margin-top: 100px;
+    }
+
+    .menuppal1{
+        margin-top: 50px; 
+    }
+
+
+
+    .menuppal1:hover, .menuppal2:hover{
+        transition: 500ms;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    /*.item li{
+        margin-top: 0px;
+        padding: 0px;
+        opacity: 0;
+        visibility: hidden;
+        border: 0px;
+        height: 0px;
+    }
+
+    .menuppal:hover .item li{
+        opacity: 1;
+        visibility: visible;
+	    text-align: center;
+	    margin-top: 3px;
+	    padding: 8px;
+        height: auto;
+        border-radius: 0.3em;
+	    border: 0.3px solid rgba(0,55,203,0.4);
+	
+    }*/
+
+    .monthYear{
+        margin-top: 6em;
+        text-align: center;
+    }
+
+    main{
+        width: auto;
+        margin: auto;
+    }
+
+    .cantidadTambos{
+        text-align: center;
+    }
+
+
+    .tituloSeccion{
+        text-align: center;
+    }
+
+    .composicion{
+        width: 80%;
+    }
+}
+
+
+
+
+/*Tablas*/
+@media (max-width:1150px) {
+
+    .precioProductor .container,
+    .variacionlecheCruda .cuencasLCrud,
+    .variacionPorCuenca .variacion_litros_x_cuenca{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    table, tr, td{
+        margin-bottom: 10px;
+        padding: 5px 3px;
+        text-align: center;
+        width: 95%;
+    } 
+
+    #aNor td, #aSur td, #mYSierr td, #oest td{
+        width: 50%;
+    }
+
+    .lech{
+        width: 90%;
+        margin: 20px 0 20px 0;
+        
+    }
+
+    .logoPcia{
+        width: 100%;
+       
+    }
+
+    .foot{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        align-items: center;
+    }
+
+}
