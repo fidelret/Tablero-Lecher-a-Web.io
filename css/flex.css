@@ -80,6 +80,11 @@
     width: 60%;
 }
 
+.btns-descargas{
+    display: flex;
+    justify-content: space-around;
+}
+
 .foot{
 	display: flex;
     align-items: center;
@@ -202,7 +207,8 @@
 
     .precioProductor .container,
     .variacionlecheCruda .cuencasLCrud,
-    .variacionPorCuenca .variacion_litros_x_cuenca{
+    .variacionPorCuenca .variacion_litros_x_cuenca, 
+    .btns-descargas{
         flex-direction: column;
         text-align: center;
         align-items: center;
@@ -218,6 +224,20 @@
     #aNor td, #aSur td, #mYSierr td, #oest td{
         width: 50%;
     }
+
+    .descargas{
+        margin: 5px;
+        padding: 20px;
+        border: 3px solid;
+        border-color: #00aec3;
+        border-radius: 0 0.5em;
+        width: 60%;
+      }
+
+    .item-descarga li{
+        padding: 5px;
+      }
+
 
     .lech{
         width: 90%;

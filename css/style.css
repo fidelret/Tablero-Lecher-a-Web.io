@@ -29,7 +29,7 @@ body{
 	padding: 4px;
 	text-align: center;
 	font-weight: bold;
-	background: rgba(0,55,203,0.4);
+	background: rgba(0,55,203,0.9);
 	border: 0.3px solid rgba(0,55,203,0.4);
 	border-radius: 0 0.3em;
 }
@@ -54,8 +54,8 @@ body{
 }
 
 .item1 li:active, .item2 li:active {
-	color: #000000;
-	background-color: #FFAD00;
+	color: #FFF;
+	background-color: #333;
 	border: 0.5px solid #000000;
 }
 
@@ -311,6 +311,43 @@ table, tr, td{
 	margin: 0;
 }
 
+/*____Sección descargas____*/
+
+.btns-descargas{
+	margin-top: 20px;
+	padding: 20px;
+	color: #FFFFFF;
+	background-color: #333;
+	border: 3px solid;
+	border-color: #00aec3;
+	border-radius: 0 1em;	
+	
+}
+
+.icons-down{
+	font-size: 35px;
+	margin-top: 7px;
+	text-align: center;
+}
+
+.item-descarga li{
+  padding: 2px;
+  text-align: center;
+  border-radius: 0 0.3em;
+  text-decoration: none;
+}
+
+.item-descarga li:hover{
+	background-color: rgba(0,174,195,1);
+
+}
+
+.no-line{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
 .lech{
 	width: 270px;
 }
@@ -338,6 +375,8 @@ table, tr, td{
 .img_firma:hover{
 	filter: invert(36%) sepia(85%) saturate(809%) hue-rotate(188deg) brightness(93%) contrast(92%);
 }
+
+
 
 
 
