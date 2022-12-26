@@ -9,10 +9,9 @@ body{
 	font-weight: bold;
 	font-size: 26px;
 	padding: 10px 0 10px 0;
-	width: 75%;
+	width: 100%;
 	border: 3px solid;
 	border-color: #00aec3;
-	border-radius: 0 0.5em;	
 }
 
 .menuppal1, .menuppal2{
@@ -278,7 +277,8 @@ table, tr, td{
    
 }
 
-.composicion{
+.composicion,
+.leyenda_al_pie{
 	color: #ffffff;
 	background-color: rgba(0,174,195,1);
 	margin: 20px;
