@@ -48,7 +48,6 @@ let s_cuenMyS = document.querySelector(".solidos_cuenMyS");
 let s_cuenO = document.querySelector(".solidos_cuenO");
 
 
-
 function junio21(){
     monthYear.textContent = "Junio 2021";
     cantTambos.textContent = "1571";
@@ -780,7 +779,7 @@ function agosto2022(){
     precio_solidos_UT.textContent = "748,17";
     precio_solidos_UTvar_IMen.textContent = "5,7%";
     precio_x_kg_solidos_UTvar_IA.textContent = "59,9%";
-    proteina.textContent = "3,48";
+    proteina.textContent = "3,48%";
     grasa_butirosa.textContent = "3,78%";
 
     //Evolución del volumen mensual en MM de litros de leche cruda
@@ -896,7 +895,7 @@ function octubre2022(){
     precio_solidos_UT.textContent = "833,84";
     precio_solidos_UTvar_IMen.textContent = "5,3%";
     precio_x_kg_solidos_UTvar_IA.textContent = "73,1%";
-    proteina.textContent = "3,46";
+    proteina.textContent = "3,46%";
     grasa_butirosa.textContent = "3,72%";
 
     //Evolución del volumen mensual en MM de litros de leche cruda
@@ -954,7 +953,7 @@ function noviembre2022(){
     precio_solidos_UT.textContent = "888,19";
     precio_solidos_UTvar_IMen.textContent = "6,5%";
     precio_x_kg_solidos_UTvar_IA.textContent = "80,1%";
-    proteina.textContent = "3,42";
+    proteina.textContent = "3,42%";
     grasa_butirosa.textContent = "3,69%";
 
     //Evolución del volumen mensual en MM de litros de leche cruda
@@ -981,5 +980,6 @@ function noviembre2022(){
     s_cuenAbasSur.textContent = "6,98%";
     s_cuenMyS.textContent = "7,12%";
     s_cuenO.textContent = "7,11%";
+
 };
 
