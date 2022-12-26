@@ -837,7 +837,7 @@ function septiembre2022(){
     precio_solidos_UT.textContent = "791,81";
     precio_solidos_UTvar_IMen.textContent = "5,8%";
     precio_x_kg_solidos_UTvar_IA.textContent = "66,2%";
-    proteina.textContent = "3,48";
+    proteina.textContent = "3,48%";
     grasa_butirosa.textContent = "3,72%";
 
     //Evolución del volumen mensual en MM de litros de leche cruda
