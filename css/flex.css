@@ -15,7 +15,7 @@
 
 .menuppal2 {
     position: fixed;
-    margin-top: 3.5em;
+    margin-top: 2.9em;
     align-items: center;
     right: 0;
     width: 8em;
@@ -47,8 +47,6 @@
 	padding: 8px;
 	font-weight: bold;
 	background: rgba(0,55,203,0.5);
-	border: 0.3px solid #333;
-	border-radius: 0 0.3em;
 }
 
 .precioProductor .container,
@@ -107,8 +105,19 @@
         align-items: center;
     }
 
-    .TituloPrincipal{
+
+
+    .cabecera{
         width: 98%;
+    }
+
+    .TituloPrincipal, 
+    .pie{
+        padding: 2%;
+    }
+
+    .pie{
+        padding-bottom: 35px;
     }
 
     .precioProductor{
@@ -139,11 +148,11 @@
         padding: 3px; 
         opacity: 0.5;
         visibility: visible; 
-        margin-top: 100px;
+        margin-top: 67px;
     }
 
     .menuppal1{
-        margin-top: 50px; 
+        margin-top: 30px; 
     }
 
     .menuppal1:hover, .menuppal2:hover{
@@ -174,7 +183,7 @@
     }*/
 
     .monthYear{
-        margin-top: 6em;
+        margin-top: 8em;
         text-align: center;
     }
 
