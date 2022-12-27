@@ -47,7 +47,7 @@
 	padding: 8px;
 	font-weight: bold;
 	background: rgba(0,55,203,0.5);
-	border: 0.3px solid rgba(0,55,203,0.4);
+	border: 0.3px solid #333;
 	border-radius: 0 0.3em;
 }
 
@@ -146,8 +146,6 @@
         margin-top: 50px; 
     }
 
-
-
     .menuppal1:hover, .menuppal2:hover{
         transition: 500ms;
         opacity: 1;
@@ -225,7 +223,13 @@
         width: 50%;
     }
 
-    .descargas{
+
+    .abrir_descargas{
+        padding: 0 20px 20px 20px;
+    }
+
+    .descargas_1, 
+    .descargas_2{
         margin: 5px;
         padding: 20px;
         border: 3px solid;
