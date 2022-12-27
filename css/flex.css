@@ -148,11 +148,11 @@
         padding: 3px; 
         opacity: 0.5;
         visibility: visible; 
-        margin-top: 67px;
+        margin-top: 65px;
     }
 
     .menuppal1{
-        margin-top: 30px; 
+        margin-top: 24px; 
     }
 
     .menuppal1:hover, .menuppal2:hover{
@@ -183,7 +183,7 @@
     }*/
 
     .monthYear{
-        margin-top: 8em;
+        margin-top: 7em;
         text-align: center;
     }
 
