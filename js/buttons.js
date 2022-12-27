@@ -1,4 +1,19 @@
 
+//  ----------------descargas---------------
+let boton_descargas = document.querySelector(".abrir_descargas");
+boton_descargas.addEventListener("click", function (event) {
+    setTimeout(display_descargas, 200);
+});
+
+let boton_ocultar_descargas = document.querySelector(".ocultar_descargas");
+boton_ocultar_descargas.addEventListener("click", function (event) {
+    setTimeout(undisplay_descargas, 200);
+});
+
+
+
+
+//  ----------------meses---------------
 let botonjunio21 = document.querySelector(".junio21");
 botonjunio21.addEventListener("click", function (event) {
     setTimeout(junio21, 200);
@@ -96,7 +111,6 @@ let boton_noviembre22 = document.querySelector(".noviembre22");
 boton_noviembre22.addEventListener("click", function (event) {
     setTimeout(noviembre2022, 200);
 });
-
 
 
 /*Valores precargados. 

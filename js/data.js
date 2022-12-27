@@ -47,7 +47,6 @@ let s_cuenAbasSur = document.querySelector(".solidos_cuenAbasSur");
 let s_cuenMyS = document.querySelector(".solidos_cuenMyS");
 let s_cuenO = document.querySelector(".solidos_cuenO");
 
-
 function junio21(){
     monthYear.textContent = "Junio 2021";
     cantTambos.textContent = "1571";
@@ -95,8 +94,13 @@ function junio21(){
     s_cuenAbasNort.textContent = "7,29%";
     s_cuenAbasSur.textContent = "7,09%";
     s_cuenMyS.textContent = "6.89%";
-    s_cuenO.textContent = "7,27%"; 
+    s_cuenO.textContent = "7,27%";
+    
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
+
 
 function julio21(){
     monthYear.textContent = "Julio 2021";
@@ -146,6 +150,10 @@ function julio21(){
     s_cuenAbasSur.textContent = "7,04%";
     s_cuenMyS.textContent = "6,85%";
     s_cuenO.textContent = "7,24%"; 
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function agosto21(){
@@ -197,6 +205,9 @@ function agosto21(){
     s_cuenMyS.textContent = "7,18%";
     s_cuenO.textContent = "7,14%"; 
 
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function septiembre21(){
@@ -247,7 +258,10 @@ function septiembre21(){
     s_cuenAbasSur.textContent = "6,94%";
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,11%"; 
-
+    
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function octubre21(){
@@ -298,6 +312,10 @@ function octubre21(){
     s_cuenAbasSur.textContent = "7%";
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,07%"; 
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function noviembre21(){
@@ -348,6 +366,10 @@ function noviembre21(){
     s_cuenAbasSur.textContent = "6,87%";
     s_cuenMyS.textContent = "7,09%";
     s_cuenO.textContent = "7,01%";
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function diciembre21(){
@@ -398,6 +420,10 @@ function diciembre21(){
     s_cuenAbasSur.textContent = "6,85%";
     s_cuenMyS.textContent = "7,02%";
     s_cuenO.textContent = "6,03%";
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function enero22(){
@@ -448,6 +474,10 @@ function enero22(){
     s_cuenAbasSur.textContent = "6,85%";
     s_cuenMyS.textContent = "7,01%";
     s_cuenO.textContent = "6,94%";
+    
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function febrero22(){
@@ -498,6 +528,10 @@ function febrero22(){
     s_cuenAbasSur.textContent = "9,94%";
     s_cuenMyS.textContent = "7,09%";
     s_cuenO.textContent = "7,09%";
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function marzo2022(){
@@ -548,6 +582,10 @@ function marzo2022(){
     s_cuenAbasSur.textContent = "7,09%";
     s_cuenMyS.textContent = "7,22%";
     s_cuenO.textContent = "7,25%";
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function abril2022(){
@@ -598,6 +636,10 @@ function abril2022(){
     s_cuenAbasSur.textContent = "7,14%";
     s_cuenMyS.textContent = "7,33%";
     s_cuenO.textContent = "7,38%";
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function mayo2022(){
@@ -648,6 +690,10 @@ function mayo2022(){
     s_cuenAbasSur.textContent = "7,18%";
     s_cuenMyS.textContent = "7,42%";//
     s_cuenO.textContent = "7,45%";//
+
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function junio2022(){
@@ -698,6 +744,10 @@ function junio2022(){
     s_cuenAbasSur.textContent = "7,19%";
     s_cuenMyS.textContent = "7,36%";
     s_cuenO.textContent = "7,45%";
+    
+    //Funciones-----------
+    no_bloque_variacion();
+    no_leyenda();
 };
 
 function julio2022(){
@@ -748,6 +798,10 @@ function julio2022(){
     s_cuenAbasSur.textContent = "7,15%";
     s_cuenMyS.textContent = "7,29%";
     s_cuenO.textContent = "7,39%";
+
+     //Funciones-----------
+     bloque_variacion();
+     no_leyenda();
 };
 
 function agosto2022(){
@@ -806,6 +860,10 @@ function agosto2022(){
     s_cuenAbasSur.textContent = "7,13%";
     s_cuenMyS.textContent = "7,19%";
     s_cuenO.textContent = "7,27%";
+
+     //Funciones-----------
+     bloque_variacion();
+     no_leyenda();
 };
 
 function septiembre2022(){
@@ -864,6 +922,10 @@ function septiembre2022(){
     s_cuenAbasSur.textContent = "7,03%";
     s_cuenMyS.textContent = "7,13%";
     s_cuenO.textContent = "7,23%";
+    
+    //Funciones-----------
+    bloque_variacion();
+    no_leyenda();
 };
 
 function octubre2022(){
@@ -922,6 +984,10 @@ function octubre2022(){
     s_cuenAbasSur.textContent = "7,01%";
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,20%";
+    
+    //Funciones-----------
+    bloque_variacion();
+    leyenda();
 };
 
 function noviembre2022(){
@@ -980,6 +1046,9 @@ function noviembre2022(){
     s_cuenAbasSur.textContent = "6,98%";
     s_cuenMyS.textContent = "7,12%";
     s_cuenO.textContent = "7,11%";
-
+    
+    //Funciones-----------
+    bloque_variacion();
+    leyenda();
 };
 
