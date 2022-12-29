@@ -189,8 +189,9 @@ main{
 	border-radius: 0 0.9em 0 0;
 }
 
-.map{
-	width: 250px;
+.mapCuencas 
+/*.map*/{
+	width: 300px;
 }
 
 .cuencasLCrud, .variacion_litros_x_cuenca{
