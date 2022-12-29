@@ -189,6 +189,58 @@ main{
 	border-radius: 0 0.9em 0 0;
 }
 
+
+/*-----botón desplegar mapa----*/
+.desplegar_map{
+	color: #FFF;
+	margin-right: 10px;
+	background-color: #00aec3;
+	border: 2px solid #00aec3;
+	border-radius: 0 1em;	
+	transition: 500ms;
+	width: 37px;
+	height: 230px;
+}
+
+.desplegar_map:hover{
+	color: #333;
+	background-color: #FFF;
+	border: 2px solid #00aec3;
+}
+
+.desplegar_map >p{
+	font-size: 20px;
+	writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.desplegar_map >i{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+/*-----botón cerrar mapa----*/
+.cerrar_map{
+	margin-left: 10%;
+	font-size: 22px;
+	color: #FFF;
+	background-color: #00aec3;
+	border: 2px solid #00aec3;
+	border-radius: 0 1em;	
+	transition: 500ms;
+    width: 80%;
+	height: 40px;
+}
+.cerrar_map:hover{
+	color: #333;
+	background-color: #FFF;
+}
+
+.cerrar_map >i{
+	margin: 100px;
+	font-size: 25px;
+}
+
 .mapCuencas 
 /*.map*/{
 	width: 300px;

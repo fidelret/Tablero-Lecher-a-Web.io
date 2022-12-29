@@ -50,8 +50,7 @@
 }
 
 .precioProductor .container,
-.parametrosPrecio .divs_internasLvl1,
-.precioCuencas .container{
+.parametrosPrecio .divs_internasLvl1{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,10 +64,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.precioCuencas .container {
-    padding-bottom: 20px;
 }
 
 
@@ -95,7 +90,7 @@
 @media (max-width:900px) {
 
     .cabecera,
-    .precioCuencas .container,
+    .container_cuencas,
     .parametrosPrecio .container,
     .produccionMensual .container,
     .solidosUtiles .container{
@@ -104,7 +99,6 @@
         text-align: center;
         align-items: center;
     }
-
 
 
     .cabecera{
@@ -130,6 +124,11 @@
     .graf_solidos_Ut,
     .solidos_cuencas{
         width: 100%;
+    }
+
+    .desplegar_map, 
+    .cerrar_map{
+        display: none;
     }
 
      /* menu movil*/

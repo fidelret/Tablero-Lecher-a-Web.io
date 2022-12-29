@@ -18,3 +18,14 @@
 .ocultar_descargas{
     display: none;
 }
+
+
+.container_cuencas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cerrar_map{
+    display: none;
+}
