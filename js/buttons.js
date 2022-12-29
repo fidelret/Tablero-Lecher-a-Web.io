@@ -1,65 +1,62 @@
 
 //  ----------------descargas---------------
-let boton_descargas = document.querySelector(".abrir_descargas");
-boton_descargas.addEventListener("click", function (event) {
+btn_abrir_descargas.addEventListener("click", function (event) {
     setTimeout(display_descargas, 200);
 });
 
-let boton_ocultar_descargas = document.querySelector(".ocultar_descargas");
-boton_ocultar_descargas.addEventListener("click", function (event) {
+btn_ocultar_descargas.addEventListener("click", function (event) {
     setTimeout(undisplay_descargas, 200);
 });
 
+// ------------------mapa----------------
 
+btn_desplegar_map.addEventListener("click", function (event) {
+    setTimeout(desplegar_mapa, 200);
+});
 
+btn_cerrar_map.addEventListener("click", function (event) {
+    setTimeout(cerrar_mapa, 200);
+});
 
 //  ----------------meses---------------
 let botonjunio21 = document.querySelector(".junio21");
 botonjunio21.addEventListener("click", function (event) {
     setTimeout(junio21, 200);
-
 });
 
 let botonjulio21 = document.querySelector(".julio21");
 botonjulio21.addEventListener("click", function (event) {
     setTimeout(julio21, 200);
-
 });
 
 let botonagosto21 = document.querySelector(".agosto21");
 botonagosto21.addEventListener("click", function (event) {
     setTimeout(agosto21, 200);
-
 });
 
 let botonseptiembre21 = document.querySelector(".septiembre21");
 botonseptiembre21.addEventListener("click", function (event) {
     setTimeout(septiembre21, 200);
-
 });
 
 let botonoctubre21 = document.querySelector(".octubre21");
 botonoctubre21.addEventListener("click", function (event) {
     setTimeout(octubre21, 200);
-
 });
 
 let botonnoviembre21 = document.querySelector(".noviembre21");
 botonnoviembre21.addEventListener("click", function (event) {
     setTimeout(noviembre21, 200);
-
 });
 
 let botondiciembre21 = document.querySelector(".diciembre21");
 botondiciembre21.addEventListener("click", function (event) {
     setTimeout(diciembre21, 200);
-
 });
 
 let botonEnero22 = document.querySelector(".enero22");
 botonEnero22.addEventListener("click", function (event) {
     setTimeout(enero22, 200);
-
 });
 
 let botonFebrero22 = document.querySelector(".febrero22");
