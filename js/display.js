@@ -40,7 +40,7 @@ function undisplay_descargas(){
     };
 
 function desplegar_mapa(){
-    container_cuencas.style.display= "list-item";
+    container_cuencas.style.display = "list-item";
     mapa.style.width = "80%";
     mapa.style.padding = "0 0 0 10%";
     btn_desplegar_map.style.display = "none";
@@ -54,5 +54,4 @@ function cerrar_mapa(){
     mapa.style.width = "300px";
     mapa.style.padding = "0 10px 0 0";
 }
-
 

@@ -460,7 +460,7 @@ function enero22(){
     var_int_2019.textContent = "-";
     var_int_2020.textContent = "-";
 
-    aN_Li_x_c_IA.textContent = "9, %";
+    aN_Li_x_c_IA.textContent = "9,1 %";
     aN_Li_x_c_Men.textContent = "-12%";
     aSur_Li_x_c_IA.textContent = "4,5%";
     aSur_Li_x_c_IMen.textContent = "-8,8%";
@@ -1050,5 +1050,5 @@ function noviembre2022(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
-};
 
+};
