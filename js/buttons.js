@@ -127,6 +127,12 @@ boton_noviembre22.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_diciembre22 = document.querySelector(".diciembre22");
+boton_diciembre22.addEventListener("click", function (event) {
+    setTimeout(diciembre2022, 200);
+    aparecer();
+});
+
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/

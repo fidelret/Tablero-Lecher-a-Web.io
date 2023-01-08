@@ -47,6 +47,8 @@ let s_cuenAbasSur = document.querySelector(".solidos_cuenAbasSur");
 let s_cuenMyS = document.querySelector(".solidos_cuenMyS");
 let s_cuenO = document.querySelector(".solidos_cuenO");
 
+const selectores = [monthYear, cantTambos, precioPorLitro, variacion1, variacion2, pCAbasNort, pCAbasSur, pCMyS, pCO, aNcruIA, aNcruIMen, aSurcruIA, aSurcruIMen, mYScruIA, mYScruIMen, oescruIA, oescruIMen, precio_solidos_UT, precio_solidos_UTvar_IMen, precio_x_kg_solidos_UTvar_IA, proteina, grasa_butirosa, cantTambos2, prod_mensual_lech_crud, produ_lechcrudIMen, produ_lechecrudaIA, var_int_2019, var_int_2020, aN_Li_x_c_IA, aN_Li_x_c_Men, aSur_Li_x_c_IA, aSur_Li_x_c_IMen, mYS_Li_x_c_IA, mYS_Li_x_c_IMen, oes_Li_x_c_IA, oes_Li_x_c_IMen, cantTambos3, s_cuenAbasNort, s_cuenAbasSur, s_cuenMyS, s_cuenO];
+
 function junio21(){
     monthYear.textContent = "Junio 2021";
     cantTambos.textContent = "1571";
@@ -95,12 +97,23 @@ function junio21(){
     s_cuenAbasSur.textContent = "7,09%";
     s_cuenMyS.textContent = "6.89%";
     s_cuenO.textContent = "7,27%";
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Jun 20','Jul 20','Ago 20','Sept 20','Oct 20','Nov 20','Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21', 'Jun 21'];
+    graf_precio_litro.data.datasets[0].data = [18.76,18.81,19.04,19.43,19.88,20.55,21.48,22.92,24.19,26.05,28.40,30.15,31.69];
     
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [185.86,202.41,210.79,215.67,229.15,214.41,204.64,187.75,160.84,174.48,170.58,182.11,180.98];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [8.67,7.09,7.05,7.03,6.97,6.91,6.84,6.90,7.00,7.07,7.17,7.29,7.23];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
 };
-
 
 function julio21(){
     monthYear.textContent = "Julio 2021";
@@ -151,6 +164,18 @@ function julio21(){
     s_cuenMyS.textContent = "6,85%";
     s_cuenO.textContent = "7,24%"; 
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Jul 20','Ago 20','Sept 20','Oct 20','Nov 20','Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21'];
+    graf_precio_litro.data.datasets[0].data = [18.81,19.04,19.43,19.88,20.55,21.48,22.92,24.19,26.05,28.40,30.15,31.69,32.73];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [202.41,210.79,215.67,229.15,214.41,204.64,187.75,160.84,174.48,170.58,182.11,180.98,195.47];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.09,7.05,7.03,6.97,6.91,6.84,6.90,7.00,7.07,7.17,7.29,7.23,7.19];
+    
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -205,6 +230,18 @@ function agosto21(){
     s_cuenMyS.textContent = "7,18%";
     s_cuenO.textContent = "7,14%"; 
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Ago 20','Sept 20','Oct 20','Nov 20','Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21'];
+    graf_precio_litro.data.datasets[0].data = [19.04,19.43,19.88,20.55,21.48,22.92,24.19,26.05,28.40,30.15,31.69,32.73,33.42];
+    
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [210.79,215.67,229.15,214.41,204.64,187.75,160.84,174.48,170.58,182.11,180.98,195.47,211.09];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.05,7.03,6.97,6.91,6.84,6.90,7.00,7.07,7.17,7.29,7.23,7.19,7.14];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -258,7 +295,19 @@ function septiembre21(){
     s_cuenAbasSur.textContent = "6,94%";
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,11%"; 
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Sept 20','Oct 20','Nov 20','Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21'];
+    graf_precio_litro.data.datasets[0].data = [19.43,19.88,20.55,21.48,22.92,24.19,26.05,28.40,30.15,31.69,32.73,33.42,33.90];
     
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [215.67,229.15,214.41,204.64,187.75,160.84,174.48,170.58,182.11,180.98,195.47,211.09,214.02];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.03,6.97,6.91,6.84,6.90,7.00,7.07,7.17,7.29,7.23,7.19,7.14,7.12];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -313,6 +362,18 @@ function octubre21(){
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,07%"; 
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Oct 20','Nov 20','Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21'];
+    graf_precio_litro.data.datasets[0].data = [19.88,20.55,21.48,22.92,24.19,26.05,28.40,30.15,31.69,32.73,33.42,33.90,34.14];
+    
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [229.15,214.41,204.64,187.75,160.84,174.48,170.58,182.11,180.98,195.47,211.09,214.02,227.06];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [6.97,6.91,6.84,6.90,7.00,7.07,7.17,7.29,7.23,7.19,7.14,7.12,7.09];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -321,7 +382,7 @@ function octubre21(){
 function noviembre21(){
     monthYear.textContent = "Noviembre 2021";
     cantTambos.textContent = "1581";
-    precioPorLitro.textContent = "34,52";
+    precioPorLitro.textContent = "35,52";
     variacion1.textContent = "1,11%";
     variacion2.textContent = "67,98%";
 
@@ -366,6 +427,19 @@ function noviembre21(){
     s_cuenAbasSur.textContent = "6,87%";
     s_cuenMyS.textContent = "7,09%";
     s_cuenO.textContent = "7,01%";
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Nov 20','Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21'];
+    graf_precio_litro.data.datasets[0].data = [20.55,21.48,22.92,24.19,26.05,28.40,30.15,31.69,32.73,33.42,33.90,34.14,35.52];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [214.41,204.64,187.75,160.84,174.48,170.58,182.11,180.98,195.47,211.09,214.02,227.06,212.12];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [6.91,6.84,6.90,7.00,7.07,7.17,7.29,7.23,7.19,7.14,7.12,7.09,7.02];
+
 
     //Funciones-----------
     no_bloque_variacion();
@@ -421,6 +495,18 @@ function diciembre21(){
     s_cuenMyS.textContent = "7,02%";
     s_cuenO.textContent = "6,03%";
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Dic 20','Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21'];
+    graf_precio_litro.data.datasets[0].data = [21.48,22.92,24.19,26.05,28.40,30.15,31.69,32.73,33.42,33.90,34.14,35.52,35.15];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [204.64,187.75,160.84,174.48,170.58,182.11,180.98,195.47,211.09,214.02,227.06,212.12,203.04];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [6.84,6.90,7.00,7.07,7.17,7.29,7.23,7.19,7.14,7.12,7.09,7.02,6.96];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -475,6 +561,18 @@ function enero22(){
     s_cuenMyS.textContent = "7,01%";
     s_cuenO.textContent = "6,94%";
     
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Ene 21','Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22'];
+    graf_precio_litro.data.datasets[0].data = [22.92,24.19,26.05,28.40,30.15,31.69,32.73,33.42,33.90,34.14,35.52,35.15,36.58];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [187.75,160.84,174.48,170.58,182.11,180.98,195.47,211.09,214.02,227.06,212.12,203.04,179.11];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [6.90,7.00,7.07,7.17,7.29,7.23,7.19,7.14,7.12,7.09,7.02,6.96,6.96];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -528,6 +626,18 @@ function febrero22(){
     s_cuenAbasSur.textContent = "9,94%";
     s_cuenMyS.textContent = "7,09%";
     s_cuenO.textContent = "7,09%";
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Feb 21','Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22'];
+    graf_precio_litro.data.datasets[0].data = [24.19,26.05,28.40,30.15,31.69,32.73,33.42,33.90,34.14,35.52,35.15,36.58,38.43];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [160.84,174.48,170.58,182.11,180.98,195.47,211.09,214.02,227.06,212.12,203.04,179.11,155.57];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.00,7.07,7.17,7.29,7.23,7.19,7.14,7.12,7.09,7.02,6.96,6.96,7.09];
 
     //Funciones-----------
     no_bloque_variacion();
@@ -583,6 +693,18 @@ function marzo2022(){
     s_cuenMyS.textContent = "7,22%";
     s_cuenO.textContent = "7,25%";
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Mar 21','Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22'];
+    graf_precio_litro.data.datasets[0].data = [26.05,28.40,30.15,31.69,32.73,33.42,33.90,34.14,35.52,35.15,36.58,38.43,41.12];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [174.48,170.58,182.11,180.98,195.47,211.09,214.02,227.06,212.12,203.04,179.11,155.57,169.09];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.07,7.17,7.29,7.23,7.19,7.14,7.12,7.09,7.02,6.96,6.96,7.09,7.26];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -637,6 +759,18 @@ function abril2022(){
     s_cuenMyS.textContent = "7,33%";
     s_cuenO.textContent = "7,38%";
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Abr 21','May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22'];
+    graf_precio_litro.data.datasets[0].data = [28.40,30.15,31.69,32.73,33.42,33.90,34.14,35.52,35.15,36.58,38.43,41.12,44.31];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [170.58,182.11,180.98,195.47,211.09,214.02,227.06,212.12,203.04,179.11,155.57,169.09,164.54];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.17,7.29,7.23,7.19,7.14,7.12,7.09,7.02,6.96,6.96,7.09,7.26,7.36];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -644,7 +778,7 @@ function abril2022(){
 
 function mayo2022(){
     monthYear.textContent = "Mayo 2022";
-    cantTambos.textContent = "1552";//
+    cantTambos.textContent = "1552";
     precioPorLitro.textContent = "46,87";
     variacion1.textContent = "5,78%";
     variacion2.textContent = "55,5%"; 
@@ -688,8 +822,20 @@ function mayo2022(){
     cantTambos3.textContent = (cantTambos.textContent);
     s_cuenAbasNort.textContent = "7,43%";
     s_cuenAbasSur.textContent = "7,18%";
-    s_cuenMyS.textContent = "7,42%";//
-    s_cuenO.textContent = "7,45%";//
+    s_cuenMyS.textContent = "7,42%";
+    s_cuenO.textContent = "7,45%";
+    
+    //Gráfico1
+    graf_precio_litro.data.labels = ['May 21','Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22'];
+    graf_precio_litro.data.datasets[0].data = [30.15,31.69,32.73,33.42,33.90,34.14,35.52,35.15,36.58,38.43,41.12,44.31,46.87];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [182.11,180.98,195.47,211.09,214.02,227.06,212.12,203.04,179.11,155.57,169.09,164.54,177.47];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.29,7.23,7.19,7.14,7.12,7.09,7.02,6.96,6.96,7.09,7.26,7.36,7.43];
 
     //Funciones-----------
     no_bloque_variacion();
@@ -744,7 +890,19 @@ function junio2022(){
     s_cuenAbasSur.textContent = "7,19%";
     s_cuenMyS.textContent = "7,36%";
     s_cuenO.textContent = "7,45%";
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Jun 21','Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22'];
+    graf_precio_litro.data.datasets[0].data = [31.69,32.73,33.42,33.90,34.14,35.52,35.15,36.58,38.43,41.12,44.31,46.87,49.21];
     
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [180.98,195.47,211.09,214.02,227.06,212.12,203.04,179.11,155.57,169.09,164.54,177.47,174.59];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.23,7.19,7.14,7.12,7.09,7.02,6.96,6.96,7.09,7.26,7.36,7.43,7.42];
+
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
@@ -798,6 +956,18 @@ function julio2022(){
     s_cuenAbasSur.textContent = "7,15%";
     s_cuenMyS.textContent = "7,29%";
     s_cuenO.textContent = "7,39%";
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Jul 21','Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22'];
+    graf_precio_litro.data.datasets[0].data = [32.73,33.42,33.90,34.14,35.52,35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [195.47,211.09,214.02,227.06,212.12,203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.19,7.14,7.12,7.09,7.02,6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36];
 
      //Funciones-----------
      bloque_variacion();
@@ -861,6 +1031,18 @@ function agosto2022(){
     s_cuenMyS.textContent = "7,19%";
     s_cuenO.textContent = "7,27%";
 
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Ago 21','Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22'];
+    graf_precio_litro.data.datasets[0].data = [33.42,33.90,34.14,35.52,35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [211.09,214.02,227.06,212.12,203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.14,7.12,7.09,7.02,6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26];
+
      //Funciones-----------
      bloque_variacion();
      no_leyenda();
@@ -922,7 +1104,19 @@ function septiembre2022(){
     s_cuenAbasSur.textContent = "7,03%";
     s_cuenMyS.textContent = "7,13%";
     s_cuenO.textContent = "7,23%";
-    
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Sep 21','Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22'];
+    graf_precio_litro.data.datasets[0].data = [33.90,34.14,35.52,35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [214.02,227.06,212.12,203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.12,7.09,7.02,6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20];
+
     //Funciones-----------
     bloque_variacion();
     no_leyenda();
@@ -984,7 +1178,19 @@ function octubre2022(){
     s_cuenAbasSur.textContent = "7,01%";
     s_cuenMyS.textContent = "7,17%";
     s_cuenO.textContent = "7,20%";
-    
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Oct 21','Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22'];
+    graf_precio_litro.data.datasets[0].data = [34.14,35.52,35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [227.06,212.12,203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.09,7.02,6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18];
+
     //Funciones-----------
     bloque_variacion();
     leyenda();
@@ -1046,9 +1252,101 @@ function noviembre2022(){
     s_cuenAbasSur.textContent = "6,98%";
     s_cuenMyS.textContent = "7,12%";
     s_cuenO.textContent = "7,11%";
+
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Nov 21','Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22'];
+    graf_precio_litro.data.datasets[0].data = [35.52,35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [212.12,203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.02,6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11];
     
     //Funciones-----------
     bloque_variacion();
     leyenda();
 
 };
+
+function diciembre2022(){
+
+    //Precio de referencia pagado al productor 
+    monthYear.textContent = "Diciembre 2022";
+    cantTambos.textContent = "0000";
+    precioPorLitro.textContent = "00,00";
+    variacion1.textContent = "00,00%";
+    variacion2.textContent = "00,00%"; 
+
+    //Precio por Cuencas Lecheras 
+    pCAbasNort.textContent = "$ 00,00"; 
+    pCAbasSur.textContent = "$ 00,00";
+    pCMyS.textContent = "$ 00,00"; 
+    pCO.textContent = "$ 00,00";
+
+    //Variación del $/ Lt. Leche cruda por Cuenca lechera
+    aNcruIA.textContent = "00,00%";
+    aNcruIMen.textContent = "00,00%";
+    aSurcruIA.textContent = "00,00%";
+    aSurcruIMen.textContent = "00,00%";
+    mYScruIA.textContent = "00,00%";
+    mYScruIMen.textContent = "00,00%";
+    oescruIA.textContent = "00,00%";
+    oescruIMen.textContent = "00,00%";
+
+    //Parámetros de composición y evolución de precio SU
+    precio_solidos_UT.textContent = "000,00";
+    precio_solidos_UTvar_IMen.textContent = "00,00%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "00,00%";
+    proteina.textContent = "00,00%";
+    grasa_butirosa.textContent = "00,00%";
+
+    //Evolución del volumen mensual en MM de litros de leche cruda
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "00,00";
+    produ_lechcrudIMen.textContent = "00,00%";
+    produ_lechecrudaIA.textContent = "00,00%";
+    var_int_2019.textContent = "00,00%";
+    var_int_2020.textContent = "00,00%";
+
+    //Variación de los Litros por Cuenca lechera 
+    aN_Li_x_c_IA.textContent = "00,00%";
+    aN_Li_x_c_Men.textContent = "00,00%";
+    aSur_Li_x_c_IA.textContent = "00,00%";
+    aSur_Li_x_c_IMen.textContent = "00,00%";
+    mYS_Li_x_c_IA.textContent = "00,00";
+    mYS_Li_x_c_IMen.textContent = "00,00%";
+    oes_Li_x_c_IA.textContent = "00,00%";
+    oes_Li_x_c_IMen.textContent = "00,00%";
+
+    //% Solidos Útiles por Cuenca lechera
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "00,00%";
+    s_cuenAbasSur.textContent = "00,00%";
+    s_cuenMyS.textContent = "00,00%";
+    s_cuenO.textContent = "00,00%";
+    
+    
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22'];
+    graf_precio_litro.data.datasets[0].data = [35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,000];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07,000];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11,00];
+    
+    
+    
+    //Funciones-----------
+    bloque_variacion();
+    leyenda();
+
+};
+
+
