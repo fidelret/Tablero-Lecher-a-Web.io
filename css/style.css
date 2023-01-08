@@ -18,18 +18,18 @@ body{
 .menuppal1, .menuppal2{
 	color: #ffffff;
     background: #00aec3;
-	padding: 0 10px;
-	border: 2px solid #00aec3;
+	padding: 2px 10px;
+	border: 0px solid #00b0c3;
 	
 }
 
 .year2021, .year2022{
 	font-size: 30px;
-	padding: 5px;
+	padding: 4.5px;
 	text-align: center;
 	font-weight: bold;
 	background: #00aec3;
-	border: 0.8px solid #00b0c3;
+	border: 0.8px solid #333;
 	border-radius: 0 0.3em;
 }
 
@@ -99,7 +99,7 @@ main{
 .precioPorLitro, 
 .precio_x_kg_solidos_UT, 
 .prod_mensual_lech_crud{
-	font-size: 65px;
+	font-size: 75px;
     font-weight: bold;
 	text-align: center;
 	padding: 10px;

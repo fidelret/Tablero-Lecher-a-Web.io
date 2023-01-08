@@ -8,6 +8,7 @@
 .menuppal1 {
     position: fixed;
     align-items: center;
+    top: 0;
     right: 0;
     width: 8em;
     z-index: 2;
@@ -15,7 +16,7 @@
 
 .menuppal2 {
     position: fixed;
-    margin-top: 2.9em;
+    top: 2.9em;
     align-items: center;
     right: 0;
     width: 8em;
@@ -40,10 +41,11 @@
 
 .monthYear{
 	position: fixed;
+    bottom: 0;
     right: 0;
     color: #ffffff;
-    margin-top: 2.4em;
-    font-size: 23px;
+    /*margin-top: 2.4em;*/
+    font-size: 40px;
 	padding: 8px;
 	font-weight: bold;
 	background: rgba(0,55,203,0.5);
@@ -53,7 +55,7 @@
 .parametrosPrecio .divs_internasLvl1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;;
 }
 
 .variacionlecheCruda .cuencasLCrud, 
@@ -100,6 +102,10 @@
         align-items: center;
     }
 
+    .precioxLitro,
+    .prod_mensual_lech_crud{
+        margin-top: 25px;
+    }
 
     .cabecera{
         width: 98%;
@@ -147,11 +153,11 @@
         padding: 3px; 
         opacity: 0.5;
         visibility: visible; 
-        margin-top: 65px;
+        margin-top: 7.7em;
     }
 
-    .menuppal1{
-        margin-top: 24px; 
+    .menuppal2{
+        margin-top: 6.8em;; 
     }
 
     .menuppal1:hover, .menuppal2:hover{
@@ -159,31 +165,11 @@
         opacity: 1;
         visibility: visible;
     }
-    
-    /*.item li{
-        margin-top: 0px;
-        padding: 0px;
-        opacity: 0;
-        visibility: hidden;
-        border: 0px;
-        height: 0px;
-    }
-
-    .menuppal:hover .item li{
-        opacity: 1;
-        visibility: visible;
-	    text-align: center;
-	    margin-top: 3px;
-	    padding: 8px;
-        height: auto;
-        border-radius: 0.3em;
-	    border: 0.3px solid rgba(0,55,203,0.4);
-	
-    }*/
 
     .monthYear{
-        margin-top: 6em;
-        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        margin-bottom: 1.9em;
     }
 
     main{
