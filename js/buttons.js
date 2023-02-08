@@ -136,5 +136,5 @@ boton_diciembre22.addEventListener("click", function (event) {
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
-noviembre2022();
+diciembre2022();
 

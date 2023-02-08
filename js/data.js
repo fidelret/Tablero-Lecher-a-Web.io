@@ -1275,71 +1275,71 @@ function diciembre2022(){
 
     //Precio de referencia pagado al productor 
     monthYear.textContent = "Diciembre 2022";
-    cantTambos.textContent = "0000";
-    precioPorLitro.textContent = "00,00";
-    variacion1.textContent = "00,00%";
-    variacion2.textContent = "00,00%"; 
+    cantTambos.textContent = "1529";
+    precioPorLitro.textContent = "67,76";
+    variacion1.textContent = "7,3%";
+    variacion2.textContent = "92,8%"; 
 
     //Precio por Cuencas Lecheras 
-    pCAbasNort.textContent = "$ 00,00"; 
-    pCAbasSur.textContent = "$ 00,00";
-    pCMyS.textContent = "$ 00,00"; 
-    pCO.textContent = "$ 00,00";
+    pCAbasNort.textContent = "$ 70,91"; 
+    pCAbasSur.textContent = "$ 67,24";
+    pCMyS.textContent = "$ 68,50"; 
+    pCO.textContent = "$ 67,37";
 
     //Variación del $/ Lt. Leche cruda por Cuenca lechera
-    aNcruIA.textContent = "00,00%";
-    aNcruIMen.textContent = "00,00%";
-    aSurcruIA.textContent = "00,00%";
-    aSurcruIMen.textContent = "00,00%";
-    mYScruIA.textContent = "00,00%";
-    mYScruIMen.textContent = "00,00%";
-    oescruIA.textContent = "00,00%";
-    oescruIMen.textContent = "00,00%";
+    aNcruIA.textContent = "95%";
+    aNcruIMen.textContent = "8,8%";
+    aSurcruIA.textContent = "93,1%";
+    aSurcruIMen.textContent = "7,9%";
+    mYScruIA.textContent = "91,5%";
+    mYScruIMen.textContent = "5,7%";
+    oescruIA.textContent = "92,9%";
+    oescruIMen.textContent = "7,2%";
 
     //Parámetros de composición y evolución de precio SU
-    precio_solidos_UT.textContent = "000,00";
-    precio_solidos_UTvar_IMen.textContent = "00,00%";
-    precio_x_kg_solidos_UTvar_IA.textContent = "00,00%";
-    proteina.textContent = "00,00%";
-    grasa_butirosa.textContent = "00,00%";
+    precio_solidos_UT.textContent = "967,58";
+    precio_solidos_UTvar_IMen.textContent = "8,9%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "91,6%";
+    proteina.textContent = "3,36%";
+    grasa_butirosa.textContent = "3,64%";
 
     //Evolución del volumen mensual en MM de litros de leche cruda
     cantTambos2.textContent = (cantTambos.textContent);
-    prod_mensual_lech_crud.textContent = "00,00";
-    produ_lechcrudIMen.textContent = "00,00%";
-    produ_lechecrudaIA.textContent = "00,00%";
-    var_int_2019.textContent = "00,00%";
-    var_int_2020.textContent = "00,00%";
+    prod_mensual_lech_crud.textContent = "201,86";
+    produ_lechcrudIMen.textContent = "-1,08%";
+    produ_lechecrudaIA.textContent = "-0,58%";
+    var_int_2019.textContent = "1,4%";
+    var_int_2020.textContent = "-1,36%";
 
     //Variación de los Litros por Cuenca lechera 
-    aN_Li_x_c_IA.textContent = "00,00%";
-    aN_Li_x_c_Men.textContent = "00,00%";
-    aSur_Li_x_c_IA.textContent = "00,00%";
-    aSur_Li_x_c_IMen.textContent = "00,00%";
-    mYS_Li_x_c_IA.textContent = "00,00";
-    mYS_Li_x_c_IMen.textContent = "00,00%";
-    oes_Li_x_c_IA.textContent = "00,00%";
-    oes_Li_x_c_IMen.textContent = "00,00%";
+    aN_Li_x_c_IA.textContent = "-5,8%";
+    aN_Li_x_c_Men.textContent = "-4,8%";
+    aSur_Li_x_c_IA.textContent = "-3,4%";
+    aSur_Li_x_c_IMen.textContent = "0,0%";
+    mYS_Li_x_c_IA.textContent = "2%";
+    mYS_Li_x_c_IMen.textContent = "-2,1%";
+    oes_Li_x_c_IA.textContent = "0,8%";
+    oes_Li_x_c_IMen.textContent = "-0,4%";
 
     //% Solidos Útiles por Cuenca lechera
     cantTambos3.textContent = (cantTambos.textContent);
-    s_cuenAbasNort.textContent = "00,00%";
-    s_cuenAbasSur.textContent = "00,00%";
-    s_cuenMyS.textContent = "00,00%";
-    s_cuenO.textContent = "00,00%";
+    s_cuenAbasNort.textContent = "6,96%";
+    s_cuenAbasSur.textContent = "6,88%";
+    s_cuenMyS.textContent = "7,02%";
+    s_cuenO.textContent = "7,01%";
     
     
     //Gráfico1
     graf_precio_litro.data.labels = ['Dic 21','Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22'];
-    graf_precio_litro.data.datasets[0].data = [35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,000];
+    graf_precio_litro.data.datasets[0].data = [35.15,36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,67.76];
 
     //Gráfico2
     graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
-    graf_produccion_mensual.data.datasets[0].data = [203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07,000];
+    graf_produccion_mensual.data.datasets[0].data = [203.04,179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07,201.86];
 
     //Gráfico3
     graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
-    graf_solidos_utiles.data.datasets[0].data = [6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11,00];
+    graf_solidos_utiles.data.datasets[0].data = [6.96,6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11,7.00];
     
     
     
