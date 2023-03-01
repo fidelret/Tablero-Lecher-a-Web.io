@@ -11,12 +11,21 @@
     top: 0;
     right: 0;
     width: 8em;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menuppal2 {
     position: fixed;
-    top: 2.9em;
+    top: 2.6em;
+    align-items: center;
+    right: 0;
+    width: 8em;
+    z-index: 2;
+}
+
+.menuppal3 {
+    position: fixed;
+    top: 5.25em;
     align-items: center;
     right: 0;
     width: 8em;
@@ -24,20 +33,16 @@
 }
 
 /*--------------------*/
-.menuppal1 > .item1, .menuppal2 > .item2{
+.menuppal1 > .item1, .menuppal2 > .item2, .menuppal3 > .item3{
     display:none;
     position:absolute;
 }
 
-.menuppal1:hover > .item1{
+.menuppal1:hover > .item1, .menuppal2:hover > .item2, .menuppal3:hover > .item3{
     display:block;
     position:absolute;
 }
 
-.menuppal2:hover > .item2{
-    display:block;
-    position:absolute;
-}
 
 .monthYear{
 	position: fixed;
@@ -139,14 +144,14 @@
 
      /* menu movil*/
 
-    .year2021, .year2022{
+    .year2021, .year2022, .year2023{
         font-size: 15px;
         padding: 5px;
         text-align: center;
         font-weight: bold;
     }
 
-    .menuppal1, .menuppal2{
+    .menuppal1, .menuppal2, .menuppal3{
         position: fixed;
         color: #ffffff;
         background: #00ADC1;
@@ -157,7 +162,11 @@
     }
 
     .menuppal2{
-        margin-top: 6.8em;; 
+        margin-top: 7em;; 
+    }
+
+    .menuppal3{
+        margin-top: 6.3em;; 
     }
 
     .menuppal1:hover, .menuppal2:hover{

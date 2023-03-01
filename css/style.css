@@ -15,25 +15,24 @@ body{
 
 }
 
-.menuppal1, .menuppal2{
+.menuppal1, .menuppal2, .menuppal3{
 	color: #ffffff;
-    background: #00aec3;
 	padding: 2px 10px;
 	border: 0px solid #00b0c3;
 	
 }
 
-.year2021, .year2022{
+.year2021, .year2022, .year2023{
 	font-size: 30px;
 	padding: 4.5px;
 	text-align: center;
 	font-weight: bold;
-	background: #00aec3;
+	background: #00b0c3ec;
 	border: 0.8px solid #333;
-	border-radius: 0 0.3em;
+	/*border-radius: 0 0.3em;*/
 }
 
-.item1 li, .item2 li{
+.item1 li, .item2 li, .item3 li{
 	text-align: center;
 	color: #FFFFFF;
 	margin-top: 0px;
@@ -45,16 +44,21 @@ body{
 }
 
 	  
-.item1 li:hover, .item2 li:hover {
+.item1 li:hover, .item2 li:hover, .item3 li:hover {
 	background-color: #00b0c3ec;
 	border: 0.3px solid #333;
 	transition: 400ms;
 }
 
-.item1 li:active, .item2 li:active {
+.item1 li:active, .item2 li:active, .item3 li:active {
 	color: #FFF;
 	background-color: #333;
 	border: 0.5px solid #000000;
+}
+
+.year2021:hover, .year2022:hover, .year2023:hover{
+    background-color: #333;
+	transition: 400ms;
 }
 
 main{
@@ -83,11 +87,6 @@ main{
 	font-size: 15px;
 	margin-top: 5px;
 } 
-
-.year2021:hover, .year2022:hover {
-    background-color: #333;
-	transition: 400ms;
-}
 
 .monthYear{
 	text-align: center;
