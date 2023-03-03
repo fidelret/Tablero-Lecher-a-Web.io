@@ -292,7 +292,9 @@ table, tr, td{
 .produ_lechecruda_var_IMen, 
 .produ_lechecruda_var_IA,
 .var_int_2019,
-.var_int_2020{
+.var_int_2020,
+.anio_1,
+.anio_2{
 	font-size: 30px;
 	font-weight: bold;
 	text-align: left;
