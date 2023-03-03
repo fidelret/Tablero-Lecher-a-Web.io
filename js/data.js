@@ -26,6 +26,8 @@ let proteina = document.querySelector(".proteina");
 let grasa_butirosa = document.querySelector(".grasa_butirosa");
 let var_int_2019 = document.querySelector(".var_int_2019");
 let var_int_2020 = document.querySelector(".var_int_2020");
+let anio_1 = document.querySelector(".anio_1");
+let anio_2 = document.querySelector(".anio_2");
 
 let cantTambos2 = document.querySelector(".cantTambos2");
 let prod_mensual_lech_crud = document.querySelector(".prod_mensual_lech_crud");
@@ -47,7 +49,7 @@ let s_cuenAbasSur = document.querySelector(".solidos_cuenAbasSur");
 let s_cuenMyS = document.querySelector(".solidos_cuenMyS");
 let s_cuenO = document.querySelector(".solidos_cuenO");
 
-const selectores = [monthYear, cantTambos, precioPorLitro, variacion1, variacion2, pCAbasNort, pCAbasSur, pCMyS, pCO, aNcruIA, aNcruIMen, aSurcruIA, aSurcruIMen, mYScruIA, mYScruIMen, oescruIA, oescruIMen, precio_solidos_UT, precio_solidos_UTvar_IMen, precio_x_kg_solidos_UTvar_IA, proteina, grasa_butirosa, cantTambos2, prod_mensual_lech_crud, produ_lechcrudIMen, produ_lechecrudaIA, var_int_2019, var_int_2020, aN_Li_x_c_IA, aN_Li_x_c_Men, aSur_Li_x_c_IA, aSur_Li_x_c_IMen, mYS_Li_x_c_IA, mYS_Li_x_c_IMen, oes_Li_x_c_IA, oes_Li_x_c_IMen, cantTambos3, s_cuenAbasNort, s_cuenAbasSur, s_cuenMyS, s_cuenO];
+const selectores = [monthYear, cantTambos, precioPorLitro, variacion1, variacion2, pCAbasNort, pCAbasSur, pCMyS, pCO, aNcruIA, aNcruIMen, aSurcruIA, aSurcruIMen, mYScruIA, mYScruIMen, oescruIA, oescruIMen, precio_solidos_UT, precio_solidos_UTvar_IMen, precio_x_kg_solidos_UTvar_IA, proteina, grasa_butirosa, cantTambos2, prod_mensual_lech_crud, produ_lechcrudIMen, produ_lechecrudaIA, var_int_2019, var_int_2020, anio_1, anio_2, aN_Li_x_c_IA, aN_Li_x_c_Men, aSur_Li_x_c_IA, aSur_Li_x_c_IMen, mYS_Li_x_c_IA, mYS_Li_x_c_IMen, oes_Li_x_c_IA, oes_Li_x_c_IMen, cantTambos3, s_cuenAbasNort, s_cuenAbasSur, s_cuenMyS, s_cuenO];
 
 function junio21(){
     monthYear.textContent = "Junio 2021";
@@ -941,6 +943,8 @@ function julio2022(){
     produ_lechecrudaIA.textContent = "-4,21% ";
     var_int_2019.textContent = "1,8%";
     var_int_2020.textContent = "-7,5%";
+    anio_1.textContent = "2019";
+    anio_2.textContent = "2020";
 
     aN_Li_x_c_IA.textContent = "-9,4%";
     aN_Li_x_c_Men.textContent = "5,9%";
@@ -1013,6 +1017,8 @@ function agosto2022(){
     produ_lechecrudaIA.textContent = "-3,3%";
     var_int_2019.textContent = "2,5%";
     var_int_2020.textContent = "-3,2%";
+    anio_1.textContent = "2019";
+    anio_2.textContent = "2020";
 
     //Variación de los Litros por Cuenca lechera 
     aN_Li_x_c_IA.textContent = "-5%";
@@ -1087,6 +1093,8 @@ function septiembre2022(){
     produ_lechecrudaIA.textContent = "-2,6%";
     var_int_2019.textContent = "1,7%";
     var_int_2020.textContent = "-3,3%";
+    anio_1.textContent = "2019";
+    anio_2.textContent = "2020";
 
     //Variación de los Litros por Cuenca lechera 
     aN_Li_x_c_IA.textContent = "-7%";
@@ -1161,6 +1169,8 @@ function octubre2022(){
     produ_lechecrudaIA.textContent = "-4,2%";
     var_int_2019.textContent = "6,3%";
     var_int_2020.textContent = "-5,1%";
+    anio_1.textContent = "2019";
+    anio_2.textContent = "2020";
 
     //Variación de los Litros por Cuenca lechera 
     aN_Li_x_c_IA.textContent = "-7%";
@@ -1235,6 +1245,8 @@ function noviembre2022(){
     produ_lechecrudaIA.textContent = "-3,8%";
     var_int_2019.textContent = "-0,8%";
     var_int_2020.textContent = "-4,9%";
+    anio_1.textContent = "2019";
+    anio_2.textContent = "2020";
 
     //Variación de los Litros por Cuenca lechera 
     aN_Li_x_c_IA.textContent = "-5,5%";
@@ -1310,6 +1322,8 @@ function diciembre2022(){
     produ_lechecrudaIA.textContent = "-0,58%";
     var_int_2019.textContent = "1,4%";
     var_int_2020.textContent = "-1,36%";
+    anio_1.textContent = "2019";
+    anio_2.textContent = "2020";
 
     //Variación de los Litros por Cuenca lechera 
     aN_Li_x_c_IA.textContent = "-5,8%";
@@ -1386,9 +1400,11 @@ function enero2023(){
     cantTambos2.textContent = (cantTambos.textContent);
     prod_mensual_lech_crud.textContent = "185,91";
     produ_lechcrudIMen.textContent = "-7,9%";
-    produ_lechecrudaIA.textContent = "-3,8%";
+    produ_lechecrudaIA.textContent = "3,8%";
     var_int_2019.textContent = "2,2%";
     var_int_2020.textContent = "-0,9%";
+    anio_1.textContent = "2020";
+    anio_2.textContent = "2021";
 
     //Variación de los Litros por Cuenca lechera 
     aN_Li_x_c_IA.textContent = "5,4%";
@@ -1409,7 +1425,7 @@ function enero2023(){
     
     
     //Gráfico1
-    graf_precio_litro.data.labels = ['Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 22'];
+    graf_precio_litro.data.labels = ['Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 23'];
     graf_precio_litro.data.datasets[0].data = [36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,67.76,71.83];
 
     //Gráfico2
