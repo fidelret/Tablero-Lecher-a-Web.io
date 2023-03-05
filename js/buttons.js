@@ -1,13 +1,4 @@
 
-//  ----------------descargas---------------
-btn_abrir_descargas.addEventListener("click", function (event) {
-    setTimeout(display_descargas, 200);
-});
-
-btn_ocultar_descargas.addEventListener("click", function (event) {
-    setTimeout(undisplay_descargas, 200);
-});
-
 // ------------------mapa----------------
 
 btn_desplegar_map.addEventListener("click", function (event) {
@@ -16,6 +7,15 @@ btn_desplegar_map.addEventListener("click", function (event) {
 
 btn_cerrar_map.addEventListener("click", function (event) {
     setTimeout(cerrar_mapa, 200);
+});
+
+//  ----------------descargas---------------
+btn_abrir_descargas.addEventListener("click", function (event) {
+    setTimeout(display_descargas, 200);
+});
+
+btn_ocultar_descargas.addEventListener("click", function (event) {
+    setTimeout(undisplay_descargas, 200);
 });
 
 //  ----------------meses---------------
