@@ -169,7 +169,7 @@
         margin-top: 6.3em;; 
     }
 
-    .menuppal1:hover, .menuppal2:hover{
+    .menuppal1:hover, .menuppal2:hover, .menuppal3:hover{
         transition: 500ms;
         opacity: 1;
         visibility: visible;
@@ -232,7 +232,8 @@
     }
 
     .descargas_1, 
-    .descargas_2{
+    .descargas_2,
+    .descargas_3{
         margin: 5px;
         padding: 20px;
         border: 3px solid;
