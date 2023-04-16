@@ -3,10 +3,10 @@ const precio_litro = document.getElementById("PRefPagProd").getContext("2d");
 const graf_precio_litro = new Chart(precio_litro, {
 type: 'bar',
 data: {
-labels: ['Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 23'],
+labels: ['Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 23','Feb 23'],
 datasets: [{
     label: 'Valores en pesos $',
-    data: [36.58,38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,67.76,71.83],
+    data: [38.43,41.12,44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,67.76,71.83,76],
     backgroundColor: [
         'rgba(0,55,203,0.5)',
     ],
@@ -37,7 +37,7 @@ data: {
 labels: ['Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 23'],
 datasets: [{
     label: 'Producción mensual de leche cruda en millones de litros',
-    data: [179.11,155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07,201.86,185.91],
+    data: [155.57,169.09,164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07,201.86,185.91,154.9],
     backgroundColor: [
         'rgba(255,120,0,0.5)',
     ],
@@ -66,7 +66,7 @@ data: {
 labels: ['Ene 22','Feb 22','Mar 22','Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 23'],
 datasets: [{
     label: '% Solidos Útiles',
-    data: [6.96,7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11,7.00,7.00],
+    data: [7.09,7.26,7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11,7.00,7.00,7.08],
     backgroundColor: [
         'rgba(255,173,0,0.5)',
     ],
