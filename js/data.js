@@ -1603,4 +1603,83 @@ function marzo2023(){
 
 };
 
+function abril2023(){
+
+    //Precio de referencia pagado al productor 
+    monthYear.textContent = "Abril 2023";
+    cantTambos.textContent = "1525";
+    precioPorLitro.textContent = "92,73";
+    variacion1.textContent = "10,3%";
+    variacion2.textContent = "109,3%"; 
+
+    //Precio por Cuencas Lecheras 
+    pCAbasNort.textContent = "$ 95,93"; 
+    pCAbasSur.textContent = "$ 91,05";
+    pCMyS.textContent = "$ 93,51"; 
+    pCO.textContent = "$ 92,49";
+
+    //Variación del $/ Lt. Leche cruda por Cuenca lechera
+    aNcruIA.textContent = "109,9%";
+    aNcruIMen.textContent = "10,4%";
+    aSurcruIA.textContent = "110,4%";
+    aSurcruIMen.textContent = "9,6%";
+    mYScruIA.textContent = "107,9%";
+    mYScruIMen.textContent = "10,3%";
+    oescruIA.textContent = "109,6%";
+    oescruIMen.textContent = "10,3%";
+
+    //Parámetros de composición y evolución de precio SU
+    precio_solidos_UT.textContent = "1253,59";
+    precio_solidos_UTvar_IMen.textContent = "7,5%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "108,3%";
+    proteina.textContent = "3,5%";
+    grasa_butirosa.textContent = "3,9%";
+
+    //Evolución del volumen mensual en MM de litros de leche cruda
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "170,36";
+    produ_lechcrudIMen.textContent = "2,3%";
+    produ_lechecrudaIA.textContent = "3,5%";
+    var_int_2019.textContent = "-0,26%";
+    var_int_2020.textContent = "-0,13%";
+    anio_1.textContent = "2020";
+    anio_2.textContent = "2021";
+
+    //Variación de los Litros por Cuenca lechera 
+    aN_Li_x_c_IA.textContent = "0,5%";
+    aN_Li_x_c_Men.textContent = "4%";
+    aSur_Li_x_c_IA.textContent = "-3,5%";
+    aSur_Li_x_c_IMen.textContent = "0,03%";
+    mYS_Li_x_c_IA.textContent = "2,8%";
+    mYS_Li_x_c_IMen.textContent = "4,1%";
+    oes_Li_x_c_IA.textContent = "6,5%";
+    oes_Li_x_c_IMen.textContent = "2,5%";
+
+    //% Solidos Útiles por Cuenca lechera
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,41%";
+    s_cuenAbasSur.textContent = "7,20%";
+    s_cuenMyS.textContent = "7,39%";
+    s_cuenO.textContent = "7,42%";
+    
+    
+    //Gráfico1
+    graf_precio_litro.data.labels = ['Abr 22','May 22','Jun 22','Jul 22','Ago 22','Sep 22','Oct 22','Nov 22','Dic 22','Ene 23','Feb 23','Mar 23','Abr 23'];
+    graf_precio_litro.data.datasets[0].data = [44.31,46.87,49.21,52.06,54.34,57.03,59.88,63.17,67.76,71.83,76,84.09,92.73];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [164.54,177.47,174.59,187.25,204.09,208.46,217.48,204.07,201.86,185.91,154.9,166.59,170.36];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.36,7.43,7.42,7.36,7.26,7.20,7.18,7.11,7.00,7.00,7.08,7.21,7.40];
+    
+    
+    
+    //Funciones-----------
+    bloque_variacion();
+    leyenda();
+
+};
 
