@@ -115,6 +115,7 @@ function junio21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function julio21(){
@@ -181,6 +182,7 @@ function julio21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function agosto21(){
@@ -247,6 +249,7 @@ function agosto21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function septiembre21(){
@@ -313,6 +316,7 @@ function septiembre21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function octubre21(){
@@ -379,6 +383,7 @@ function octubre21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function noviembre21(){
@@ -446,6 +451,7 @@ function noviembre21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function diciembre21(){
@@ -512,6 +518,7 @@ function diciembre21(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function enero22(){
@@ -578,6 +585,7 @@ function enero22(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function febrero22(){
@@ -644,6 +652,7 @@ function febrero22(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function marzo2022(){
@@ -710,6 +719,7 @@ function marzo2022(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function abril2022(){
@@ -776,6 +786,7 @@ function abril2022(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function mayo2022(){
@@ -842,6 +853,7 @@ function mayo2022(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function junio2022(){
@@ -908,6 +920,7 @@ function junio2022(){
     //Funciones-----------
     no_bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function julio2022(){
@@ -976,6 +989,7 @@ function julio2022(){
      //Funciones-----------
      bloque_variacion();
      no_leyenda();
+     no_leyenda_12_07_2023();
 };
 
 function agosto2022(){
@@ -1052,6 +1066,7 @@ function agosto2022(){
      //Funciones-----------
      bloque_variacion();
      no_leyenda();
+     no_leyenda_12_07_2023();
 };
 
 function septiembre2022(){
@@ -1128,6 +1143,7 @@ function septiembre2022(){
     //Funciones-----------
     bloque_variacion();
     no_leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function octubre2022(){
@@ -1204,6 +1220,7 @@ function octubre2022(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 };
 
 function noviembre2022(){
@@ -1280,6 +1297,7 @@ function noviembre2022(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 
 };
 
@@ -1360,6 +1378,7 @@ function diciembre2022(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 
 };
 
@@ -1440,6 +1459,7 @@ function enero2023(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 
 };
 
@@ -1520,6 +1540,7 @@ function febrero2023(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 
 };
 
@@ -1600,6 +1621,7 @@ function marzo2023(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 
 };
 
@@ -1680,6 +1702,7 @@ function abril2023(){
     //Funciones-----------
     bloque_variacion();
     leyenda();
+    no_leyenda_12_07_2023();
 
 };
 
@@ -1758,7 +1781,11 @@ function mayo2023(){
 
 
     //Funciones-----------
+    no_leyenda();
+    leyenda_12_07_2023()
     bloque_variacion();
-    leyenda();
+    
 
 };
+
+

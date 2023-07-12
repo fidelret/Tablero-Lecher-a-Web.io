@@ -1,4 +1,5 @@
 let leyenda_al_pie = document.querySelector(".leyenda_al_pie");
+let leyenda_al_pie_12_07_2023 = document.querySelector(".leyenda_al_pie_12_07_2023");
 let variacion = document.querySelector(".variacion_19_20");
 let descargar_1 = document.querySelector(".descargas_1");
 let descargar_2 = document.querySelector(".descargas_2");
@@ -16,6 +17,14 @@ function leyenda(){
 
 function no_leyenda(){
     leyenda_al_pie.style.display = "none";
+    };
+
+function leyenda_12_07_2023(){
+    leyenda_al_pie_12_07_2023.style.display = "block";
+    };
+
+function no_leyenda_12_07_2023(){
+    leyenda_al_pie_12_07_2023.style.display = "none";
     };
 
 function bloque_variacion(){

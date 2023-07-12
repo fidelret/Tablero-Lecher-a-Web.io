@@ -328,13 +328,18 @@ table, tr, td{
 }
 
 .composicion,
-.leyenda_al_pie{
+.leyenda_al_pie,
+.leyenda_al_pie_12_07_2023{
 	color: #ffffff;
 	background-color: rgba(0,174,195,1);
 	margin: 20px;
 	padding: 10px 10px 20px 10px;
 	border: 2px solid rgba(0,174,195,1);
 	border-radius: 0 0.8em;
+}
+
+.leyenda_al_pie_12_07_2023{
+	border-color: #FF0E72;
 }
 
 .produccionMensual .variacionTxt{
