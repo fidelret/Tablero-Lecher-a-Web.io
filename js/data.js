@@ -24,10 +24,20 @@ let precio_solidos_UTvar_IMen = document.querySelector(".precio_x_kg_solidos_UT-
 let precio_x_kg_solidos_UTvar_IA = document.querySelector(".precio_x_kg_solidos_UT-var_IA");
 let proteina = document.querySelector(".proteina");
 let grasa_butirosa = document.querySelector(".grasa_butirosa");
+let var_int_0 = document.querySelector(".var_int_0");
 let var_int_2019 = document.querySelector(".var_int_2019");
 let var_int_2020 = document.querySelector(".var_int_2020");
+let anio_0 = document.querySelector(".anio_0");
 let anio_1 = document.querySelector(".anio_1");
 let anio_2 = document.querySelector(".anio_2");
+
+//comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
+
+let mes_comparativo_1 = document.querySelector(".mes_comparativo_1");
+let mes_comparativo_2 = document.querySelector(".mes_comparativo_2");
+let dato_comparativo_1 = document.querySelector(".dato_comparativo_1");
+let dato_comparativo_2 = document.querySelector(".dato_comparativo_2");
+let porcentaje_comparativo = document.querySelector(".porcentaje_comparativo");
 
 let cantTambos2 = document.querySelector(".cantTambos2");
 let prod_mensual_lech_crud = document.querySelector(".prod_mensual_lech_crud");
@@ -49,7 +59,7 @@ let s_cuenAbasSur = document.querySelector(".solidos_cuenAbasSur");
 let s_cuenMyS = document.querySelector(".solidos_cuenMyS");
 let s_cuenO = document.querySelector(".solidos_cuenO");
 
-const selectores = [monthYear, cantTambos, precioPorLitro, variacion1, variacion2, pCAbasNort, pCAbasSur, pCMyS, pCO, aNcruIA, aNcruIMen, aSurcruIA, aSurcruIMen, mYScruIA, mYScruIMen, oescruIA, oescruIMen, precio_solidos_UT, precio_solidos_UTvar_IMen, precio_x_kg_solidos_UTvar_IA, proteina, grasa_butirosa, cantTambos2, prod_mensual_lech_crud, produ_lechcrudIMen, produ_lechecrudaIA, var_int_2019, var_int_2020, anio_1, anio_2, aN_Li_x_c_IA, aN_Li_x_c_Men, aSur_Li_x_c_IA, aSur_Li_x_c_IMen, mYS_Li_x_c_IA, mYS_Li_x_c_IMen, oes_Li_x_c_IA, oes_Li_x_c_IMen, cantTambos3, s_cuenAbasNort, s_cuenAbasSur, s_cuenMyS, s_cuenO];
+const selectores = [monthYear, cantTambos, precioPorLitro, variacion1, variacion2, pCAbasNort, pCAbasSur, pCMyS, pCO, aNcruIA, aNcruIMen, aSurcruIA, aSurcruIMen, mYScruIA, mYScruIMen, oescruIA, oescruIMen, precio_solidos_UT, precio_solidos_UTvar_IMen, precio_x_kg_solidos_UTvar_IA, proteina, grasa_butirosa, cantTambos2, prod_mensual_lech_crud, produ_lechcrudIMen, produ_lechecrudaIA, var_int_0, var_int_2019, var_int_2020, anio_0, anio_1, anio_2, mes_comparativo_1, mes_comparativo_2, dato_comparativo_1, dato_comparativo_2, porcentaje_comparativo, aN_Li_x_c_IA, aN_Li_x_c_Men, aSur_Li_x_c_IA, aSur_Li_x_c_IMen, mYS_Li_x_c_IA, mYS_Li_x_c_IMen, oes_Li_x_c_IA, oes_Li_x_c_IMen, cantTambos3, s_cuenAbasNort, s_cuenAbasSur, s_cuenMyS, s_cuenO];
 
 function junio21(){
     monthYear.textContent = "Junio 2021";
@@ -116,6 +126,7 @@ function junio21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function julio21(){
@@ -183,6 +194,7 @@ function julio21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function agosto21(){
@@ -250,6 +262,7 @@ function agosto21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function septiembre21(){
@@ -317,6 +330,7 @@ function septiembre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function octubre21(){
@@ -384,6 +398,7 @@ function octubre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function noviembre21(){
@@ -452,6 +467,7 @@ function noviembre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function diciembre21(){
@@ -519,6 +535,7 @@ function diciembre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function enero22(){
@@ -586,6 +603,7 @@ function enero22(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function febrero22(){
@@ -653,6 +671,7 @@ function febrero22(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function marzo2022(){
@@ -720,6 +739,7 @@ function marzo2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function abril2022(){
@@ -787,6 +807,7 @@ function abril2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function mayo2022(){
@@ -854,6 +875,7 @@ function mayo2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function junio2022(){
@@ -921,6 +943,7 @@ function junio2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function julio2022(){
@@ -990,6 +1013,7 @@ function julio2022(){
      bloque_variacion();
      no_leyenda();
      no_leyenda_12_07_2023();
+     ocultar_agregado_ministro_0();
 };
 
 function agosto2022(){
@@ -1067,6 +1091,7 @@ function agosto2022(){
      bloque_variacion();
      no_leyenda();
      no_leyenda_12_07_2023();
+     ocultar_agregado_ministro_0();
 };
 
 function septiembre2022(){
@@ -1144,6 +1169,7 @@ function septiembre2022(){
     bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function octubre2022(){
@@ -1221,6 +1247,7 @@ function octubre2022(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 };
 
 function noviembre2022(){
@@ -1298,6 +1325,7 @@ function noviembre2022(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 
 };
 
@@ -1379,6 +1407,7 @@ function diciembre2022(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 
 };
 
@@ -1460,6 +1489,7 @@ function enero2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 
 };
 
@@ -1541,6 +1571,7 @@ function febrero2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 
 };
 
@@ -1622,6 +1653,7 @@ function marzo2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 
 };
 
@@ -1703,6 +1735,7 @@ function abril2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    ocultar_agregado_ministro_0();
 
 };
 
@@ -1743,10 +1776,20 @@ function mayo2023(){
     prod_mensual_lech_crud.textContent = "176,63";
     produ_lechcrudIMen.textContent = "3,7%";
     produ_lechecrudaIA.textContent = "-0.5%";
+    var_int_0.textContent = "-3,4%";
     var_int_2019.textContent = "-3,9%";
     var_int_2020.textContent = "-3%";
+    anio_0.textContent = "2019";
     anio_1.textContent = "2020";
     anio_2.textContent = "2021";
+
+    //comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
+
+    mes_comparativo_1.textContent = "Mayo 2022";
+    dato_comparativo_1.textContent = "845,8";
+    mes_comparativo_2.textContent = "Mayo 2023";
+    dato_comparativo_2.textContent = "845,4";
+    porcentaje_comparativo.textContent = "1,02%";
 
     //Variación de los Litros por Cuenca lechera
     aN_Li_x_c_IA.textContent = "-4,6%";
@@ -1784,6 +1827,7 @@ function mayo2023(){
     no_leyenda();
     leyenda_12_07_2023()
     bloque_variacion();
+    mostrar_agregado_ministro_0();
     
 
 };

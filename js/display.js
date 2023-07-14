@@ -1,5 +1,7 @@
 let leyenda_al_pie = document.querySelector(".leyenda_al_pie");
 let leyenda_al_pie_12_07_2023 = document.querySelector(".leyenda_al_pie_12_07_2023");
+let primerH1 = document.getElementById('ver_ocultar_agregado_ministro_0'); 
+let comparativo = document.querySelector(".comparativo");
 let variacion = document.querySelector(".variacion_19_20");
 let descargar_1 = document.querySelector(".descargas_1");
 let descargar_2 = document.querySelector(".descargas_2");
@@ -65,5 +67,15 @@ function cerrar_mapa(){
     btn_cerrar_map.style.display = "none";
     mapa.style.width = "300px";
     mapa.style.padding = "0 10px 0 0";
+}
+
+function mostrar_agregado_ministro_0() {
+     primerH1.style.display = 'block';  
+     comparativo.style.display = 'block'; 
+}
+
+function ocultar_agregado_ministro_0() {
+    primerH1.style.display = 'none';  
+    comparativo.style.display = 'none'; 
 }
 

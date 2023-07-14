@@ -3,6 +3,14 @@
    }
 
 
+#ver_ocultar_agregado_ministro_0{
+    display: none;
+}
+
+.comparativo{
+    display: none;
+}
+
 .variacion_19_20{
     display: none;
 }

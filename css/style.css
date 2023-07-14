@@ -291,8 +291,10 @@ table, tr, td{
 .precio_x_kg_solidos_UT-var_IA, 
 .produ_lechecruda_var_IMen, 
 .produ_lechecruda_var_IA,
+.var_int_0,
 .var_int_2019,
 .var_int_2020,
+.anio_0,
 .anio_1,
 .anio_2{
 	font-size: 30px;
@@ -301,6 +303,17 @@ table, tr, td{
 	padding: 15px;
 }
 
+/*.dato_comparativo_1,
+.dato_comparativo_2,
+.porcentaje_comparativo{
+	font-size: 35px;
+	font-weight: bold;
+	padding: 1px 10px 1px 10px;
+	border: 2px solid rgba(0,174,195,1);
+	border-radius: 0 0.5em;
+}*/
+
+.var_int_0,
 .var_int_2019,
 .var_int_2020{
 	color: #000000;
@@ -324,9 +337,17 @@ table, tr, td{
 	margin-top: 10px;
 	padding: 10px 10px 20px 0;
 	border-radius: 0 0.8em;	
-   
 }
 
+.comp_margin{
+	margin-top: 20px;
+}
+
+.mes_comparativo_1,
+.mes_comparativo_2,
+.dato_comparativo_1,
+.dato_comparativo_2,
+.porcentaje_comparativo,
 .composicion,
 .leyenda_al_pie,
 .leyenda_al_pie_12_07_2023{
@@ -335,7 +356,32 @@ table, tr, td{
 	margin: 20px;
 	padding: 10px 10px 20px 10px;
 	border: 2px solid rgba(0,174,195,1);
-	border-radius: 0 0.8em;
+	border-radius: 0 0.4em;
+}
+
+.mes_comparativo_1,
+.mes_comparativo_2,
+.dato_comparativo_1,
+.dato_comparativo_2,
+.porcentaje_comparativo{
+	font-size: 30px;
+	padding: 5px 20px 5px 20px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.mes_comparativo_1,
+.mes_comparativo_2{
+	font-size: 18px;
+}
+
+
+.porcentaje_comparativo{
+	font-size: 45px;
+}
+.litros_tot_acum{
+	margin-top: 15px;
+	text-align: right;
 }
 
 .leyenda_al_pie_12_07_2023{
