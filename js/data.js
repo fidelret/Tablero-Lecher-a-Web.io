@@ -1776,7 +1776,7 @@ function mayo2023(){
     prod_mensual_lech_crud.textContent = "176,63";
     produ_lechcrudIMen.textContent = "3,7%";
     produ_lechecrudaIA.textContent = "-0.5%";
-    var_int_0.textContent = "-3,4%";
+    var_int_0.textContent = "3,4%";
     var_int_2019.textContent = "-3,9%";
     var_int_2020.textContent = "-3%";
     anio_0.textContent = "2019";
@@ -1788,7 +1788,7 @@ function mayo2023(){
     mes_comparativo_1.textContent = "Mayo 2022";
     dato_comparativo_1.textContent = "845,8";
     mes_comparativo_2.textContent = "Mayo 2023";
-    dato_comparativo_2.textContent = "845,4";
+    dato_comparativo_2.textContent = "854,4";
     porcentaje_comparativo.textContent = "1,02%";
 
     //Variación de los Litros por Cuenca lechera
