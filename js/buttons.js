@@ -163,8 +163,13 @@ boton_mayo23.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_junio23 = document.querySelector(".junio23");
+boton_junio23.addEventListener("click", function (event) {
+    setTimeout(junio2023, 200);
+    aparecer();
+});
 
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
-mayo2023();
+junio2023();
 
