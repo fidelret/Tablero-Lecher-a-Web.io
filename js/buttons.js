@@ -193,7 +193,13 @@ boton_octubre23.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_noviembre23 = document.querySelector(".noviembre23");
+boton_noviembre23.addEventListener("click", function (event) {
+    setTimeout(noviembre2023, 200);
+    aparecer();
+});
+
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
-octubre2023();
+noviembre2023();
 
