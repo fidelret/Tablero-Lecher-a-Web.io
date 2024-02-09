@@ -126,6 +126,7 @@ function junio21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -194,6 +195,7 @@ function julio21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -262,6 +264,7 @@ function agosto21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -330,6 +333,7 @@ function septiembre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -398,6 +402,7 @@ function octubre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -467,6 +472,7 @@ function noviembre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -535,6 +541,7 @@ function diciembre21(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -603,6 +610,7 @@ function enero22(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -671,6 +679,7 @@ function febrero22(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -739,6 +748,7 @@ function marzo2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -807,6 +817,7 @@ function abril2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -875,6 +886,7 @@ function mayo2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -943,6 +955,7 @@ function junio2022(){
     no_bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -1013,6 +1026,7 @@ function julio2022(){
      bloque_variacion();
      no_leyenda();
      no_leyenda_12_07_2023();
+     no_leyenda_09_02_2024();
      ocultar_agregado_ministro_0();
 };
 
@@ -1091,6 +1105,7 @@ function agosto2022(){
      bloque_variacion();
      no_leyenda();
      no_leyenda_12_07_2023();
+     no_leyenda_09_02_2024();
      ocultar_agregado_ministro_0();
 };
 
@@ -1169,6 +1184,7 @@ function septiembre2022(){
     bloque_variacion();
     no_leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -1247,6 +1263,7 @@ function octubre2022(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 };
 
@@ -1325,6 +1342,7 @@ function noviembre2022(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 
 };
@@ -1407,6 +1425,7 @@ function diciembre2022(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 
 };
@@ -1489,6 +1508,7 @@ function enero2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 
 };
@@ -1571,6 +1591,7 @@ function febrero2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 
 };
@@ -1653,6 +1674,7 @@ function marzo2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 
 };
@@ -1735,6 +1757,7 @@ function abril2023(){
     bloque_variacion();
     leyenda();
     no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     ocultar_agregado_ministro_0();
 
 };
@@ -1825,7 +1848,8 @@ function mayo2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -1918,7 +1942,8 @@ function junio2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -2010,7 +2035,8 @@ function julio2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -2102,7 +2128,8 @@ function agosto2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -2195,7 +2222,8 @@ function septiembre2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -2288,7 +2316,8 @@ function octubre2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -2381,7 +2410,8 @@ function noviembre2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    leyenda_12_07_2023();
+    no_leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     
@@ -2472,7 +2502,8 @@ function diciembre2023(){
 
     //Funciones-----------
     no_leyenda();
-    leyenda_12_07_2023()
+    no_leyenda_12_07_2023();
+    leyenda_09_02_2024();
     no_bloque_variacion();
     mostrar_agregado_ministro_0();
     

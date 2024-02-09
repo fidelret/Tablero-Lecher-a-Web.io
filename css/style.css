@@ -350,7 +350,8 @@ table, tr, td{
 .porcentaje_comparativo,
 .composicion,
 .leyenda_al_pie,
-.leyenda_al_pie_12_07_2023{
+.leyenda_al_pie_12_07_2023,
+.leyenda_al_pie_09_02_2024{
 	color: #ffffff;
 	background-color: rgba(0,174,195,1);
 	margin: 20px;
@@ -384,7 +385,8 @@ table, tr, td{
 	text-align: right;
 }
 
-.leyenda_al_pie_12_07_2023{
+.leyenda_al_pie_12_07_2023,
+.leyenda_al_pie_09_02_2024{
 	border-color: #FF0E72;
 	text-align: justify;
 }

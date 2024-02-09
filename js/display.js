@@ -1,5 +1,6 @@
 let leyenda_al_pie = document.querySelector(".leyenda_al_pie");
 let leyenda_al_pie_12_07_2023 = document.querySelector(".leyenda_al_pie_12_07_2023");
+let leyenda_al_pie_09_02_2024 = document.querySelector(".leyenda_al_pie_09_02_2024");
 let primerH1 = document.getElementById('ver_ocultar_agregado_ministro_0'); 
 let comparativo = document.querySelector(".comparativo");
 let variacion = document.querySelector(".variacion_19_20");
@@ -28,6 +29,14 @@ function leyenda_12_07_2023(){
 function no_leyenda_12_07_2023(){
     leyenda_al_pie_12_07_2023.style.display = "none";
     };
+
+function leyenda_09_02_2024(){
+        leyenda_al_pie_09_02_2024.style.display = "block";
+        };
+    
+function no_leyenda_09_02_2024(){
+        leyenda_al_pie_09_02_2024.style.display = "none";
+        };
 
 function bloque_variacion(){
     variacion.style.display = "block";
