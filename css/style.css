@@ -66,7 +66,8 @@ main{
 	margin: 10px 155px;	
 }
 
-.precioProductor{
+.precioProductor,
+.comparativo{
 	/*background https://cssgradient.io/   */
 	margin-top: 1em;
 	background: linear-gradient(145deg, rgba(255,255,255,0) 36%, rgba(0,173,193,0.6615021008403361) 100%);
@@ -76,6 +77,7 @@ main{
 	border-radius: 0 1em;
 	
 }
+
 
 .tituloSeccion{
 	font-size: 28px;
@@ -112,7 +114,17 @@ main{
 	padding: 15px;
 }
 
-.variacionTxt,.xlitro{
+.comp_margin > .variacionTxt{
+	margin-top: 18px;
+}
+
+.litros_tot_acum{
+	text-align: right;
+	margin: 12px 45px 10px 0;
+}
+
+.variacionTxt,
+.xlitro{
 	font-size: 15px;
 	text-align: center;	
 }
@@ -360,6 +372,8 @@ table, tr, td{
 	border-radius: 0 0.4em;
 }
 
+
+
 .mes_comparativo_1,
 .mes_comparativo_2,
 .dato_comparativo_1,
@@ -378,11 +392,7 @@ table, tr, td{
 
 
 .porcentaje_comparativo{
-	font-size: 45px;
-}
-.litros_tot_acum{
-	margin-top: 15px;
-	text-align: right;
+	font-size: 54px;
 }
 
 .leyenda_al_pie_12_07_2023,

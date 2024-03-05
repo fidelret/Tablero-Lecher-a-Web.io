@@ -57,10 +57,17 @@
 }
 
 .precioProductor .container,
-.parametrosPrecio .divs_internasLvl1{
+.parametrosPrecio .divs_internasLvl1,
+.comparativo .container{
     display: flex;
     align-items: center;
-    justify-content: space-around;;
+    justify-content: space-around;
+}
+
+.bloques_porcentaje_comparativo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .variacionlecheCruda .cuencasLCrud, 
@@ -100,12 +107,32 @@
     .container_cuencas,
     .parametrosPrecio .container,
     .produccionMensual .container,
-    .solidosUtiles .container{
+    .solidosUtiles .container,
+    .comparativo .container{
         flex-direction: column;
         align-items: initial;
         text-align: center;
         align-items: center;
     }
+
+    .bloques_porcentaje_comparativo{
+        margin: 15px 0px 10px 5px;
+    }
+
+    .dato_comparativo_1, 
+    .dato_comparativo_2{
+        font-size: 20px;
+    }
+
+    /*.dato_comparativo_1, 
+    .dato_comparativo_2,
+    .mes_comparativo_1,
+    .mes_comparativo_2{
+        padding: 0px 10px 0px 10px;
+    }*/
+
+
+
 
     .precioxLitro,
     .prod_mensual_lech_crud{

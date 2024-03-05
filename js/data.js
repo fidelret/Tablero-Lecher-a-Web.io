@@ -1808,9 +1808,9 @@ function mayo2023(){
 
     //comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Mayo 2022";
+    mes_comparativo_1.textContent = "Acumulado Mayo 2022";
     dato_comparativo_1.textContent = "845,8";
-    mes_comparativo_2.textContent = "Mayo 2023";
+    mes_comparativo_2.textContent = "Acumulado Mayo 2023";
     dato_comparativo_2.textContent = "854,4";
     porcentaje_comparativo.textContent = "1,02%";
 
@@ -1902,9 +1902,9 @@ function junio2023(){
 
     //comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Junio 2022";
+    mes_comparativo_1.textContent = "Acumulado Junio 2022";
     dato_comparativo_1.textContent = "1020,37";
-    mes_comparativo_2.textContent = "Junio 2023";
+    mes_comparativo_2.textContent = "Acumulado Junio 2023";
     dato_comparativo_2.textContent = "1031,71";
     porcentaje_comparativo.textContent = "1,11%";
 
@@ -1995,9 +1995,9 @@ function julio2023(){
 
     //comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Julio 2022";
+    mes_comparativo_1.textContent = "Acumulado Julio 2022";
     dato_comparativo_1.textContent = "1207,62";
-    mes_comparativo_2.textContent = "Julio 2023";
+    mes_comparativo_2.textContent = "Acumulado Julio 2023";
     dato_comparativo_2.textContent = "1222,84";
     porcentaje_comparativo.textContent = "1,26%";
 
@@ -2088,9 +2088,9 @@ function agosto2023(){
 
     //comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Agosto 2022";
+    mes_comparativo_1.textContent = "Acumulado Agosto 2022";
     dato_comparativo_1.textContent = "1411,71";
-    mes_comparativo_2.textContent = "Agosto 2023";
+    mes_comparativo_2.textContent = "Acumulado Agosto 2023";
     dato_comparativo_2.textContent = "1432,07";
     porcentaje_comparativo.textContent = "1,4%";
 
@@ -2181,9 +2181,9 @@ function septiembre2023(){
 
     //comparativa jul-2023 "Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Septiembre 2022";
+    mes_comparativo_1.textContent = "Acumulado Septiembre 2022";
     dato_comparativo_1.textContent = "1620,17";
-    mes_comparativo_2.textContent = "Septiembre 2023";
+    mes_comparativo_2.textContent = "Acumulado Septiembre 2023";
     dato_comparativo_2.textContent = "1644,95";
     porcentaje_comparativo.textContent = "1,53%";
 
@@ -2273,11 +2273,11 @@ function octubre2023(){
     anio_1.textContent = "0";
     anio_2.textContent = "0";
 
-    //"Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
+    //Comparativo volumen de muestra acumulado en millones de litros de leche cruda
 
-    mes_comparativo_1.textContent = "Octubre 2022";
+    mes_comparativo_1.textContent = "Acumulado Octubre 2022";
     dato_comparativo_1.textContent = "1837,65";
-    mes_comparativo_2.textContent = "Octubre 2023";
+    mes_comparativo_2.textContent = "Acumulado Octubre 2023";
     dato_comparativo_2.textContent = "1868,59";
     porcentaje_comparativo.textContent = "1,68%";
 
@@ -2369,9 +2369,9 @@ function noviembre2023(){
 
     //"Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Noviembre 2022";
+    mes_comparativo_1.textContent = "Acumulado Noviembre 2022";
     dato_comparativo_1.textContent = "2041,72";
-    mes_comparativo_2.textContent = "Noviembre 2023";
+    mes_comparativo_2.textContent = "Acumulado Noviembre 2023";
     dato_comparativo_2.textContent = "2075,94";
     porcentaje_comparativo.textContent = "1,7%";
 
@@ -2463,9 +2463,9 @@ function diciembre2023(){
 
     //"Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
 
-    mes_comparativo_1.textContent = "Diciembre 2022";
+    mes_comparativo_1.textContent = "Acumulado Diciembre 2022";
     dato_comparativo_1.textContent = "2243,58";
-    mes_comparativo_2.textContent = "Diciembre 2023";
+    mes_comparativo_2.textContent = "Acumulado Diciembre 2023";
     dato_comparativo_2.textContent = "2271,92";
     porcentaje_comparativo.textContent = "1,3%";
 
