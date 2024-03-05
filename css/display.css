@@ -15,7 +15,10 @@
     display: none;
 }
 
-.descargas_1, .descargas_2,.descargas_3{
+.descargas_1,
+.descargas_2,
+.descargas_3,
+.descargas_4{
     display: none;
 }
 
