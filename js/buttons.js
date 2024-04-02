@@ -211,7 +211,13 @@ boton_enero24.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_febrero24 = document.querySelector(".febrero24");
+boton_febrero24.addEventListener("click", function (event) {
+    setTimeout(febrero2024, 200);
+    aparecer();
+});
+
 /*Valores precargados. 
 Mes actual >> Cambiar al actualizar*/
-enero2024();
+febrero2024();
 
