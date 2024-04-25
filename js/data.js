@@ -2692,3 +2692,95 @@ function febrero2024(){
     mostrar_agregado_ministro_0();
     
 };
+
+function marzo2024(){
+
+    //Precio de referencia pagado al productor
+    monthYear.textContent = "Marzo 2024";
+    cantTambos.textContent = "1474";
+    precioPorLitro.textContent = "342,39";
+    variacion1.textContent = "14,68%";
+    variacion2.textContent = "307,17%";
+
+    //Precio por Cuencas Lecheras
+    pCAbasNort.textContent = "$ 355,69";
+    pCAbasSur.textContent = "$ 332,72";
+    pCMyS.textContent = "$ 345,63";
+    pCO.textContent = "$ 342,7";
+
+    //Variación del $/ Lt. Leche cruda por Cuenca lechera
+    aNcruIA.textContent = "309,6%";
+    aNcruIMen.textContent = "15,9%";
+    aSurcruIA.textContent = "300,6%";
+    aSurcruIMen.textContent = "14,6%";
+    mYScruIA.textContent = "307,8%";
+    mYScruIMen.textContent = "12,8%";
+    oescruIA.textContent = "308,7%";
+    oescruIMen.textContent = "14,9%";
+
+    //Parámetros de composición y evolución de precio SU
+    precio_solidos_UT.textContent = "4693,16";
+    precio_solidos_UTvar_IMen.textContent = "13,72%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "302,4%";
+    proteina.textContent = "3,46%";
+    grasa_butirosa.textContent = "3,83%";
+
+    //Evolución del volumen mensual en MM de litros de leche cruda
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "161,14";
+    produ_lechcrudIMen.textContent = "9,88%";
+    produ_lechecrudaIA.textContent = "-3,27%";
+    var_int_0.textContent = "No espefic %";
+    var_int_2019.textContent = "No espefic %";
+    var_int_2020.textContent = "No espefic %";
+    anio_0.textContent = "0";
+    anio_1.textContent = "0";
+    anio_2.textContent = "0";
+
+    //"Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
+
+    mes_comparativo_1.textContent = "Acumulado a marzo '23";
+    dato_comparativo_1.textContent = "507,4";
+    mes_comparativo_2.textContent = "Acumulado a marzo '24";
+    dato_comparativo_2.textContent = "482,67";
+    porcentaje_comparativo.textContent = "-4,87%";
+
+    //Variación de los Litros por Cuenca lechera
+    aN_Li_x_c_IA.textContent = "-17,1%";
+    aN_Li_x_c_Men.textContent = "2,6%";
+    aSur_Li_x_c_IA.textContent = "-6,9%";
+    aSur_Li_x_c_IMen.textContent = "7,2%";
+    mYS_Li_x_c_IA.textContent = "0,6%";
+    mYS_Li_x_c_IMen.textContent = "13,2%";
+    oes_Li_x_c_IA.textContent = "-1,3%";
+    oes_Li_x_c_IMen.textContent = "-10,9%";
+
+    //% Solidos Útiles por Cuenca lechera
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,31%";
+    s_cuenAbasSur.textContent = "7,18%";
+    s_cuenMyS.textContent = "7,36%";
+    s_cuenO.textContent = "7,26%";
+
+
+    //Gráfico1
+    
+    graf_precio_litro.data.labels = ['Mar 23','Abr 23','May 23','Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24'];
+    graf_precio_litro.data.datasets[0].data = [84.09,92.73,100.74,107.39,112.51,117.42,122.66,133.39,151.47,193.79,246.11,298.57,342.39];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [166.59,170.36,176.63,177.32,191.13,209.23,212.88,223.64,207.35,195.98,174.88,146.65,161.14];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.21,7.40,7.47,7.39,7.36,7.27,7.24,7.20,7.19,7.13,7.07,7.23,7.3];
+
+    //Funciones-----------
+    no_leyenda();
+    no_leyenda_12_07_2023();
+    leyenda_09_02_2024();
+    no_bloque_variacion();
+    mostrar_agregado_ministro_0();
+    
+};
