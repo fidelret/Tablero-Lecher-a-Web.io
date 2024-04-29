@@ -2753,7 +2753,7 @@ function marzo2024(){
     mYS_Li_x_c_IA.textContent = "0,6%";
     mYS_Li_x_c_IMen.textContent = "13,2%";
     oes_Li_x_c_IA.textContent = "-1,3%";
-    oes_Li_x_c_IMen.textContent = "-10,9%";
+    oes_Li_x_c_IMen.textContent = "10,9%";
 
     //% Solidos Útiles por Cuenca lechera
     cantTambos3.textContent = (cantTambos.textContent);
