@@ -229,7 +229,13 @@ boton_abril24.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_mayo24 = document.querySelector(".mayo24");
+boton_mayo24.addEventListener("click", function (event) {
+    setTimeout(mayo2024, 200);
+    aparecer();
+});
+
 /*Valores precargados en home. 
 Mes actual >> Cambiar al actualizar*/
-abril2024();
+mayo2024();
 
