@@ -3,10 +3,10 @@ const precio_litro = document.getElementById("PRefPagProd").getContext("2d");
 const graf_precio_litro = new Chart(precio_litro, {
 type: 'bar',
 data: {
-labels: ['May 23','Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24','Abr 24','May 24'],
+labels: ['Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24','Abr 24','May 24','Jun 24'],
 datasets: [{
     label: 'Valores en pesos $',
-    data: [100.74,107.39,112.51,117.42,122.66,133.39,151.47,193.79,246.11,298.57,342.39,368.87,401.26],
+    data: [107.39,112.51,117.42,122.66,133.39,151.47,193.79,246.11,298.57,342.39,368.87,401.26,421.8],
     backgroundColor: [
         'rgba(0,55,203,0.5)',
     ],
@@ -34,10 +34,10 @@ const produccion_mensual = document.getElementById("lech_crud").getContext("2d")
 const graf_produccion_mensual = new Chart(produccion_mensual, {
 type: 'bar',
 data: {
-labels: ['May 23','Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24','Abr 24','May 24'],
+labels: ['Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24','Abr 24','May 24','Jun 24'],
 datasets: [{
     label: 'Producción mensual de leche cruda en millones de litros',
-    data:  [176.63,177.32,191.13,209.23,212.88,223.64,207.35,195.98,174.88,146.65,161.14,156.5,166.62],
+    data:  [177.32,191.13,209.23,212.88,223.64,207.35,195.98,174.88,146.65,161.14,156.5,166.62,170.53],
     backgroundColor: [
         'rgba(255,120,0,0.5)',
     ],
@@ -63,10 +63,10 @@ const solidos_utiles = document.getElementById("graf_solidos_Utiles").getContext
 const graf_solidos_utiles = new Chart(solidos_utiles, {
 type: 'line',
 data: {
-labels: ['May 23','Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24','Abr 24','May 24'],
+labels: ['Jun 23','Jul 23','Ago 23','Sep 23','Oct 23','Nov 23','Dic 23','Ene 24','Feb 24','Mar 24','Abr 24','May 24','Jun 24'],
 datasets: [{
     label: '% Solidos Útiles',
-    data:  [7.47,7.39,7.36,7.27,7.24,7.20,7.19,7.13,7.07,7.23,7.3,7.45,7.56],
+    data:  [7.39,7.36,7.27,7.24,7.20,7.19,7.13,7.07,7.23,7.3,7.45,7.56,7.45],
     backgroundColor: [
         'rgba(255,173,0,0.5)',
     ],
