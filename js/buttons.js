@@ -247,7 +247,13 @@ boton_julio24.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_agosto24 = document.querySelector(".agosto24");
+boton_agosto24.addEventListener("click", function (event) {
+    setTimeout(agosto2024, 200);
+    aparecer();
+});
+
 /*Valores precargados en home. 
 Mes actual >> Cambiar al actualizar*/
-julio2024();
+agosto2024();
 
