@@ -1,6 +1,6 @@
 .leyenda_al_pie{
     display: none;
-   }
+}
 
 
 #ver_ocultar_agregado_ministro_0{
@@ -18,7 +18,8 @@
 .descargas_1,
 .descargas_2,
 .descargas_3,
-.descargas_4{
+.descargas_4,
+.descargas_5{
     display: none;
 }
 

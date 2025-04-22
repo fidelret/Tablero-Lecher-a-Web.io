@@ -8,6 +8,7 @@ let descargar_1 = document.querySelector(".descargas_1");
 let descargar_2 = document.querySelector(".descargas_2");
 let descargar_3 = document.querySelector(".descargas_3");
 let descargar_4 = document.querySelector(".descargas_4");
+let descargar_5 = document.querySelector(".descargas_5");
 let btn_abrir_descargas = document.querySelector(".abrir_descargas");
 let btn_ocultar_descargas = document.querySelector(".ocultar_descargas");
 let container_cuencas = document.querySelector(".container_cuencas")
@@ -52,6 +53,7 @@ function display_descargas(){
     descargar_2.style.display = "block";
     descargar_3.style.display = "block";
     descargar_4.style.display = "block";
+    descargar_5.style.display = "block";
     btn_abrir_descargas.style.display = "none";
     btn_ocultar_descargas.style.display = "block";
     };
@@ -61,6 +63,7 @@ function undisplay_descargas(){
     descargar_2.style.display = "none";
     descargar_3.style.display = "none";
     descargar_4.style.display = "none";
+    descargar_5.style.display = "none";
     btn_abrir_descargas.style.display = "block";
     btn_ocultar_descargas.style.display = "none";
     };

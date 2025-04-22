@@ -204,7 +204,8 @@
     .year2021,
     .year2022,
     .year2023,
-    .year2024{
+    .year2024,
+    .year2025{
         font-size: 15px;
         padding: 5px;
         text-align: center;
@@ -214,7 +215,8 @@
     .menuppal1,
     .menuppal2, 
     .menuppal3,
-    .menuppal4{
+    .menuppal4,
+    .menuppal5{
         position: fixed;
         color: #ffffff;
         background: #00ADC1;
@@ -236,10 +238,15 @@
         margin-top: 5.6em;; 
     }
 
+    .menuppal5{
+        margin-top: 4.9em;; 
+    }
+
     .menuppal1:hover,
     .menuppal2:hover,
-    .menuppal3:hover
-    .menuppal4:hover{
+    .menuppal3:hover,
+    .menuppal4:hover,
+    .menuppal5:hover{
         transition: 500ms;
         opacity: 1;
         visibility: visible;
@@ -304,7 +311,8 @@
     .descargas_1, 
     .descargas_2,
     .descargas_3,
-    .descargas_4{
+    .descargas_4,
+    .descargas_5{
         margin: 5px;
         padding: 20px;
         border: 3px solid;
