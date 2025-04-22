@@ -277,7 +277,20 @@ boton_diciembre24.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_enero25 = document.querySelector(".enero25");
+boton_enero25.addEventListener("click", function (event) {
+    setTimeout(enero2025, 200);
+    aparecer();
+});
+
+let boton_febrero25 = document.querySelector(".febrero25");
+boton_febrero25.addEventListener("click", function (event) {
+    setTimeout(febrero2025, 200);
+    aparecer();
+});
+
+
 /*Valores precargados en home. 
 Mes actual >> Cambiar al actualizar*/
-diciembre2024();
+febrero2025();
 
