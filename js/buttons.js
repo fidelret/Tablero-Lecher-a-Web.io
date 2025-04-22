@@ -259,7 +259,25 @@ boton_septiembre24.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_octubre24 = document.querySelector(".octubre24");
+boton_octubre24.addEventListener("click", function (event) {
+    setTimeout(octubre2024, 200);
+    aparecer();
+});
+
+let boton_noviembre24 = document.querySelector(".noviembre24");
+boton_noviembre24.addEventListener("click", function (event) {
+    setTimeout(noviembre2024, 200);
+    aparecer();
+});
+
+let boton_diciembre24 = document.querySelector(".diciembre24");
+boton_diciembre24.addEventListener("click", function (event) {
+    setTimeout(diciembre2024, 200);
+    aparecer();
+});
+
 /*Valores precargados en home. 
 Mes actual >> Cambiar al actualizar*/
-septiembre2024();
+diciembre2024();
 
