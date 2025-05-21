@@ -295,7 +295,13 @@ boton_marzo25.addEventListener("click", function (event) {
     aparecer();
 });
 
+let boton_abril25 = document.querySelector(".abril25");
+boton_abril25.addEventListener("click", function (event) {
+    setTimeout(abril2025, 200);
+    aparecer();
+});
+
 /*Valores precargados en home. 
 Mes actual >> Cambiar al actualizar*/
-marzo2025();
+abril2025();
 

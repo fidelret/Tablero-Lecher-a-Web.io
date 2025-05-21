@@ -3800,7 +3800,7 @@ function febrero2025(){
 function marzo2025(){
 
     //Precio de referencia pagado al productor
-    monthYear.textContent = "marzo 2025";
+    monthYear.textContent = "Marzo 2025";
     cantTambos.textContent = "1479";
     precioPorLitro.textContent = "469,76";
     variacion1.textContent = "1,6%";
@@ -3879,6 +3879,99 @@ function marzo2025(){
     //Gráfico3
     graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
     graf_solidos_utiles.data.datasets[0].data = [7.3,7.45,7.56,7.45,7.41,7.32,7.24,7.18,7.11,7.10,7.07,7.21,7.39];
+
+    //Funciones-----------
+    no_leyenda();
+    no_leyenda_12_07_2023();
+    no_leyenda_09_02_2024()
+    no_bloque_variacion();
+    mostrar_agregado_ministro_0();
+    
+};
+
+
+function abril2025(){
+
+    //Precio de referencia pagado al productor
+    monthYear.textContent = "Abril 2025";
+    cantTambos.textContent = "1473";
+    precioPorLitro.textContent = "479,23";
+    variacion1.textContent = "2,02%";
+    variacion2.textContent = "29,9%";
+
+    //Precio por Cuencas Lecheras
+    pCAbasNort.textContent = "$ 500,97";
+    pCAbasSur.textContent = "$ 467,10";
+    pCMyS.textContent = "$ 495,56";
+    pCO.textContent = "$ 475,35";
+
+    //Variación del $/ Lt. Leche cruda por Cuenca lechera
+    aNcruIA.textContent = "30,2%";
+    aNcruIMen.textContent = "1,7%";
+    aSurcruIA.textContent = "29,6%";
+    aSurcruIMen.textContent = "1,3%";
+    mYScruIA.textContent = "33,7%";
+    mYScruIMen.textContent = "2,6%";
+    oescruIA.textContent = "28,9%";
+    oescruIMen.textContent = "2,1%";
+
+    //Parámetros de composición y evolución de precio SU
+    precio_solidos_UT.textContent = "6346,06";
+    precio_solidos_UTvar_IMen.textContent = "-0,2%";
+    precio_x_kg_solidos_UTvar_IA.textContent = "28,2%";
+    proteina.textContent = "3,6%";
+    grasa_butirosa.textContent = "3,96%";
+
+    //Evolución del volumen mensual en MM de litros de leche cruda
+    cantTambos2.textContent = (cantTambos.textContent);
+    prod_mensual_lech_crud.textContent = "176,40 ";
+    produ_lechcrudIMen.textContent = "-1,3%";
+    produ_lechecrudaIA.textContent = "12,7%";
+    var_int_0.textContent = "No espefic %";
+    var_int_2019.textContent = "No espefic %";
+    var_int_2020.textContent = "No espefic %";
+    anio_0.textContent = "0";
+    anio_1.textContent = "0";
+    anio_2.textContent = "0";
+
+    //"Comparativo volumen de muestra acumulado en millones de litros de leche cruda"
+
+    mes_comparativo_1.textContent = "Acumulado a Abril '24";
+    dato_comparativo_1.textContent = "639,17";
+    mes_comparativo_2.textContent = "Acumulado a Abril '25";
+    dato_comparativo_2.textContent = "713,63";
+    porcentaje_comparativo.textContent = "11,65%";
+
+    //Variación de los Litros por Cuenca lechera
+    aN_Li_x_c_IA.textContent = "6,3%";
+    aN_Li_x_c_Men.textContent = "-1,9%";
+    aSur_Li_x_c_IA.textContent = "20,6%";
+    aSur_Li_x_c_IMen.textContent = "-1,6%";
+    mYS_Li_x_c_IA.textContent = "17,9%";
+    mYS_Li_x_c_IMen.textContent = "-0,1%";
+    oes_Li_x_c_IA.textContent = "10,4%";
+    oes_Li_x_c_IMen.textContent = "-0,9%";
+
+    //% Solidos Útiles por Cuenca lechera
+    cantTambos3.textContent = (cantTambos.textContent);
+    s_cuenAbasNort.textContent = "7,5%";
+    s_cuenAbasSur.textContent = "7,27%";
+    s_cuenMyS.textContent = "7,6%";
+    s_cuenO.textContent = "7,58%";
+
+
+    //Gráfico1
+    
+    graf_precio_litro.data.labels = ['Abr 24','May 24','Jun 24','Jul 24','Ago 24','Sep 24','Oct 24','Nov 24','Dic 24','Ene 25','Feb 25','Mar 25','Abr 25'];
+    graf_precio_litro.data.datasets[0].data = [368.87,401.26,421.8,430.58,441.6,443.85,447.62,452.11,456.12,458.59,462.39,469.76,479.23];
+
+    //Gráfico2
+    graf_produccion_mensual.data.labels = graf_precio_litro.data.labels;
+    graf_produccion_mensual.data.datasets[0].data = [156.5,166.62,170.53,192.91,206.94,217.34,231.3,217.3,215.24,194.85,163.57,178.81,176.4];
+
+    //Gráfico3
+    graf_solidos_utiles.data.labels = graf_precio_litro.data.labels;
+    graf_solidos_utiles.data.datasets[0].data = [7.45,7.56,7.45,7.41,7.32,7.24,7.18,7.11,7.10,7.07,7.21,7.39,7.55];
 
     //Funciones-----------
     no_leyenda();
